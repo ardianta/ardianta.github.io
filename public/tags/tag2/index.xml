@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag2 on Ardianta Pargo</title>
+    <link>https://ardianta.github.io/tags/tag2/index.xml</link>
+    <description>Recent content in Tag2 on Ardianta Pargo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://ardianta.github.io/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tulisan Pertama di Blog ini</title>
+      <link>https://ardianta.github.io/2017/01/tulisan-pertama-di-blog-ini/</link>
+      <pubDate>Tue, 24 Jan 2017 14:35:02 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/2017/01/tulisan-pertama-di-blog-ini/</guid>
+      <description>&lt;p&gt;Hello, ini adalah tulisan pertama di blog ini. Baru saja saya membuat blog
+dengan Hugo. Sekarang lagi dikembangkan dengan tema &lt;a href=&#34;https://github.com/alanorth/hugo-theme-bootstrap4-blog&#34;&gt;Hugo Bootstrap v4 Blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress.
+Meskipun saya belum mengerti bahasa pemrograman Go.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
