@@ -1,27 +1,27 @@
 # Hugo variables
 #
 baseurl = "https://ardianta.github.io/"
-languageCode = "en-us"
+languageCode = "id-ID"
 title = "Ardianta Pargo"
 theme = "hugo-theme-bootstrap4-blog"
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
 # optionally override the site's footer with custom copyright text
 # copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
-#googleAnalytics = "UA-123-45"
-#disqusShortname = "XYW"
+googleAnalytics = "UA-54154424-1"
+disqusShortname = "ardianta"
 
 [permalinks]
-  post = "/:year/:month/:title/"
+  post = "/:year/:month/:slug/"
   page = "/:slug/"
 
 [[menu.sidebar]]
-  name = "Link 1"
-  url = "https://example.com"
+  name = "Petani Kode"
+  url = "http://petanikode.com"
 
 [[menu.sidebar]]
-  name = "Link 2"
-  url = "https://example.org"
+  name = "Lombok FOSS"
+  url = "http://lombokfoss.wordpress.com"
 
 # custom navbar menu entry.   See the custom_navbar parameter below for
 # details.
@@ -38,7 +38,7 @@ paginate = 5
   author = "Ardianta Pargo"
 
   # Description/subtitle for homepage (can be Markdown)
-  description = "Ardianta Pargo Blogs and Public Page"
+  description = "Developer based in Lombok, Indonesia."
 
   # Format dates with Go's time formatting
   date_format = "02 Jan 2006"
