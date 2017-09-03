@@ -1,18 +1,21 @@
-# Hugo variables
-#
 baseurl = "https://ardianta.github.io/"
 languageCode = "id-ID"
 title = "Ardianta Pargo"
 theme = "hugo-theme-bootstrap4-blog"
+
+publishDir = "docs"
+
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
+
+
 # optionally override the site's footer with custom copyright text
 # copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
 googleAnalytics = "UA-54154424-1"
 disqusShortname = "ardianta"
 
 [permalinks]
-  post = "/:year/:month/:slug/"
+  post = "/:slug/"
   page = "/:slug/"
 
 [[menu.sidebar]]

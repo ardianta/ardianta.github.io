@@ -11,7 +11,7 @@ cd public
 git add -A
 
 # Commit changes.
-msg="rebuilding site `date`"
+msg="rebuilding http://ardianta.github.io `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
