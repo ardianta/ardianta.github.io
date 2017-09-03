@@ -1,4 +1,4 @@
-baseurl = "https://ardianta.github.io/"
+baseurl = "https://ardianta.github.io/blog/"
 languageCode = "id-ID"
 title = "Ardianta Pargo"
 theme = "hugo-theme-bootstrap4-blog"
