@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Ardianta Pargo</title>
-    <link>https://ardianta.github.io/tags/blog/</link>
+    <link>https://ardianta.github.io/blog/tags/blog/</link>
     <description>Recent content in Blog on Ardianta Pargo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
     <lastBuildDate>Tue, 24 Jan 2017 14:35:02 +0800</lastBuildDate>
     
-	<atom:link href="https://ardianta.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ardianta.github.io/blog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tulisan Pertama di Blog ini</title>
-      <link>https://ardianta.github.io/tulisan-pertama-di-blog-ini/</link>
+      <link>https://ardianta.github.io/blog/tulisan-pertama-di-blog-ini/</link>
       <pubDate>Tue, 24 Jan 2017 14:35:02 +0800</pubDate>
       
-      <guid>https://ardianta.github.io/tulisan-pertama-di-blog-ini/</guid>
+      <guid>https://ardianta.github.io/blog/tulisan-pertama-di-blog-ini/</guid>
       <description>Hello, ini adalah tulisan pertama di blog ini. Baru saja saya membuat blog dengan Hugo. Sekarang lagi dikembangkan dengan tema Hugo Bootstrap v4 Blog.
 Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress. Meskipun saya belum mengerti bahasa pemrograman Go.
 Deploy saya lakukan ke Github Pages dengan dua repositori terpisah. Pertama, repositori ardianta-pargo untuk menyimpan konten, kemudian repositori ardianta.github.io untuk menyimpan halaman publik hasil render dari Hugo.</description>
