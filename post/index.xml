@@ -25,12 +25,13 @@ Padahal acara ini sangat saya nantikan, karena topik yang dibahas sangat menarik
     </item>
     
     <item>
-      <title>Tulisan Pertama di Blog ini</title>
-      <link>https://ardianta.github.io/blog/tulisan-pertama-di-blog-ini/</link>
+      <title>Hello World! Tulisan Pertama di Blog ini</title>
+      <link>https://ardianta.github.io/blog/hello-world/</link>
       <pubDate>Tue, 24 Jan 2017 14:35:02 +0800</pubDate>
       
-      <guid>https://ardianta.github.io/blog/tulisan-pertama-di-blog-ini/</guid>
-      <description>Hello, ini adalah tulisan pertama di blog ini. Baru saja saya membuat blog dengan Hugo. Sekarang lagi dikembangkan dengan tema Hugo Bootstrap v4 Blog.
+      <guid>https://ardianta.github.io/blog/hello-world/</guid>
+      <description>Hello World!
+ini adalah tulisan pertama di blog ini. Baru saja saya membuat blog dengan Hugo. Sekarang lagi dikembangkan dengan tema Hugo Bootstrap v4 Blog.
 Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress. Meskipun saya belum mengerti bahasa pemrograman Go.
 Deploy saya lakukan ke Github Pages dengan dua repositori terpisah. Pertama, repositori ardianta-pargo untuk menyimpan konten, kemudian repositori ardianta.github.io untuk menyimpan halaman publik hasil render dari Hugo.</description>
     </item>

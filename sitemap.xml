@@ -3,47 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/project/</loc>
+    <lastmod>2017-12-17T19:51:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ardianta.github.io/about/</loc>
+    <lastmod>2017-12-17T19:50:57+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/lombokdev-meetup-3/</loc>
     <lastmod>2017-12-17T17:26:36+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ardianta.github.io/blog/tulisan-pertama-di-blog-ini/</loc>
+    <loc>https://ardianta.github.io/blog/hello-world/</loc>
     <lastmod>2017-01-24T14:35:02+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://ardianta.github.io/</loc>
-    <lastmod>2017-12-17T17:26:36+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ardianta.github.io/tags/blog/</loc>
-    <lastmod>2017-01-24T14:35:02+08:00</lastmod>
+    <lastmod>2017-12-17T19:51:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ardianta.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ardianta.github.io/categories/eksperimen/</loc>
-    <lastmod>2017-01-24T14:35:02+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ardianta.github.io/tags/github/</loc>
-    <lastmod>2017-01-24T14:35:02+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ardianta.github.io/tags/hugo/</loc>
-    <lastmod>2017-01-24T14:35:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -55,7 +41,6 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/</loc>
-    <lastmod>2017-01-24T14:35:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
