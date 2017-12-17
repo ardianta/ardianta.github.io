@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Ardianta Pargo</title>
+    <title>Tags on Ardianta</title>
     <link>https://ardianta.github.io/tags/</link>
-    <description>Recent content in Tags on Ardianta Pargo</description>
+    <description>Recent content in Tags on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id-ID</language>
-    <lastBuildDate>Sun, 03 Sep 2017 14:43:29 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jan 2017 14:35:02 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Advice</title>
-      <link>https://ardianta.github.io/tags/advice/</link>
-      <pubDate>Sun, 03 Sep 2017 14:43:29 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/tags/advice/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Blog</title>
@@ -26,24 +16,6 @@
       <pubDate>Tue, 24 Jan 2017 14:35:02 +0800</pubDate>
       
       <guid>https://ardianta.github.io/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Buku</title>
-      <link>https://ardianta.github.io/tags/buku/</link>
-      <pubDate>Sun, 03 Sep 2017 14:43:29 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/tags/buku/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Early Bird</title>
-      <link>https://ardianta.github.io/tags/early-bird/</link>
-      <pubDate>Fri, 24 Feb 2017 00:43:29 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/tags/early-bird/</guid>
       <description></description>
     </item>
     
@@ -62,24 +34,6 @@
       <pubDate>Tue, 24 Jan 2017 14:35:02 +0800</pubDate>
       
       <guid>https://ardianta.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Night Owl</title>
-      <link>https://ardianta.github.io/tags/night-owl/</link>
-      <pubDate>Fri, 24 Feb 2017 00:43:29 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/tags/night-owl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sakit</title>
-      <link>https://ardianta.github.io/tags/sakit/</link>
-      <pubDate>Wed, 01 Mar 2017 01:25:30 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/tags/sakit/</guid>
       <description></description>
     </item>
     

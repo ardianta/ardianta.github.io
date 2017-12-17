@@ -47,7 +47,7 @@
   
   
   
-  "keywords": "eksperimen,life,advice,blog,buku,early-bird,github,hugo,night-owl,sakit,"
+  "keywords": "category,eksperimen,life,advice,blog,buku,early-bird,github,hugo,night-owl,sakit,tag1,tag2,"
   
   ,
   "description":Developer based in Lombok, Indonesia.
@@ -201,6 +201,32 @@ Deploy saya lakukan ke Github Pages dengan dua repositori terpisah. Pertama, rep
 
 
 
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title"><a href="https://ardianta.github.io/post/dns-cloudflare-firebase/">Migrasi Lombokfoss ke Hugo dan Hosting di Firebase</a></h2>
+    <p class="blog-post-meta"><time datetime="0001-01-01T00:00:00Z">01 Jan 0001</time> by Ardianta Pargo in 
+<i class="fa fa-folder" aria-hidden="true"></i>&nbsp;<a href="/categories/category" rel="category tag">category</a>
+
+
+<i class="fa fa-tag" aria-hidden="true"></i>&nbsp;<a href="/tags/tag1" rel="tag">tag1</a>, <a href="/tags/tag2" rel="tag">tag2</a>
+
+</p>
+  </header>
+  Minggu ini saya melakukan migrasi blog saya Lombokfoss, karena nggak pernah diurus.
+Rencananya saya mau pakai Hugo dan hostingya di Firebase, lalu untuk DNS saya percayakan pada CloudFlare.
+Saya baru pertama kali mencoba hosting di Firebase dan mengkonfigurasi kustom domainnya.
+Di CloudFlare saya set seperti ini:
+![]()
+Hampir satu minggu saya tunggu, tapi belum juga bisa.
+Ternyata masalahanya cuma di pengaturan SSL Cloudflare saja.
+Harus diset &ldquo;Full&rdquo;:
+![Pengaturan SSL Cloudflare]()
+  <a href='https://ardianta.github.io/post/dns-cloudflare-firebase/'>Read more →</a>
+</article> 
+
+
+
+
 
 
 
@@ -228,6 +254,8 @@ Deploy saya lakukan ke Github Pages dengan dua repositori terpisah. Pertama, rep
       <li><a href="/post/saya-seorang-night-owl-saat-ini/">Saya Seorang Night Owl Saat ini</a></li>
       
       <li><a href="/post/tulisan-pertama-di-blog-ini/">Tulisan Pertama di Blog ini</a></li>
+      
+      <li><a href="/post/dns-cloudflare-firebase/">Migrasi Lombokfoss ke Hugo dan Hosting di Firebase</a></li>
       
     </ol>
   </section>

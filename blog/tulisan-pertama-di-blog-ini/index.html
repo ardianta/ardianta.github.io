@@ -1,0 +1,48 @@
+<h2>Tulisan Pertama di Blog ini</h2>
+<article>
+    <p>Hello, ini adalah tulisan pertama di blog ini. Baru saja saya membuat blog
+dengan Hugo. Sekarang lagi dikembangkan dengan tema <a href="https://github.com/alanorth/hugo-theme-bootstrap4-blog">Hugo Bootstrap v4 Blog</a>.</p>
+
+<p>Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress.
+Meskipun saya belum mengerti bahasa pemrograman Go.</p>
+
+<p>Deploy saya lakukan ke <em>Github Pages</em> dengan dua repositori terpisah. Pertama,
+repositori <a href="https://github.com/ardianta/ardianta-pargo">ardianta-pargo</a> untuk
+menyimpan konten, kemudian repositori <a href="https://github.com/ardianta/ardianta.github.io">ardianta.github.io</a>
+untuk menyimpan halaman publik hasil <em>render</em> dari Hugo.</p>
+
+<p>Saya menggunakan skrip dari <a href="https://gohugo.io/tutorials/github-pages-blog/">dokumentasi Hugo</a> untuk melakukan deploy.
+Karena saya tidak menggunakan <em>Continous Integration</em> (CI). Jadi setiap
+mau deploy harus eksekusi skrip tersebut. Berikut ini skripnya.</p>
+
+<pre><code class="language-bash">#!/bin/bash
+
+echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
+
+# Build the project.
+hugo # if using a theme, replace by `hugo -t &lt;yourtheme&gt;`
+
+# Go To Public folder
+cd public
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&quot;rebuilding site `date`&quot;
+if [ $# -eq 1 ]
+  then msg=&quot;$1&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd ..
+
+</code></pre>
+
+<p>Sepertinya template atau tema yang saya gunakan ini terlihat masih berantakan.
+Mungkin nanti, saya akan perbaiki.</p>
+
+</article>
