@@ -28,7 +28,11 @@ baseurl = &amp;quot;https://ardianta.github.io/&amp;quot; title = &amp;quot;Ardi
       <pubDate>Sun, 17 Dec 2017 19:51:02 +0800</pubDate>
       
       <guid>https://ardianta.github.io/project/</guid>
-      <description>lorem</description>
+      <description>petanikode.com Status: production
+Petanikode adalah sebuah blog untuk membantu orang belajar pemrograman menggunakan Linux. Kebanyakan kontennya menggunakan Linux. Namun, tidak menutup kemungkinan ada beberapa yang menggunakan Windows.
+Petanikode awalnya dibuat menggunakan Blogger. Lalu migrasi ke Hugo, karena lebih efisien dan cocok dengan workflow yang saya gunakan.
+Pilbem Status: EOL
+Pilbem adalah sistem informasi pemilihan ketua BEM berbasis web. Project ini adalah project prakarya untuk tugas kuliah pemrograman Web II.</description>
     </item>
     
     <item>
