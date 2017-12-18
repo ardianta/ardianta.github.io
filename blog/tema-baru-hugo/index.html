@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title>Membuat Tema Hugo Sendiri</title>
+
+<link rel="icon" href="/img/ardianta.jpg" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body class="bg-light">
+
+    <div class="container mt-5 mb-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-8">
+                <div class="card rounded-0 post-content">
+                    <div class="card-body p-5">
+                        <header>
+    <div>
+        
+        
+            
+            
+            <h1><a href="https://ardianta.github.io/" class="text-dark"> Ardianta</a></h1>
+            <div class="text-secondary">
+                <a href="/about">About</a>
+                |
+                <a href="/project">Project</a>
+                |
+                <a href="/post/index.xml">RSS</a>
+            </div>
+            
+        
+    </div>
+</header>
+<hr>
+                        <div class="post-header mb-3">
+                            <h2>Membuat Tema Hugo Sendiri</h2>
+                            <time class="text-secondary small" title="2017-12-18 15:49:46 &#43;0800 WITA">18 Dec 2017</time>
+                        </div>
+                        <div class="post-body">
+                            
+
+<p>Menggunakan tema orang lain, rasanya saya kurang bebas.
+Karena banyak yang tidak dipahami di stuktur tema mereka.</p>
+
+<p>Akhirnya saya membuat tema sendiri untuk blog ini.</p>
+
+<h3 id="tema-baru-ardianta">Tema Baru Ardianta</h3>
+
+<p>ini isi file <code>config.toml</code>:</p>
+
+<pre><code class="language-toml">baseurl = &quot;https://ardianta.github.io/&quot;
+title = &quot;Ardianta&quot;
+theme = &quot;ardianta&quot;
+
+googleAnalytics = &quot;UA-54154424-1&quot;
+disqusShortname = &quot;ardianta&quot;
+
+[permalinks]
+  post = &quot;/blog/:slug/&quot;
+  page = &quot;/:slug/&quot;
+
+[params]
+  # Site Author
+  author = &quot;Dian&quot;
+
+  # Description/subtitle for homepage
+  description = &quot;Hello, saya Dian. Blog ini belum jadi. Sabar ya...&quot;
+</code></pre>
+
+<p>ini isi file <code>archetypes/default.md</code>:</p>
+
+<pre><code class="language-markdown">---
+title: &quot;{{ replace .TranslationBaseName &quot;-&quot; &quot; &quot; | title }}&quot;
+slug: {{ .BaseFileName }}
+date: {{ .Date }}
+draft: true
+
+meta:
+    image: &quot;&quot;
+    keyword: &quot;&quot;
+    description: &quot;&quot;
+---
+</code></pre>
+
+<p>Lalu untuk layout <code>index.html</code> dan <code>single.html</code> isinya seperti ini:</p>
+
+<p>file: <code>themes/ardianta/layouts/index.html</code></p>
+
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    {{ partial &quot;head.html&quot; . }}
+&lt;/head&gt;
+
+&lt;body class=&quot;bg-light&quot;&gt;
+
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row align-items-center justify-content-center&quot;&gt;
+            &lt;div class=&quot;col-md-8 mt-5&quot;&gt;
+
+                &lt;div class=&quot;card rounded-0 post-content&quot;&gt;
+                    &lt;div class=&quot;card-body p-5&quot;&gt;
+
+
+                        {{ partial &quot;header.html&quot; . }} {{ range (.Data.Pages.GroupByDate &quot;2006&quot;) }}
+                        &lt;table&gt;
+                            &lt;tr&gt;
+                                &lt;td colspan=&quot;3&quot;&gt;
+                                    &lt;h4&gt;{{ .Key }}&lt;/h4&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            {{ range where .Pages &quot;Section&quot; &quot;post&quot;}}
+                            &lt;tr&gt;
+                                &lt;td class=&quot;p-1&quot;&gt;
+                                    &lt;time class=&quot;text-secondary small&quot; title=&quot;{{ .Date }}&quot;&gt;{{ .Date.Format &quot;2 Jan 2006&quot; }}&lt;/time&gt;
+                                &lt;/td&gt;
+
+                                &lt;td class=&quot;p-1&quot;&gt;
+                                    &lt;a class=&quot;text-success&quot; href=&quot;{{ .RelPermalink }}&quot;&gt;{{ .Title }}&lt;/a&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            {{ end }}
+                        &lt;/table&gt;
+                        {{ end }}
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                {{ partial &quot;footer.html&quot; . }}
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- /row --&gt;
+    &lt;/div&gt;
+    &lt;!-- /container --&gt;
+
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+
+<p>Penampakannya:</p>
+
+<p><img src="/img/tema-baru/index.png" alt="Halaman indeks" /></p>
+
+<p>file: <code>themes/ardianta/layouts/_default/single.html</code></p>
+
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    {{ partial &quot;head.html&quot; . }}
+&lt;/head&gt;
+
+&lt;body class=&quot;bg-light&quot;&gt;
+
+    &lt;div class=&quot;container mt-5 mb-5&quot;&gt;
+        &lt;div class=&quot;row align-items-center justify-content-center&quot;&gt;
+            &lt;div class=&quot;col-md-8&quot;&gt;
+                &lt;div class=&quot;card rounded-0 post-content&quot;&gt;
+                    &lt;div class=&quot;card-body p-5&quot;&gt;
+                        {{ partial &quot;header.html&quot; . }}
+                        &lt;div class=&quot;post-header mb-3&quot;&gt;
+                            &lt;h2&gt;{{ .Title }}&lt;/h2&gt;
+                            &lt;time class=&quot;text-secondary small&quot; title=&quot;{{ .Date }}&quot;&gt;{{ .Date.Format &quot;2 Jan 2006&quot; }}&lt;/time&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;post-body&quot;&gt;
+                            {{ .Content }}
+                        &lt;/div&gt;
+                        &lt;div class=&quot;post-footer mt-5 py-4&quot;&gt;
+                            
+                            {{ if eq .Type &quot;post&quot; }} {{ partial &quot;disqus.html&quot; . }} {{ end }}
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                 {{ partial &quot;footer.html&quot; . }}
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+
+<p>Penampakannya:</p>
+
+<p><img src="/img/tema-baru/single.png" alt="Halaman indeks" /></p>
+
+<p>Untuk kode-kode yang lain seperti partial, dapat dilihat di repository ini: <a href="https://github.com/ardianta/blog">https://github.com/ardianta/blog</a></p>
+
+<p>Untuk tampilan CSS, saya masih mengandalkan Bootstrap 4. Karena belum mampu
+membuat CSS sendiri 😄.</p>
+
+<h2 id="tampilannya-kok-sederhana-sekali">Tampilannya kok sederhana sekali?</h2>
+
+<p>Sederhana lebih bagus, karena blog ini akan saya fokuskan
+untuk mencatat saja. Apa yang akan dicatat? Ya, apa saja yang
+menarik untuk diacat 😄.</p>
+
+<p>Font yang digunakan sama seperti <a href="https://www.petanikode.com/">Petanikode</a>,
+yaitu: Roboto dan Merriweather. Entah mengapa, saya begitu suka dengan kombinasi
+dua font ini.</p>
+
+<h2 id="apa-selanjutnya">Apa Selanjutnya?</h2>
+
+<p>Tema ini masih belum sempurna. Masih banyak yang harus diperbaiki dan ditambahkan.</p>
+
+<p>Kita lihat saja nanti kelanjutannya.</p>
+
+                        </div>
+                        <div class="post-footer mt-5 py-4">
+                            
+                             <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'ardianta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+</script>
+<noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+    <span class="logo-disqus">Disqus</span>
+</a> 
+                        </div>
+                    </div>
+                </div>
+
+                 <footer class="mt-5">
+    <div class="text-center text-secondary">
+
+       &copy; 2017 <a href="https://ardianta.github.io/" class="text-secondary"> Ardianta</a>
+
+    </div>
+</footer>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
