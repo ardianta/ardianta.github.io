@@ -55,21 +55,6 @@ baseurl = &amp;quot;https://ardianta.github.io/&amp;quot; title = &amp;quot;Ardi
     </item>
     
     <item>
-      <title>Gagal Ikut Lombokdev Meet-up #3</title>
-      <link>https://ardianta.github.io/blog/lombokdev-meetup-3/</link>
-      <pubDate>Sun, 17 Dec 2017 17:26:36 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/lombokdev-meetup-3/</guid>
-      <description>Teman-teman dari Lombokdev akan mengadakan meet-up ke-3 hari ini.
-Sayangnya saya tidak bsia hadir, karena ketuduran.
-Padahal semalam sudah berusaha tidur secepat mungkin.
-Tapi tidak tidur-tidur sampai pagi.
-Rasa ngantuk mulai datang pas pagi, akhirnya mengikuti irama dan ketiduran sampai siang.
-Parah!
-Padahal acara ini sangat saya nantikan, karena topik yang dibahas sangat menarik.</description>
-    </item>
-    
-    <item>
       <title>Migrasi Lombokfoss ke Hugo dan Firebase</title>
       <link>https://ardianta.github.io/blog/lombokfoss-firebase/</link>
       <pubDate>Mon, 06 Nov 2017 23:44:45 +0800</pubDate>
