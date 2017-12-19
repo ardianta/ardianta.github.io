@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/blog/ekstensi-hugofy/</loc>
+    <lastmod>2017-12-19T23:20:33+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/tema-baru-hugo/</loc>
     <lastmod>2017-12-18T15:49:46+08:00</lastmod>
   </url>
@@ -29,7 +34,7 @@
   
   <url>
     <loc>https://ardianta.github.io/</loc>
-    <lastmod>2017-12-18T15:49:46+08:00</lastmod>
+    <lastmod>2017-12-19T23:20:33+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -40,7 +45,7 @@
   
   <url>
     <loc>https://ardianta.github.io/post/</loc>
-    <lastmod>2017-12-18T15:49:46+08:00</lastmod>
+    <lastmod>2017-12-19T23:20:33+08:00</lastmod>
     <priority>0</priority>
   </url>
   

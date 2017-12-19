@@ -5,10 +5,24 @@
     <link>https://ardianta.github.io/</link>
     <description>Recent content on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Dec 2017 15:49:46 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 19 Dec 2017 23:20:33 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Coba-coba Ekstensi Hugofy di VS Code</title>
+      <link>https://ardianta.github.io/blog/ekstensi-hugofy/</link>
+      <pubDate>Tue, 19 Dec 2017 23:20:33 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/ekstensi-hugofy/</guid>
+      <description>Penasaran dengan ekstensi ini. Lansung saja saya coba install.
+Pada deskripsinya menjelaskan&amp;hellip;
+&amp;hellip;dengan ekstensi ini, kita bisa:
+ Buat web hugo baru Buat artikel Build site Menajalankan server dan mematikannya Download Tema  Ekstensi Hugofy ini bisa kita gunakan dengan menekan tombol Ctrl+Shift+p lalu mengetik hugofy dan memilih perintah yang ingin dijalankan.
+Tapi begitu saya coba menjalankan server, terjadi error seperti ini:
+Sebagian dari perintah-perintah Hugofy sudah biasa saya ketik lewat terminal.</description>
+    </item>
     
     <item>
       <title>Membuat Tema Hugo Sendiri</title>
