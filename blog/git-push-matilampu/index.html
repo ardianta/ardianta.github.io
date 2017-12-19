@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Git Push, Lalu Tiba-tiba Matilampu!</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="keywords" content="Git, Github, Mati Lampu"/>
+<meta name="description" content="Apa yang akan terjadi saat menjalankan perintah git push lalu ditengah-tengah mati lampu?"/>
+
+
+
+<link rel="icon" href="/img/ardianta.jpg" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body class="bg-light">
+
+    <header>
+    <div class="text-center mt-5">
+        
+        
+            
+            
+            <h1>
+                <a href="https://ardianta.github.io/">
+                    <img src="/img/ardianta-logo.svg" height="120"/>
+                </a>
+                
+            </h1>
+            <div class="text-secondary">
+                <a href="/about">About</a>
+                |
+                <a href="/project">Project</a>
+                |
+                <a href="/post/index.xml">RSS</a>
+            </div>
+            
+        
+    </div>
+</header>
+
+    <div class="container mt-5 mb-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-8">
+                <div class="card rounded-0 post-outer">
+                    <div class="card-body  p-md-5">
+                        <div class="post-content">
+                            <div class="post-header mb-3">
+                                <h2 class="post-title">Git Push, Lalu Tiba-tiba Matilampu!</h2>
+                                <hr>
+                                <time class="text-secondary small" title="2017-12-20 00:59:23 &#43;0800 WITA">20 Dec 2017</time>
+                            </div>
+                            <div class="post-body">
+                                <p>Apa yang akan terjadi saat menjalankan perintah <code>git push</code> lalu
+ditengah-tengah mati lampu?</p>
+
+<p>Jika pakai laptop nggak masalah, karena daya masih bisa
+ngambil dari baterai.</p>
+
+<p>Tapi yang pakai komputer?</p>
+
+<p>atau yang laptopnya nggak bisa nyala tanpa cas?</p>
+
+<p>Ini masalah!</p>
+
+<p>Sebenarnya kejadian ini sudah pernah saya alami sebelumnya.</p>
+
+<p>Repositori jadi rusak dan tidak bisa melakukan apa-apa.</p>
+
+<p><img src="/img/git-matilampu/repo-rusak.png" alt="Repositori Git Rusak" /></p>
+
+<p>Solusi &ldquo;bodohnya&rdquo; kita harus membuat repositori baru.</p>
+
+<p>Hapus dulu database git yang sudah ada:</p>
+
+<pre><code class="language-bash">rm -rf .git
+rm .gitignore
+</code></pre>
+
+<p>Lalu bikin lagi yang baru:</p>
+
+<pre><code class="language-bash">git init .
+git add .
+git commit -m &quot;first commit&quot;
+</code></pre>
+
+<p>Lalu untuk push ke github, kita pakai <code>--force</code>. Sebenarnya ini bahaya, karena
+dapat menghapus semua log yang ada di repo github.</p>
+
+<pre><code class="language-bash">git push origin master --force
+</code></pre>
+
+<p>Maka semua revisi yang ada di Github akan ditindih dengan yang baru.</p>
+
+<p>Lalu, karena repositori ini saya pakai untuk Hugo, maka
+harus buat sub-modul lagi untuk deploy ke Github.</p>
+
+<p>Tutorialnya ada di sini: <a href="https://www.petanikode.com/hugo-hosting-github/">Cara Hosting Hugo di Github</a></p>
+
+<p>Setelah itu, coba tes deploy lagi.</p>
+
+<p>Pasti bisa!</p>
+
+<p>Berikut ini log perinah yang saya ketik di terminal:</p>
+
+<pre><code class="language-bash">petanikode@imajinasi ~/ardianta-pargo $ rm -rf .git
+petanikode@imajinasi ~/ardianta-pargo $ git status 
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+petanikode@imajinasi ~/ardianta-pargo $ git init .
+Initialized empty Git repository in /home/petanikode/ardianta-pargo/.git/
+petanikode@imajinasi ~/ardianta-pargo $ rm -R public/
+petanikode@imajinasi ~/ardianta-pargo $ git add .
+petanikode@imajinasi ~/ardianta-pargo $ git commit -m &quot;first commit&quot;
+[master (root-commit) e5cb7d3] first commit
+ 54 files changed, 14823 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .gitmodules
+ create mode 100644 archetypes/default.md
+ create mode 100644 config.toml
+ create mode 100644 content/about.md
+ create mode 100644 content/post/_ilmu-2017.md
+ create mode 100644 content/post/_migrasi-ke-hugo-firebase.md
+ create mode 100644 content/post/ekstensi-hugofy.md
+ create mode 100644 content/post/hello-world.md
+ create mode 100644 content/post/hp-cooling-fan.md
+ create mode 100644 content/post/lombokdev-meetup-3.md
+ create mode 100644 content/post/tema-baru-hugo.md
+ create mode 100644 content/project.md
+ create mode 100755 deploy.sh
+ create mode 100644 static/README.md
+ create mode 100644 static/img/ardianta-logo.svg
+ create mode 100644 static/img/hugofy/error-server.png
+ create mode 100644 static/img/hugofy/install-hugofy.png
+ create mode 100644 static/img/hugofy/perintah-hugofy.png
+ create mode 100644 static/img/tema-baru/index.png
+ create mode 100644 static/img/tema-baru/single.png
+ create mode 100644 themes/ardianta/LICENSE.md
+ create mode 100644 themes/ardianta/archetypes/default.md
+ create mode 100644 themes/ardianta/layouts/404.html
+ create mode 100644 themes/ardianta/layouts/_default/list.html
+ create mode 100644 themes/ardianta/layouts/_default/single.html
+ create mode 100644 themes/ardianta/layouts/index.html
+ create mode 100644 themes/ardianta/layouts/partials/disqus.html
+ create mode 100644 themes/ardianta/layouts/partials/footer.html
+ create mode 100644 themes/ardianta/layouts/partials/head.html
+ create mode 100644 themes/ardianta/layouts/partials/header.html
+ create mode 100644 themes/ardianta/static/css/bootstrap-grid.css
+ create mode 100644 themes/ardianta/static/css/bootstrap-grid.css.map
+ create mode 100644 themes/ardianta/static/css/bootstrap-grid.min.css
+ create mode 100644 themes/ardianta/static/css/bootstrap-grid.min.css.map
+ create mode 100644 themes/ardianta/static/css/bootstrap-reboot.css
+ create mode 100644 themes/ardianta/static/css/bootstrap-reboot.css.map
+ create mode 100644 themes/ardianta/static/css/bootstrap-reboot.min.css
+ create mode 100644 themes/ardianta/static/css/bootstrap-reboot.min.css.map
+ create mode 100644 themes/ardianta/static/css/bootstrap.css
+ create mode 100644 themes/ardianta/static/css/bootstrap.css.map
+ create mode 100644 themes/ardianta/static/css/bootstrap.min.css
+ create mode 100644 themes/ardianta/static/css/bootstrap.min.css.map
+ create mode 100644 themes/ardianta/static/css/prism.css
+ create mode 100644 themes/ardianta/static/css/style.css
+ create mode 100644 themes/ardianta/static/img/ardianta.jpg
+ create mode 100644 themes/ardianta/static/js/bootstrap.js
+ create mode 100644 themes/ardianta/static/js/bootstrap.min.js
+ create mode 100644 themes/ardianta/static/js/jquery-3.2.1.slim.min.js
+ create mode 100644 themes/ardianta/static/js/lazysizes.min.js
+ create mode 100644 themes/ardianta/static/js/popper.min.js
+ create mode 100644 themes/ardianta/static/js/prism.js
+ create mode 100644 themes/ardianta/static/js/twemoji.min.js
+ create mode 100644 themes/ardianta/theme.toml
+petanikode@imajinasi ~/ardianta-pargo $ git status 
+On branch master
+nothing to commit, working directory clean
+petanikode@imajinasi ~/ardianta-pargo $ git remote add origin git@github.com:ardianta/blog.git
+petanikode@imajinasi ~/ardianta-pargo $ git remote -v
+origin	git@github.com:ardianta/blog.git (fetch)
+origin	git@github.com:ardianta/blog.git (push)
+petanikode@imajinasi ~/ardianta-pargo $ git push origin master --force
+Counting objects: 72, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (65/65), done.
+Writing objects: 100% (72/72), 450.71 KiB | 0 bytes/s, done.
+Total 72 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), done.
+To git@github.com:ardianta/blog.git
+ + eaff54b...e5cb7d3 master -&gt; master (forced update)
+petanikode@imajinasi ~/ardianta-pargo $ git submodule add -b master git@github.com:ardianta/ardianta.github.io.git public
+Cloning into 'public'...
+remote: Counting objects: 634, done.
+remote: Compressing objects: 100% (111/111), done.
+remote: Total 634 (delta 113), reused 168 (delta 64), pack-reused 415
+Receiving objects: 100% (634/634), 1.20 MiB | 465.00 KiB/s, done.
+Resolving deltas: 100% (303/303), done.
+Checking connectivity... done.
+petanikode@imajinasi ~/ardianta-pargo $ hugo
+Started building sites ...
+ERROR 2017/12/20 00:55:27 Page's Now is deprecated and will be removed in Hugo 0.27. Use now (the template func).
+Built site for language en:
+0 of 2 drafts rendered
+0 future content
+0 expired content
+7 regular pages created
+8 other pages created
+0 non-page files copied
+0 paginator pages created
+0 tags created
+0 categories created
+total in 11 ms
+petanikode@imajinasi ~/ardianta-pargo $ cd public/
+petanikode@imajinasi ~/ardianta-pargo/public $ git add .
+petanikode@imajinasi ~/ardianta-pargo/public $ git commit -m &quot;deploy setelah kerusakan&quot;
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+petanikode@imajinasi ~/ardianta-pargo/public $ git push origin master 
+Everything up-to-date
+petanikode@imajinasi ~/ardianta-pargo/public $ cd ..
+petanikode@imajinasi ~/ardianta-pargo $ ./deploy.sh 
+Deploying updates to GitHub...
+Started building sites ...
+ERROR 2017/12/20 00:56:11 Page's Now is deprecated and will be removed in Hugo 0.27. Use now (the template func).
+Built site for language en:
+0 of 2 drafts rendered
+0 future content
+0 expired content
+7 regular pages created
+8 other pages created
+0 non-page files copied
+0 paginator pages created
+0 categories created
+0 tags created
+total in 13 ms
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+Everything up-to-date
+petanikode@imajinasi ~/ardianta-pargo $ ./deploy.sh 
+Deploying updates to GitHub...
+Started building sites ...
+ERROR 2017/12/20 00:56:42 Page's Now is deprecated and will be removed in Hugo 0.27. Use now (the template func).
+Built site for language en:
+0 of 2 drafts rendered
+0 future content
+0 expired content
+7 regular pages created
+8 other pages created
+0 non-page files copied
+0 paginator pages created
+0 tags created
+0 categories created
+total in 13 ms
+[master 241711f] rebuilding http://ardianta.github.io Wed Dec 20 00:56:42 WITA 2017
+ 1 file changed, 2 insertions(+)
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 468 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To git@github.com:ardianta/ardianta.github.io.git
+   99a9edb..241711f  master -&gt; master
+petanikode@imajinasi ~/ardianta-pargo $
+</code></pre>
+
+<p>Untungnya repositori bukan project besar. Jadi tak masalah Git-nya mengulang dari awal.</p>
+
+<p>Sebenarnya ada cara lain, yaitu dengan clone ulang yang sudah ada.</p>
+
+<p>Akan tentapi, ada banyak perubahan yang sudah dilakukan.</p>
+
+<p>Capek ulang lagi&hellip; 😄</p>
+
+                            </div>
+                            <div class="post-footer mt-5 py-4">
+                                
+                                 <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'ardianta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+</script>
+<noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+    <span class="logo-disqus">Disqus</span>
+</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <footer class="mt-5 mb-5">
+    <div class="text-center text-secondary">
+
+       &copy; 2017 <a href="https://ardianta.github.io/" class="text-secondary"> Ardianta</a>
+
+    </div>
+</footer>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
