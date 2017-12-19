@@ -57,17 +57,17 @@
                                 <time class="text-secondary small" title="2017-11-06 23:44:45 &#43;0800 WITA">6 Nov 2017</time>
                             </div>
                             <div class="post-body">
-                                <p>Minggu ini saya melakukan migrasi blog saya Lombokfoss, karena nggak pernah diurus.</p>
+                                <p>Minggu ini saya melakukan migrasi blog saya <a href="https://www.lombokfoss.com">Lombokfoss</a>, karena nggak pernah diurus.</p>
 
-<p>Rencananya saya mau pakai Hugo dan hostingya di Firebase, lalu untuk DNS
-saya percayakan pada CloudFlare.</p>
+<p>Rencananya saya mau pakai Hugo dan hostingnya di Firebase, lalu untuk DNS
+saya masih percayakan pada CloudFlare.</p>
 
 <p>Saya baru pertama kali mencoba hosting di Firebase dan mengkonfigurasi
 kustom domainnya.</p>
 
 <p>Di CloudFlare saya set seperti ini:</p>
 
-<p>![]()</p>
+<p><img src="/img/lombokfoss/dns-cloudflare.png" alt="Konfigurasi DNS Cloudflare" /></p>
 
 <p>Hampir satu minggu saya tunggu, tapi belum juga bisa.</p>
 
@@ -75,15 +75,19 @@ kustom domainnya.</p>
 
 <p>Harus diset <strong>&ldquo;Full&rdquo;</strong>:</p>
 
-<p>![Pengaturan SSL Cloudflare]()</p>
+<p><img src="/img/lombokfoss/ssl.png" alt="Pengaturan SSL Cloudflare" /></p>
 
 <p>Setelah beberapa menit, akhirnya bisa juga dibuka di <a href="https://www.lombokfoss.com/">https://www.lombokfoss.com/</a>.</p>
 
 <p>Kenapa bisa begitu ya?</p>
 
-<p>Dugaan saya kemungkinan SSL Cloudflare bentrok dengan SSL Firebase. Sehingga harus diset <strong>&ldquo;Full&rdquo;</strong>.</p>
+<p>Dugaan saya kemungkinan SSL Cloudflare bentrok dengan SSL Firebase. Sehingga harus diset <strong>&ldquo;Full&rdquo;</strong>. Tapi, sepertinya dugaan ini salah.</p>
 
 <p><img src="https://www.petanikode.com/img/cara-menambahkan-ssl-untuk-github-pages/cloudflare_ssl_modes.png" alt="SSL Cloudflare" /></p>
+
+<p>Ah yang penting sudah bisa sekarang.</p>
+
+<p>Pekerjaan selanjutnya adalah membuat template.</p>
 
                             </div>
                             <div class="post-footer mt-5 py-4">

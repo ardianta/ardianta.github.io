@@ -104,14 +104,13 @@ Padahal acara ini sangat saya nantikan, karena topik yang dibahas sangat menarik
       
       <guid>https://ardianta.github.io/blog/lombokfoss-firebase/</guid>
       <description>Minggu ini saya melakukan migrasi blog saya Lombokfoss, karena nggak pernah diurus.
-Rencananya saya mau pakai Hugo dan hostingya di Firebase, lalu untuk DNS saya percayakan pada CloudFlare.
+Rencananya saya mau pakai Hugo dan hostingnya di Firebase, lalu untuk DNS saya masih percayakan pada CloudFlare.
 Saya baru pertama kali mencoba hosting di Firebase dan mengkonfigurasi kustom domainnya.
 Di CloudFlare saya set seperti ini:
-![]()
 Hampir satu minggu saya tunggu, tapi belum juga bisa.
 Ternyata masalahanya cuma di pengaturan SSL Cloudflare saja.
 Harus diset &amp;ldquo;Full&amp;rdquo;:
-![Pengaturan SSL Cloudflare]()</description>
+Setelah beberapa menit, akhirnya bisa juga dibuka di https://www.</description>
     </item>
     
     <item>
