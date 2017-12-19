@@ -80,6 +80,23 @@ Padahal acara ini sangat saya nantikan, karena topik yang dibahas sangat menarik
     </item>
     
     <item>
+      <title>Migrasi Lombokfoss ke Hugo dan Firebase</title>
+      <link>https://ardianta.github.io/blog/lombokfoss-firebase/</link>
+      <pubDate>Mon, 06 Nov 2017 23:44:45 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/lombokfoss-firebase/</guid>
+      <description>Minggu ini saya melakukan migrasi blog saya Lombokfoss, karena nggak pernah diurus.
+Rencananya saya mau pakai Hugo dan hostingya di Firebase, lalu untuk DNS saya percayakan pada CloudFlare.
+Saya baru pertama kali mencoba hosting di Firebase dan mengkonfigurasi kustom domainnya.
+Di CloudFlare saya set seperti ini:
+![]()
+Hampir satu minggu saya tunggu, tapi belum juga bisa.
+Ternyata masalahanya cuma di pengaturan SSL Cloudflare saja.
+Harus diset &amp;ldquo;Full&amp;rdquo;:
+![Pengaturan SSL Cloudflare]()</description>
+    </item>
+    
+    <item>
       <title>Hello World! Tulisan Pertama di Blog Hugo</title>
       <link>https://ardianta.github.io/blog/hello-world/</link>
       <pubDate>Tue, 24 Jan 2017 14:35:02 +0800</pubDate>

@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://ardianta.github.io/blog/lombokfoss-firebase/</loc>
+    <lastmod>2017-11-06T23:44:45+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/hello-world/</loc>
     <lastmod>2017-01-24T14:35:02+08:00</lastmod>
   </url>
@@ -49,6 +54,12 @@
   </url>
   
   <url>
+    <loc>https://ardianta.github.io/tags/laptop/</loc>
+    <lastmod>2017-11-06T23:44:45+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/post/</loc>
     <lastmod>2017-12-19T23:20:33+08:00</lastmod>
     <priority>0</priority>
@@ -56,6 +67,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/</loc>
+    <lastmod>2017-11-06T23:44:45+08:00</lastmod>
     <priority>0</priority>
   </url>
   
