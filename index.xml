@@ -92,7 +92,7 @@ baseurl = &amp;quot;https://ardianta.github.io/&amp;quot; title = &amp;quot;Ardi
       
       <guid>https://ardianta.github.io/project/</guid>
       <description>Halaman ini berisi project yang pernah saya kerjakan dan yang sedang dikerjakan. Ada yang bersifat side project dan ada juga yang serius.
-Petanikode  URL: https://www.petanikode.com/ Status: production  Petanikode adalah sebuah blog dengan niche pemrograman untuk membantu siapa saja yang ingin belajar pemrograman menggunakan Linux.
+Petanikode  URL: petanikode.com Status: production  Petanikode adalah sebuah blog dengan niche pemrograman untuk membantu siapa saja yang ingin belajar pemrograman menggunakan Linux.
 Kebanyakan kontennya menggunakan Linux. Namun, tidak menutup kemungkinan ada beberapa yang menggunakan Windows.
 Petanikode awalnya dibuat menggunakan Blogger. Lalu migrasi ke Hugo, karena terasa lebih efisien dan cocok dengan workflow yang saya gunakan.</description>
     </item>
