@@ -26,5 +26,17 @@ Template ini masih belum selesai.
 Pekerjaan Selanjutnya Perbaiki tampilan untuk mobile Pasang Komentar Disqus Pasang Komentar Faceook (diganti pakai disqus) Menambahkan Google Analytic Menambahkan Open Graph Menambahkan Share Button Mendaftarkan ke Google Webmaster Perbaiki Kualitas Konten Pembuatan halaman 404.</description>
     </item>
     
+    <item>
+      <title>Membuat Tema Hugo Sendiri</title>
+      <link>https://ardianta.github.io/blog/tema-baru-hugo/</link>
+      <pubDate>Mon, 18 Dec 2017 15:49:46 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/tema-baru-hugo/</guid>
+      <description>Menggunakan tema orang lain, rasanya saya kurang bebas. Karena banyak yang tidak dipahami di stuktur tema mereka.
+Akhirnya saya membuat tema sendiri untuk blog ini.
+Tema Baru Ardianta ini isi file config.toml:
+baseurl = &amp;quot;https://ardianta.github.io/&amp;quot; title = &amp;quot;Ardianta&amp;quot; theme = &amp;quot;ardianta&amp;quot; googleAnalytics = &amp;quot;UA-54154424-1&amp;quot; disqusShortname = &amp;quot;ardianta&amp;quot; [permalinks] post = &amp;quot;/blog/:slug/&amp;quot; page = &amp;quot;/:slug/&amp;quot; [params] # Site Author author = &amp;quot;Dian&amp;quot; # Description/subtitle for homepage description = &amp;quot;Hello, saya Dian.</description>
+    </item>
+    
   </channel>
 </rss>
