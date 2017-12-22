@@ -5,10 +5,24 @@
     <link>https://ardianta.github.io/post/</link>
     <description>Recent content in Posts on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 22 Dec 2017 15:54:38 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 22 Dec 2017 19:21:27 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Menggunakan Feedburner untuk Hugo</title>
+      <link>https://ardianta.github.io/blog/feedburner-hugo/</link>
+      <pubDate>Fri, 22 Dec 2017 19:21:27 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/feedburner-hugo/</guid>
+      <description>Baru saja saya selesai mendaftarkan blog ini ke Feedburner Google.
+Kenapa pakai Feedburner?
+Sebenarnya Hugo sudah mendukung RSS Feed, bisa dilihat di https://ardianta.github.io/post/index.xml.
+Akan tetapi, kalau kita ganti domain, orang-orang yang sudah berlangganan RSS Feed dari blog kita akan tetap menggunakan URL tersebut dan mereka tidak akan dapat update lagi.
+Nah, berbeda dengan menggunakan Feedburner.
+Kalaupun kita ganti domain, kita masih bisa mengganti alamat RSS Feed di Feedburner dan orang yang sudah berlangganan bisa tetap menerima update dari blog kita.</description>
+    </item>
     
     <item>
       <title>Plug-in Komentar Disqus vs Facebook, Pilih yang mana?</title>
