@@ -91,10 +91,10 @@ baseurl = &amp;quot;https://ardianta.github.io/&amp;quot; title = &amp;quot;Ardi
       <pubDate>Sun, 17 Dec 2017 19:51:02 +0800</pubDate>
       
       <guid>https://ardianta.github.io/project/</guid>
-      <description>Petanikode  URL: https://www.petanikode.com/ Status: production  Petanikode adalah sebuah blog untuk dengan niche pemrograman untuk membantu siapa saja yang ingin belajar pemrograman menggunakan Linux.
+      <description>Halaman ini berisi project yang pernah saya kerjakan dan yang sedang dikerjakan. Ada yang bersifat side project dan ada juga yang serius.
+Petanikode  URL: https://www.petanikode.com/ Status: production  Petanikode adalah sebuah blog untuk dengan niche pemrograman untuk membantu siapa saja yang ingin belajar pemrograman menggunakan Linux.
 Kebanyakan kontennya menggunakan Linux. Namun, tidak menutup kemungkinan ada beberapa yang menggunakan Windows.
-Petanikode awalnya dibuat menggunakan Blogger. Lalu migrasi ke Hugo, karena terasa lebih efisien dan cocok dengan workflow yang saya gunakan.
-Lombokfoss  URL: https://www.lombokfoss.com/ Status: production  Lombokfoss adalah blog yang membahas GNU/Linux dan FOSS secara umum.</description>
+Petanikode awalnya dibuat menggunakan Blogger. Lalu migrasi ke Hugo, karena terasa lebih efisien dan cocok dengan workflow yang saya gunakan.</description>
     </item>
     
     <item>
