@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Hello World! Tulisan Pertama di Blog Hugo</title>
+    <title>Deploy Hugo ke Firebase dengan Gitlab CI</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,35 +13,43 @@
 <meta name="description" content=""/>
 
 
-<meta itemprop="name" content="Hello World! Tulisan Pertama di Blog Hugo">
-<meta itemprop="description" content="Hello World!
-ini adalah tulisan pertama di blog ini. Baru saja saya membuat blog dengan Hugo. Sekarang lagi dikembangkan dengan tema Hugo Bootstrap v4 Blog.
-Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress. Meskipun saya belum mengerti bahasa pemrograman Go.
-Deploy saya lakukan ke Github Pages dengan dua repositori terpisah. Pertama, repositori ardianta-pargo untuk menyimpan konten, kemudian repositori ardianta.github.io untuk menyimpan halaman publik hasil render dari Hugo.">
+<meta itemprop="name" content="Deploy Hugo ke Firebase dengan Gitlab CI">
+<meta itemprop="description" content="Biasanya saya melakukan deploy dengan perintah firebase deploy. Akan tetapi perintah ini sama persis seperti FTP.
+Semua file akan di-upload ke Firebase. Hal ini akan membuat kuota internet saya cepat habis 😄, resiko pakai paket data.
+Lalu sebaiknya bagaimana?
+Saya ingin mencoba workflow pak Ariya. Beliau deploy Hugo ke Firebase melalui Gitlab CI.
+Gambarannya seperti ini:
+Sumber: ariya.io
+Lalu, pada repo Gitlab, saya menggunakan konfigurasi CI seperti ini:
+image: nohitme/hugo-firebase:0.31.1 before_script: - hugo version - firebase --version hugo_firebase: stage: deploy only: - master except: - dev script: - rm -rf public - hugo --config config.">
 
 
-<meta itemprop="datePublished" content="2017-01-24T14:35:02&#43;08:00" />
-<meta itemprop="dateModified" content="2017-01-24T14:35:02&#43;08:00" />
-<meta itemprop="wordCount" content="185">
+<meta itemprop="datePublished" content="2017-12-23T22:25:46&#43;08:00" />
+<meta itemprop="dateModified" content="2017-12-23T22:25:46&#43;08:00" />
+<meta itemprop="wordCount" content="188">
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="hugo,gitlab,firebase," />
 
 
-<meta property="og:title" content="Hello World! Tulisan Pertama di Blog Hugo" />
-<meta property="og:description" content="Hello World!
-ini adalah tulisan pertama di blog ini. Baru saja saya membuat blog dengan Hugo. Sekarang lagi dikembangkan dengan tema Hugo Bootstrap v4 Blog.
-Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress. Meskipun saya belum mengerti bahasa pemrograman Go.
-Deploy saya lakukan ke Github Pages dengan dua repositori terpisah. Pertama, repositori ardianta-pargo untuk menyimpan konten, kemudian repositori ardianta.github.io untuk menyimpan halaman publik hasil render dari Hugo." />
+<meta property="og:title" content="Deploy Hugo ke Firebase dengan Gitlab CI" />
+<meta property="og:description" content="Biasanya saya melakukan deploy dengan perintah firebase deploy. Akan tetapi perintah ini sama persis seperti FTP.
+Semua file akan di-upload ke Firebase. Hal ini akan membuat kuota internet saya cepat habis 😄, resiko pakai paket data.
+Lalu sebaiknya bagaimana?
+Saya ingin mencoba workflow pak Ariya. Beliau deploy Hugo ke Firebase melalui Gitlab CI.
+Gambarannya seperti ini:
+Sumber: ariya.io
+Lalu, pada repo Gitlab, saya menggunakan konfigurasi CI seperti ini:
+image: nohitme/hugo-firebase:0.31.1 before_script: - hugo version - firebase --version hugo_firebase: stage: deploy only: - master except: - dev script: - rm -rf public - hugo --config config." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ardianta.github.io/blog/hello-world/" />
+<meta property="og:url" content="https://ardianta.github.io/blog/hugo-gitlab-firebase/" />
 
 
 
-<meta property="article:published_time" content="2017-01-24T14:35:02&#43;08:00"/>
+<meta property="article:published_time" content="2017-12-23T22:25:46&#43;08:00"/>
 
-<meta property="article:modified_time" content="2017-01-24T14:35:02&#43;08:00"/>
+<meta property="article:modified_time" content="2017-12-23T22:25:46&#43;08:00"/>
 
 
 
@@ -117,57 +125,66 @@ ga('send', 'pageview');
                     <div class="card-body  p-md-5">
                         <div class="post-content">
                             <div class="post-header mb-3">
-                                <h2 class="post-title">Hello World! Tulisan Pertama di Blog Hugo</h2>
+                                <h2 class="post-title">Deploy Hugo ke Firebase dengan Gitlab CI</h2>
                                 <hr>
-                                <time class="text-secondary small" title="2017-01-24 14:35:02 &#43;0800 WITA">24 Jan 2017</time>
+                                <time class="text-secondary small" title="2017-12-23 22:25:46 &#43;0800 WITA">23 Dec 2017</time>
                             </div>
                             <div class="post-body">
-                                <p>Hello World!</p>
+                                <p>Biasanya saya melakukan deploy dengan perintah <code>firebase deploy</code>.
+Akan tetapi perintah ini sama persis seperti FTP.</p>
 
-<p>ini adalah tulisan pertama di blog ini. Baru saja saya membuat blog
-dengan Hugo. Sekarang lagi dikembangkan dengan tema <a href="https://github.com/alanorth/hugo-theme-bootstrap4-blog">Hugo Bootstrap v4 Blog</a>.</p>
+<p>Semua file akan di-upload ke Firebase. Hal ini akan membuat
+kuota internet saya cepat habis 😄, resiko pakai paket data.</p>
 
-<p>Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress.
-Meskipun saya belum mengerti bahasa pemrograman Go.</p>
+<p>Lalu sebaiknya bagaimana?</p>
 
-<p>Deploy saya lakukan ke <em>Github Pages</em> dengan dua repositori terpisah. Pertama,
-repositori <a href="https://github.com/ardianta/ardianta-pargo">ardianta-pargo</a> untuk
-menyimpan konten, kemudian repositori <a href="https://github.com/ardianta/ardianta.github.io">ardianta.github.io</a>
-untuk menyimpan halaman publik hasil <em>render</em> dari Hugo.</p>
+<p>Saya ingin mencoba <em>workflow</em> pak Ariya. Beliau deploy
+Hugo ke Firebase melalui Gitlab CI.</p>
 
-<p>Saya menggunakan skrip dari <a href="https://gohugo.io/tutorials/github-pages-blog/">dokumentasi Hugo</a> untuk melakukan deploy.
-Karena saya tidak menggunakan <em>Continous Integration</em> (CI). Jadi setiap
-mau deploy harus eksekusi skrip tersebut. Berikut ini skripnya.</p>
+<p>Gambarannya seperti ini:</p>
 
-<pre><code class="language-bash">#!/bin/bash
+<p><img src="/img/hugo/staticsite.png" alt="Workflow Hugo" /></p>
 
-echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
+<p>Sumber: <a href="https://ariya.io/2017/05/static-site-with-hugo-and-firebase">ariya.io</a></p>
 
-# Build the project.
-hugo # if using a theme, replace by `hugo -t &lt;yourtheme&gt;`
+<p>Lalu, pada repo Gitlab, saya menggunakan konfigurasi CI seperti ini:</p>
 
-# Go To Public folder
-cd public
-# Add changes to git.
-git add -A
+<pre><code class="language-yaml">image: nohitme/hugo-firebase:0.31.1
 
-# Commit changes.
-msg=&quot;rebuilding site `date`&quot;
-if [ $# -eq 1 ]
-  then msg=&quot;$1&quot;
-fi
-git commit -m &quot;$msg&quot;
+before_script:
+  - hugo version
+  - firebase --version
 
-# Push source and build repos.
-git push origin master
-
-# Come Back
-cd ..
-
+hugo_firebase:
+  stage: deploy
+  only:
+    - master
+  except:
+    - dev
+  script:
+    - rm -rf public
+    - hugo --config config.production.toml
+    - firebase deploy --token ${FIREBASE_TOKEN}
 </code></pre>
 
-<p>Sepertinya template atau tema yang saya gunakan ini terlihat masih berantakan.
-Mungkin nanti, saya akan perbaiki.</p>
+<p>Saya menggunakan image docker dari <a href="https://hub.docker.com/r/nohitme/hugo-firebase/">nohitme/hugo-firebase</a>. Ukurannya cukup besar,
+sekitar 76 MB. Karena image ini menggunakan Nodejs versi 9
+dan Hugo versi terbaru (0.31.1).</p>
+
+<p>Sebenarnya saya sudah coba beberapa <em>Image</em>. Tapi, tidak ada yang cocok.
+Inilah image yang paling sederhana menurut saya.</p>
+
+<p><code>FIREBASE_TOKEN</code> dalam konfigurasi CI di atas adalah variabel
+<em>environtment</em> yang kita tambahkan melalui <strong>Settings-&gt;CI/DI-&gt;Secret Variables</strong>.</p>
+
+<p>Dengan menggunakan konfigurasi CI ini, waktu build-nya relatif lebih cepat.
+Biasanya anatara 30 detik sampai 2 menit.</p>
+
+<p><img src="/img/hugo/ci-gitlab.png" alt="Build CI Gitlab" /></p>
+
+<p>Sekarang kita tinggal <code>git push</code> aja ke Gitlab untuk deploy ke Firebase.</p>
+
+<p>Enak kaan!</p>
 
                             </div>
                             <div class="post-footer mt-5 py-4">
