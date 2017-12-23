@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meetup on Ardianta</title>
-    <link>https://ardianta.github.io/tags/meetup/</link>
-    <description>Recent content in Meetup on Ardianta</description>
+    <title>Lombokdev on Ardianta</title>
+    <link>https://ardianta.github.io/tags/lombokdev/</link>
+    <description>Recent content in Lombokdev on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 17 Oct 2017 23:43:40 +0800</lastBuildDate>
     
-	<atom:link href="https://ardianta.github.io/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ardianta.github.io/tags/lombokdev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

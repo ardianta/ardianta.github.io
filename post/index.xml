@@ -52,7 +52,7 @@ Halaman home:
 Halaman artikel:
 Seperti biasa, untuk tampilan saya masih mengandalkan Bootstrap 4.
 Template ini masih belum selesai.
-Pekerjaan Selanjutnya Perbaiki tampilan untuk mobile Pasang Komentar Faceook (diganti pakai disqus) Pasang Komentar Disqus Menambahkan Google Analytic Menambahkan Open Graph Menambahkan Share Button Mendaftarkan ke Google Webmaster Perbaiki Kualitas Konten Pembuatan halaman 404.</description>
+Pekerjaan Selanjutnya Perbaiki tampilan untuk mobile Pasang Komentar Faceook (diganti pakai disqus) Pasang Komentar Disqus Menambahkan Google Analytic (pakai Cloudflare) Menambahkan Open Graph Menambahkan Share Button Mendaftarkan ke Google Webmaster Perbaiki Kualitas Konten Pembuatan halaman 404.</description>
     </item>
     
     <item>
@@ -116,7 +116,7 @@ Setelah beberapa menit, akhirnya bisa juga dibuka di https://www.</description>
     </item>
     
     <item>
-      <title>Lombokdev Meetup 2</title>
+      <title>Lombokdev Meetup #2</title>
       <link>https://ardianta.github.io/blog/lombokdev-meetup-2/</link>
       <pubDate>Tue, 17 Oct 2017 23:43:40 +0800</pubDate>
       
