@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travis on Ardianta</title>
+    <link>https://ardianta.github.io/tags/travis/</link>
+    <description>Recent content in Travis on Ardianta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 24 Dec 2017 06:05:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://ardianta.github.io/tags/travis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sekarang Blog ini Menggunakan Travis CI</title>
+      <link>https://ardianta.github.io/blog/hugo-travis-ci/</link>
+      <pubDate>Sun, 24 Dec 2017 06:05:11 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/hugo-travis-ci/</guid>
+      <description>Blog ini di-hosting di Github pada repositori ini: https://github.com/ardianta/ardianta.github.io.
+Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
+Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
+Travis CI ini bertugas untuk melakuakn build dan deploy.
+Adapun skript yang saya gunakan adalah sebagai berikut:
+File deploy-ci.sh
+#!/bin/bash set -e DEPLOY_REPO=&amp;quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&amp;quot; function main { clean get_current_site build_site deploy } function clean { echo &amp;quot;cleaning public folder&amp;quot; if [ -d &amp;quot;public&amp;quot; ]; then rm -rf public; fi } function get_current_site { echo &amp;quot;getting latest site&amp;quot; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &amp;quot;building site.</description>
+    </item>
+    
+  </channel>
+</rss>

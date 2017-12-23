@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sekarang Blog ini Menggunakan Travis CI</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+<meta name="keywords" content="Hugo, Blog, Travis CI, CI, Github, Github Pages"/>
+<meta name="description" content=""/>
+
+
+<meta itemprop="name" content="Sekarang Blog ini Menggunakan Travis CI">
+<meta itemprop="description" content="Blog ini di-hosting di Github pada repositori ini: https://github.com/ardianta/ardianta.github.io.
+Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
+Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
+Travis CI ini bertugas untuk melakuakn build dan deploy.
+Adapun skript yang saya gunakan adalah sebagai berikut:
+File deploy-ci.sh
+#!/bin/bash set -e DEPLOY_REPO=&quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&quot; function main { clean get_current_site build_site deploy } function clean { echo &quot;cleaning public folder&quot; if [ -d &quot;public&quot; ]; then rm -rf public; fi } function get_current_site { echo &quot;getting latest site&quot; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &quot;building site.">
+
+
+<meta itemprop="datePublished" content="2017-12-24T06:05:11&#43;08:00" />
+<meta itemprop="dateModified" content="2017-12-24T06:05:11&#43;08:00" />
+<meta itemprop="wordCount" content="288">
+
+
+
+<meta itemprop="keywords" content="Hugo,Blog,Travis,CI," />
+
+
+<meta property="og:title" content="Sekarang Blog ini Menggunakan Travis CI" />
+<meta property="og:description" content="Blog ini di-hosting di Github pada repositori ini: https://github.com/ardianta/ardianta.github.io.
+Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
+Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
+Travis CI ini bertugas untuk melakuakn build dan deploy.
+Adapun skript yang saya gunakan adalah sebagai berikut:
+File deploy-ci.sh
+#!/bin/bash set -e DEPLOY_REPO=&quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&quot; function main { clean get_current_site build_site deploy } function clean { echo &quot;cleaning public folder&quot; if [ -d &quot;public&quot; ]; then rm -rf public; fi } function get_current_site { echo &quot;getting latest site&quot; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &quot;building site." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ardianta.github.io/blog/hugo-travis-ci/" />
+
+
+
+<meta property="article:published_time" content="2017-12-24T06:05:11&#43;08:00"/>
+
+<meta property="article:modified_time" content="2017-12-24T06:05:11&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta content='summary_large_image' name='twitter:card' />
+<meta content='@ardiantapargo' name='twitter:site' />
+<meta content='@ardiantapargo' name='twitter:creator' />
+<meta property="og:image" content="https://ardianta.github.io" />
+
+
+<link rel="icon" href="/img/ardianta.jpg" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/prism.css" />
+<link rel="stylesheet" href="/css/style.css" />
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'> 
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-54154424-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</head>
+
+<body class="bg-light">
+
+    <header>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center mt-5">
+            <h1>
+                <a href="https://ardianta.github.io">
+                    <img src="/img/ardianta-logo.svg" height="120" alt="ardianta logo" />
+                </a>
+                
+            </h1>
+            <div class="text-secondary">
+                <a class="mx-1" href="/about">About</a>
+                |
+                <a class="mx-1" href="/project">Project</a>
+                |
+                <a class="mx-1" href="https://twitter.com/ardiantapargo" target="blank">Twitter</a>
+                |
+                <a class="mx-1" href="https://github.com/ardianta" target="blank">Github</a>
+                |
+                <a class="mx-1" href="http://feeds.feedburner.com/ardianta">RSS</a>
+            </div>
+    </div>
+    </div>
+    </div>
+</header>
+
+    <div class="container mt-5 mb-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-8">
+                <div class="card rounded-0 post-outer">
+                    <div class="card-body  p-md-5">
+                        <div class="post-content">
+                            <div class="post-header mb-3">
+                                <h2 class="post-title">Sekarang Blog ini Menggunakan Travis CI</h2>
+                                <hr>
+                                <time class="text-secondary small" title="2017-12-24 06:05:11 &#43;0800 &#43;0800">24 Dec 2017</time>
+                            </div>
+                            <div class="post-body">
+                                <p>Blog ini di-hosting di Github pada repositori ini: <a href="https://github.com/ardianta/ardianta.github.io">https://github.com/ardianta/ardianta.github.io</a>.</p>
+
+<p>Setiap kali saya ingin <em>deploy</em>, saya harus melakukan <em>push</em>
+ke sana.</p>
+
+<p>Tapi sekarang sudah tidak lagi, karena sudah
+dibantu sama Travis CI. yay! 😄</p>
+
+<p>Travis CI ini bertugas untuk melakuakn build dan
+deploy.</p>
+
+<p>Adapun skript yang saya gunakan adalah sebagai berikut:</p>
+
+<p>File <code>deploy-ci.sh</code></p>
+
+<pre><code class="language-bash">#!/bin/bash
+
+set -e
+
+DEPLOY_REPO=&quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&quot;
+
+function main {
+    clean
+    get_current_site
+    build_site
+    deploy
+}
+
+function clean { 
+	echo &quot;cleaning public folder&quot;
+	if [ -d &quot;public&quot; ]; then rm -rf public; fi 
+}
+
+function get_current_site { 
+	echo &quot;getting latest site&quot;
+	git clone --depth 1 $DEPLOY_REPO public 
+}
+
+function build_site { 
+	echo &quot;building site...&quot;
+	hugo --config config.production.toml
+}
+
+function deploy {
+	echo &quot;deploying changes&quot;
+
+	if [ -z &quot;$TRAVIS_PULL_REQUEST&quot; ]; then
+	    echo &quot;except don't publish site for pull requests&quot;
+	    exit 0
+	fi  
+
+	if [ &quot;$TRAVIS_BRANCH&quot; != &quot;master&quot; ]; then
+	    echo &quot;except we should only publish the master branch. stopping here&quot;
+	    exit 0
+	fi
+
+	cd public
+	git config --global user.name &quot;Travis CI&quot;
+    git config --global user.email ardianta_pargo@yahoo.co.id
+	git add -A
+	git status
+	git commit -m &quot;Travis build $TRAVIS_BUILD_NUMBER auto-pushed to github&quot;
+	git push $DEPLOY_REPO master:master
+}
+
+
+main
+</code></pre>
+
+<p>Kita membutuhkan token personal Github untuk mengisi <code>DEPLOY_BLOG_TOKEN</code>
+agar skrip di atas bisa melakukan <em>push</em> ke repositori.</p>
+
+<p>Token ini bisa kita dapatkan di <strong>Akun-&gt;Settings-&gt;Developer settings-&gt;Personal access tokens</strong>
+(<a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a>).</p>
+
+<p>Buat baru di sana, lalu tambahkan di dashborad Travis (<a href="https://travis-ci.org/">https://travis-ci.org/</a>).</p>
+
+<p>Sementara untuk konfigurasi CI Travis-nya:</p>
+
+<p>File: <code>.travis.yml</code></p>
+
+<pre><code class="language-yaml">language: generic
+os: linux
+
+sudo: required
+dist: trusty
+group: deprecated-2017Q4
+
+
+install:
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.31.1/hugo_0.31.1_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
+  - rm -rf public || exit 0
+
+script:
+  - hugo version
+  - chmod +x deploy-ci.sh
+  - ./deploy-ci.sh
+</code></pre>
+
+<p>Dengan begini saya tinggal melakukan push saja ke repositori ini:
+<a href="https://github.com/ardianta/blog">https://github.com/ardianta/blog</a> lalu Travis CI akan melakukan build
+dan melakukan push <a href="https://github.com/ardianta/ardianta.github.io">ke sini</a>.</p>
+
+                            </div>
+                            <div class="post-footer mt-5 py-4">
+                                
+                                 <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'ardianta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+</script>
+<noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+    <span class="logo-disqus">Disqus</span>
+</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <footer class="mt-5 mb-5">
+    <div class="text-center text-secondary">
+
+       &copy; 2017 <a href="https://ardianta.github.io" class="text-secondary"> Ardianta</a>
+
+    </div>
+</footer>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/prism.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
