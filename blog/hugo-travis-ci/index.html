@@ -18,7 +18,7 @@
 Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
 Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
 Travis CI ini bertugas untuk melakuakn build dan deploy.
-Adapun skript yang saya gunakan adalah sebagai berikut:
+Adapun skrip yang saya gunakan adalah sebagai berikut:
 File deploy-ci.sh
 #!/bin/bash set -e DEPLOY_REPO=&quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&quot; function main { clean get_current_site build_site deploy } function clean { echo &quot;cleaning public folder&quot; if [ -d &quot;public&quot; ]; then rm -rf public; fi } function get_current_site { echo &quot;getting latest site&quot; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &quot;building site.">
 
@@ -37,7 +37,7 @@ File deploy-ci.sh
 Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
 Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
 Travis CI ini bertugas untuk melakuakn build dan deploy.
-Adapun skript yang saya gunakan adalah sebagai berikut:
+Adapun skrip yang saya gunakan adalah sebagai berikut:
 File deploy-ci.sh
 #!/bin/bash set -e DEPLOY_REPO=&quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&quot; function main { clean get_current_site build_site deploy } function clean { echo &quot;cleaning public folder&quot; if [ -d &quot;public&quot; ]; then rm -rf public; fi } function get_current_site { echo &quot;getting latest site&quot; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &quot;building site." />
 <meta property="og:type" content="article" />
@@ -139,7 +139,7 @@ dibantu sama Travis CI. yay! 😄</p>
 <p>Travis CI ini bertugas untuk melakuakn build dan
 deploy.</p>
 
-<p>Adapun skript yang saya gunakan adalah sebagai berikut:</p>
+<p>Adapun skrip yang saya gunakan adalah sebagai berikut:</p>
 
 <p>File <code>deploy-ci.sh</code></p>
 
@@ -203,7 +203,7 @@ agar skrip di atas bisa melakukan <em>push</em> ke repositori.</p>
 <p>Token ini bisa kita dapatkan di <strong>Akun-&gt;Settings-&gt;Developer settings-&gt;Personal access tokens</strong>
 (<a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a>).</p>
 
-<p>Buat baru di sana, lalu tambahkan di dashborad Travis (<a href="https://travis-ci.org/">https://travis-ci.org/</a>).</p>
+<p>Token yang sudah dibuat, bisa ditambahkan di pengaturan Travis (<a href="https://travis-ci.org/">https://travis-ci.org/</a>).</p>
 
 <p>Sementara untuk konfigurasi CI Travis-nya:</p>
 

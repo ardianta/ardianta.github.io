@@ -20,7 +20,7 @@
 Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
 Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
 Travis CI ini bertugas untuk melakuakn build dan deploy.
-Adapun skript yang saya gunakan adalah sebagai berikut:
+Adapun skrip yang saya gunakan adalah sebagai berikut:
 File deploy-ci.sh
 #!/bin/bash set -e DEPLOY_REPO=&amp;quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&amp;quot; function main { clean get_current_site build_site deploy } function clean { echo &amp;quot;cleaning public folder&amp;quot; if [ -d &amp;quot;public&amp;quot; ]; then rm -rf public; fi } function get_current_site { echo &amp;quot;getting latest site&amp;quot; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &amp;quot;building site.</description>
     </item>
