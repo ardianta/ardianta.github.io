@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Clone Commit Terakhir dari Repository Git</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+<meta name="keywords" content="Git, Github, Repository, Git Clone"/>
+<meta name="description" content="Cara Clone Commit Terakhir dari Rpositori"/>
+
+
+<meta itemprop="name" content="Clone Commit Terakhir dari Repository Git">
+<meta itemprop="description" content="Banyangkan ada 12283192311 commit yang sudah dilakukan pada repository. Lalu kita ingin clone ke lokal.
+Berapa besar file yang akan di-download?
+Pastinya cukup besar.
+Nah, bagaimana caranya clone hanya commit terakhir saja?
+Cukup dengan perintah ini:
+git clone --depth=1 &lt;remote_repo_url&gt;  Referensi:
+ https://git-scm.com/docs/git-clone https://stackoverflow.com/a/1210012/2658551  Contoh:
+Ada 1221 commit yang sudah dibuat pada repository ini:
+Lalu tinggal di-clone aja dengan perintah tadi.">
+
+
+<meta itemprop="datePublished" content="2017-12-26T04:13:15&#43;08:00" />
+<meta itemprop="dateModified" content="2017-12-26T04:13:15&#43;08:00" />
+<meta itemprop="wordCount" content="60">
+
+
+
+<meta itemprop="keywords" content="Git," />
+
+
+<meta property="og:title" content="Clone Commit Terakhir dari Repository Git" />
+<meta property="og:description" content="Banyangkan ada 12283192311 commit yang sudah dilakukan pada repository. Lalu kita ingin clone ke lokal.
+Berapa besar file yang akan di-download?
+Pastinya cukup besar.
+Nah, bagaimana caranya clone hanya commit terakhir saja?
+Cukup dengan perintah ini:
+git clone --depth=1 &lt;remote_repo_url&gt;  Referensi:
+ https://git-scm.com/docs/git-clone https://stackoverflow.com/a/1210012/2658551  Contoh:
+Ada 1221 commit yang sudah dibuat pada repository ini:
+Lalu tinggal di-clone aja dengan perintah tadi." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ardianta.github.io/blog/git-clone-depth/" />
+
+
+
+<meta property="article:published_time" content="2017-12-26T04:13:15&#43;08:00"/>
+
+<meta property="article:modified_time" content="2017-12-26T04:13:15&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta content='summary_large_image' name='twitter:card' />
+<meta content='@ardiantapargo' name='twitter:site' />
+<meta content='@ardiantapargo' name='twitter:creator' />
+<meta property="og:image" content="https://ardianta.github.io/img/git/clone/clone-repo-petanikode.png" />
+
+
+<link rel="icon" href="/img/ardianta.jpg" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/prism.css" />
+<link rel="stylesheet" href="/css/style.css" />
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'> 
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-54154424-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</head>
+
+<body class="bg-light">
+
+    <header>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center mt-5">
+            <h1>
+                <a href="https://ardianta.github.io">
+                    <img src="/img/ardianta-logo.svg" height="120" alt="ardianta logo" />
+                </a>
+                
+            </h1>
+            <div class="text-secondary">
+                <a class="mx-1" href="/about">About</a>
+                |
+                <a class="mx-1" href="/project">Project</a>
+                |
+                <a class="mx-1" href="https://twitter.com/ardiantapargo" target="blank">Twitter</a>
+                |
+                <a class="mx-1" href="https://github.com/ardianta" target="blank">Github</a>
+                |
+                <a class="mx-1" href="http://feeds.feedburner.com/ardianta">RSS</a>
+            </div>
+    </div>
+    </div>
+    </div>
+</header>
+
+    <div class="container mt-5 mb-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-8">
+                <div class="card rounded-0 post-outer">
+                    <div class="card-body  p-md-5">
+                        <div class="post-content">
+                            <div class="post-header mb-3">
+                                <h2 class="post-title">Clone Commit Terakhir dari Repository Git</h2>
+                                <hr>
+                                <time class="text-secondary small" title="2017-12-26 04:13:15 &#43;0800 &#43;0800">26 Dec 2017</time>
+                            </div>
+                            <div class="post-body">
+                                <p>Banyangkan ada <code>12283192311</code> commit yang sudah dilakukan pada repository.
+Lalu kita ingin clone ke lokal.</p>
+
+<p>Berapa besar file yang akan di-download?</p>
+
+<p>Pastinya cukup besar.</p>
+
+<p>Nah, bagaimana caranya clone hanya commit terakhir saja?</p>
+
+<p>Cukup dengan perintah ini:</p>
+
+<pre><code class="language-bash">git clone --depth=1 &lt;remote_repo_url&gt;
+</code></pre>
+
+<p>Referensi:</p>
+
+<ul>
+<li><a href="https://git-scm.com/docs/git-clone">https://git-scm.com/docs/git-clone</a></li>
+<li><a href="https://stackoverflow.com/a/1210012/2658551">https://stackoverflow.com/a/1210012/2658551</a></li>
+</ul>
+
+<p>Contoh:</p>
+
+<p>Ada <code>1221</code> commit yang sudah dibuat pada repository ini:</p>
+
+<p><img src="/img/git/clone/repo-petanikode.png" alt="Repository PetaniKode" /></p>
+
+<p>Lalu tinggal di-clone aja dengan perintah tadi.</p>
+
+<p><img src="/img/git/clone/clone-repo-petanikode.png" alt="Clone Repository PetaniKode" /></p>
+
+                            </div>
+                            <div class="post-footer mt-5 py-4">
+                                
+                                 <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'ardianta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+</script>
+<noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+    <span class="logo-disqus">Disqus</span>
+</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <footer class="mt-5 mb-5">
+    <div class="text-center text-secondary">
+
+       &copy; 2017 <a href="https://ardianta.github.io" class="text-secondary"> Ardianta</a>
+
+    </div>
+</footer>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/prism.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
