@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Langkah Awal: Belajar Reactjs</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+<meta name="keywords" content="Javascript, Lombokjs, Reactjs"/>
+<meta name="description" content="Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya. Bagaimana sejarahnya? Kenapa harus menggunakan React? Bagaimana konsep React?"/>
+
+
+<meta itemprop="name" content="Langkah Awal: Belajar Reactjs">
+<meta itemprop="description" content="Saya telat ikut kulgram Reactjs di @lombokjs, karena kehabisan kuota 😢.
+Tapi tak masalah, di Telegram masih tersimpan arsipnya.
+Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya.
+Bagaimana sejarahnya?
+Kenapa harus menggunakan React?
+Bagaimana konsep React?
+Kira-kira itulah isi dari kulgram semalam yang nggak saya ikuti.
+Tapi pagi ini, saya mau coba-coba langsung&hellip;
+Coba nginstall aja, siapa tau mau belajar lebih lanjut.
+Memulai Project React Saya akan menggunakan yarn dan create-react-app untuk memulai.">
+
+
+<meta itemprop="datePublished" content="2017-12-29T04:24:49&#43;08:00" />
+<meta itemprop="dateModified" content="2017-12-29T04:24:49&#43;08:00" />
+<meta itemprop="wordCount" content="228">
+
+
+
+<meta itemprop="keywords" content="Reactjs,Javascript," />
+
+
+<meta property="og:title" content="Langkah Awal: Belajar Reactjs" />
+<meta property="og:description" content="Saya telat ikut kulgram Reactjs di @lombokjs, karena kehabisan kuota 😢.
+Tapi tak masalah, di Telegram masih tersimpan arsipnya.
+Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya.
+Bagaimana sejarahnya?
+Kenapa harus menggunakan React?
+Bagaimana konsep React?
+Kira-kira itulah isi dari kulgram semalam yang nggak saya ikuti.
+Tapi pagi ini, saya mau coba-coba langsung&hellip;
+Coba nginstall aja, siapa tau mau belajar lebih lanjut.
+Memulai Project React Saya akan menggunakan yarn dan create-react-app untuk memulai." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ardianta.github.io/blog/belajar-reactjs/" />
+
+
+
+<meta property="article:published_time" content="2017-12-29T04:24:49&#43;08:00"/>
+
+<meta property="article:modified_time" content="2017-12-29T04:24:49&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta content='summary_large_image' name='twitter:card' />
+<meta content='@ardiantapargo' name='twitter:site' />
+<meta content='@ardiantapargo' name='twitter:creator' />
+<meta property="og:image" content="https://ardianta.github.io/img/react/reactjs-vscode.png" />
+
+
+<link rel="icon" href="/img/ardianta.jpg" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/prism.css" />
+<link rel="stylesheet" href="/css/style.css" />
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'> 
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-54154424-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</head>
+
+<body class="bg-light">
+
+    <header>
+    <div class="container">
+    <div class="row align-items-center justify-content-center">
+    <div class="col-lg-4 text-center mt-5">
+            <h1>
+                <a class="d-block" href="https://ardianta.github.io">
+                    <img class="mw-100" src="/img/ardianta-logo.svg" height="120" alt="ardianta logo" />
+                </a>
+                
+            </h1>
+            <div class="text-secondary">
+                <a class="mx-1" href="/about">About</a>
+                |
+                <a class="mx-1" href="/project">Project</a>
+                |
+                <a class="mx-1" href="https://twitter.com/ardiantapargo" target="blank">Twitter</a>
+                |
+                <a class="mx-1" href="https://github.com/ardianta" target="blank">Github</a>
+                |
+                <a class="mx-1" href="http://feeds.feedburner.com/ardianta">RSS</a>
+            </div>
+    </div>
+    </div>
+    </div>
+</header>
+
+    <div class="container mt-5 mb-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-8">
+                <div class="card rounded-0 post-outer">
+                    <div class="card-body  p-md-5">
+                        <div class="post-content">
+                            <div class="post-header mb-3">
+                                <h2 class="post-title">Langkah Awal: Belajar Reactjs</h2>
+                                <hr>
+                                <time class="text-secondary small" title="2017-12-29 04:24:49 &#43;0800 &#43;0800">29 Dec 2017</time>
+                            </div>
+                            <div class="post-body">
+                                
+
+<p>Saya telat ikut kulgram Reactjs di <a href="https://t.me/lombokjs">@lombokjs</a>,
+karena kehabisan kuota 😢.</p>
+
+<p>Tapi tak masalah, di Telegram masih tersimpan arsipnya.</p>
+
+<p>Langkah awal belajar React, ya pertama harus kenalan dulu
+dengan React-nya.</p>
+
+<p>Bagaimana sejarahnya?</p>
+
+<p>Kenapa harus menggunakan React?</p>
+
+<p>Bagaimana konsep React?</p>
+
+<p>Kira-kira itulah isi dari kulgram semalam yang nggak saya ikuti.</p>
+
+<p>Tapi pagi ini, saya mau coba-coba langsung&hellip;</p>
+
+<p>Coba nginstall aja, siapa tau mau belajar lebih lanjut.</p>
+
+<h2 id="memulai-project-react">Memulai Project React</h2>
+
+<p>Saya akan menggunakan <code>yarn</code> dan <code>create-react-app</code> untuk memulai.</p>
+
+<p>Pertama, kita install dulu <code>yarn</code>.</p>
+
+<pre><code class="language-bash">curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo &quot;deb https://dl.yarnpkg.com/debian/ stable main&quot; | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update &amp;&amp; sudo apt-get install yarn
+</code></pre>
+
+<p>Untuk sistem operasi yang lain cek di sini: <a href="https://yarnpkg.com/lang/en/docs/install/">https://yarnpkg.com/lang/en/docs/install/</a></p>
+
+<p>Kenapa tidak pakai <code>npm</code>?</p>
+
+<p>Karena merasa pakai <code>yarn</code> lebih kenceng 😄.</p>
+
+<p>Habis install <code>yarn</code>, sekarang kita intall <code>create-react-app</code>.</p>
+
+<pre><code class="language-bash">sudo yarn global add create-react-app
+</code></pre>
+
+<p>Sebenarnya bisa langsung pakai CDN, tapi biar keren dikit kita pakai ini aja.</p>
+
+<p><img src="/img/react/instalasi-create-react.png" alt="Instalasi create-react-app" /></p>
+
+<p>Setelah itu, baru kita bisa baut project React.</p>
+
+<p>Perintahnya:</p>
+
+<pre><code class="language-bash">create-react-app my-react-app
+</code></pre>
+
+<p>Habis itu, kita buka dengan teks editor andalan, yaitu VS Code:</p>
+
+<pre><code class="language-bash">code my-ract-app
+</code></pre>
+
+<p><img src="/img/react/code-my-react.png" alt="Buka project react dengan VS Code" /></p>
+
+<p>&hellip;dan ini lah penampakannya:</p>
+
+<p><img src="/img/react/reactjs-vscode.png" alt="Buka project react dengan VS Code" /></p>
+
+<p>Terakhir, tinggal ketik perintah <code>yarn start</code> untuk <em>build</em> dan menjalankan server.</p>
+
+<p><img src="/img/react/yarn-start.png" alt="Start server react" /></p>
+
+<p>Lalu, browser akan terbuka otomatis dan hasilnya:</p>
+
+<p><img src="/img/react/react-di-browser.png" alt="Start server react" /></p>
+
+<p>Mantap 😍&hellip;</p>
+
+<h2 id="akhir-kata">Akhir Kata</h2>
+
+<p>Kelihatannya menarik untuk dipelajari lebih dalam. Karena di Indonesia
+juga banyak yang menggunakannya.</p>
+
+<p>Mungkin nanti saya akan masukkan ke dalam <em>list</em> untuk dipelajari di tahun depan (2018).</p>
+
+                            </div>
+                            <div class="post-footer mt-5 py-4">
+                                
+                                 <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'ardianta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+</script>
+<noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+    <span class="logo-disqus">Disqus</span>
+</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <footer class="mt-5 mb-5">
+    <div class="text-center text-secondary">
+
+       &copy; 2017 <a href="https://ardianta.github.io" class="text-secondary"> Ardianta</a>
+
+    </div>
+</footer>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/prism.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -5,10 +5,28 @@
     <link>https://ardianta.github.io/post/</link>
     <description>Recent content in Posts on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 Dec 2017 04:13:15 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2017 04:24:49 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Langkah Awal: Belajar Reactjs</title>
+      <link>https://ardianta.github.io/blog/belajar-reactjs/</link>
+      <pubDate>Fri, 29 Dec 2017 04:24:49 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/belajar-reactjs/</guid>
+      <description>Saya telat ikut kulgram Reactjs di @lombokjs, karena kehabisan kuota 😢.
+Tapi tak masalah, di Telegram masih tersimpan arsipnya.
+Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya.
+Bagaimana sejarahnya?
+Kenapa harus menggunakan React?
+Bagaimana konsep React?
+Kira-kira itulah isi dari kulgram semalam yang nggak saya ikuti.
+Tapi pagi ini, saya mau coba-coba langsung&amp;hellip;
+Coba nginstall aja, siapa tau mau belajar lebih lanjut.
+Memulai Project React Saya akan menggunakan yarn dan create-react-app untuk memulai.</description>
+    </item>
     
     <item>
       <title>Clone Commit Terakhir dari Repository Git</title>
