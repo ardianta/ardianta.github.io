@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/blog/angular-yarn/</loc>
+    <lastmod>2017-12-30T12:13:17+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/belajar-reactjs/</loc>
     <lastmod>2017-12-29T04:24:49+08:00</lastmod>
   </url>
@@ -88,8 +93,14 @@
   </url>
   
   <url>
+    <loc>https://ardianta.github.io/tags/angular/</loc>
+    <lastmod>2017-12-30T12:13:17+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/</loc>
-    <lastmod>2017-12-29T04:24:49+08:00</lastmod>
+    <lastmod>2017-12-30T12:13:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -148,7 +159,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/javascript/</loc>
-    <lastmod>2017-12-29T04:24:49+08:00</lastmod>
+    <lastmod>2017-12-30T12:13:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -177,8 +188,20 @@
   </url>
   
   <url>
+    <loc>https://ardianta.github.io/tags/nodejs/</loc>
+    <lastmod>2017-12-30T12:13:17+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ardianta.github.io/tags/npm/</loc>
+    <lastmod>2017-12-30T12:13:17+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/post/</loc>
-    <lastmod>2017-12-29T04:24:49+08:00</lastmod>
+    <lastmod>2017-12-30T12:13:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -190,13 +213,19 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/</loc>
-    <lastmod>2017-12-24T06:05:11+08:00</lastmod>
+    <lastmod>2017-12-30T12:13:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ardianta.github.io/tags/travis/</loc>
     <lastmod>2017-12-24T06:05:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ardianta.github.io/tags/yarn/</loc>
+    <lastmod>2017-12-30T12:13:17+08:00</lastmod>
     <priority>0</priority>
   </url>
   
