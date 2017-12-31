@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/blog/goal-2018/</loc>
+    <lastmod>2018-01-01T06:50:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ardianta.github.io/ilmu-2017/</loc>
+    <lastmod>2017-12-31T04:29:54+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/install-docker/</loc>
     <lastmod>2017-12-30T17:41:27+08:00</lastmod>
   </url>
@@ -105,7 +115,7 @@
   
   <url>
     <loc>https://ardianta.github.io/</loc>
-    <lastmod>2017-12-30T17:41:27+08:00</lastmod>
+    <lastmod>2018-01-01T06:50:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -140,7 +150,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/docker/</loc>
-    <lastmod>2017-12-30T17:41:27+08:00</lastmod>
+    <lastmod>2017-12-31T04:29:54+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -159,6 +169,12 @@
   <url>
     <loc>https://ardianta.github.io/tags/gitlab/</loc>
     <lastmod>2017-12-23T22:25:46+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ardianta.github.io/tags/goal/</loc>
+    <lastmod>2018-01-01T06:50:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -182,7 +198,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/linux/</loc>
-    <lastmod>2017-12-30T17:41:27+08:00</lastmod>
+    <lastmod>2017-12-31T04:29:54+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -206,7 +222,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/mint/</loc>
-    <lastmod>2017-12-30T17:41:27+08:00</lastmod>
+    <lastmod>2017-12-31T04:29:54+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -224,7 +240,7 @@
   
   <url>
     <loc>https://ardianta.github.io/post/</loc>
-    <lastmod>2017-12-30T17:41:27+08:00</lastmod>
+    <lastmod>2018-01-01T06:50:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
