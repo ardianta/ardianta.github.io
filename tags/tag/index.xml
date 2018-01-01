@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag on Ardianta</title>
+    <link>https://ardianta.github.io/tags/tag/</link>
+    <description>Recent content in Tag on Ardianta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 01 Jan 2018 09:39:08 +0800</lastBuildDate>
+    
+	<atom:link href="https://ardianta.github.io/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title>
+      <link>https://ardianta.github.io/blog/gitlab-github-pages/</link>
+      <pubDate>Mon, 01 Jan 2018 09:39:08 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/gitlab-github-pages/</guid>
+      <description>Karena di Travis CI lama menunggu Queue build-nya, saya jadi ingin mengganti ke Gitlab CI. 😄
+Ini adalah isi file .gitlab-ci.yml di repo blog saya:
+image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - git config user.email &amp;quot;&amp;lt;your git email&amp;gt;&amp;quot; - git config --global user.name &amp;quot;&amp;lt;your git name&amp;gt;&amp;quot; - git add -A - git commit -m &amp;quot;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&amp;quot; - git push artifacts: paths: - public only: - master  Saya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build.</description>
+    </item>
+    
+  </channel>
+</rss>

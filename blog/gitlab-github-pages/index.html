@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+<meta name="keywords" content="Hugo, Gitlab, Github, Deploy"/>
+<meta name="description" content="Bagaimana cara deploy Hugo dari Gitlab ke Github Pages?"/>
+
+
+<meta itemprop="name" content="Experimen Deploy Hugo dari Gitlab CI ke Github Pages">
+<meta itemprop="description" content="Karena di Travis CI lama menunggu Queue build-nya, saya jadi ingin mengganti ke Gitlab CI. 😄
+Ini adalah isi file .gitlab-ci.yml di repo blog saya:
+image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - git config user.email &quot;&lt;your git email&gt;&quot; - git config --global user.name &quot;&lt;your git name&gt;&quot; - git add -A - git commit -m &quot;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&quot; - git push artifacts: paths: - public only: - master  Saya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build.">
+
+
+<meta itemprop="datePublished" content="2018-01-01T09:39:08&#43;08:00" />
+<meta itemprop="dateModified" content="2018-01-01T09:39:08&#43;08:00" />
+<meta itemprop="wordCount" content="184">
+
+
+
+<meta itemprop="keywords" content="tag," />
+
+
+<meta property="og:title" content="Experimen Deploy Hugo dari Gitlab CI ke Github Pages" />
+<meta property="og:description" content="Karena di Travis CI lama menunggu Queue build-nya, saya jadi ingin mengganti ke Gitlab CI. 😄
+Ini adalah isi file .gitlab-ci.yml di repo blog saya:
+image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - git config user.email &quot;&lt;your git email&gt;&quot; - git config --global user.name &quot;&lt;your git name&gt;&quot; - git add -A - git commit -m &quot;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&quot; - git push artifacts: paths: - public only: - master  Saya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ardianta.github.io/blog/gitlab-github-pages/" />
+
+
+
+<meta property="article:published_time" content="2018-01-01T09:39:08&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-01-01T09:39:08&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta content='summary_large_image' name='twitter:card' />
+<meta content='@ardiantapargo' name='twitter:site' />
+<meta content='@ardiantapargo' name='twitter:creator' />
+<meta property="og:image" content="https://ardianta.github.io/img/gitlab-github/token-github.png" />
+
+
+<link rel="icon" href="/img/ardianta.jpg" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/prism.css" />
+<link rel="stylesheet" href="/css/style.css" />
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'> 
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-54154424-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</head>
+
+<body class="bg-light">
+
+    <header>
+    <div class="container">
+    <div class="row align-items-center justify-content-center">
+    <div class="col-lg-4 text-center mt-5">
+            <h1>
+                <a class="d-block" href="https://ardianta.github.io">
+                    <img class="mw-100" src="/img/ardianta-logo.svg" height="120" alt="ardianta logo" />
+                </a>
+                
+            </h1>
+            <div class="text-secondary">
+                <a class="mx-1" href="/about">About</a>
+                |
+                <a class="mx-1" href="/project">Project</a>
+                |
+                <a class="mx-1" href="https://twitter.com/ardiantapargo" target="blank">Twitter</a>
+                |
+                <a class="mx-1" href="https://github.com/ardianta" target="blank">Github</a>
+                |
+                <a class="mx-1" href="http://feeds.feedburner.com/ardianta">RSS</a>
+            </div>
+    </div>
+    </div>
+    </div>
+</header>
+
+    <div class="container mt-5 mb-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-8">
+                <div class="card rounded-0 post-outer">
+                    <div class="card-body  p-md-5">
+                        <div class="post-content">
+                            <div class="post-header mb-3">
+                                <h2 class="post-title">Experimen Deploy Hugo dari Gitlab CI ke Github Pages</h2>
+                                <hr>
+                                <time class="text-secondary small" title="2018-01-01 09:39:08 &#43;0800 &#43;0800">1 Jan 2018</time>
+                            </div>
+                            <div class="post-body">
+                                <p>Karena di <a href="/blog/hugo-travis-ci/">Travis CI</a> lama menunggu Queue build-nya, saya jadi ingin mengganti
+ke Gitlab CI. 😄</p>
+
+<p>Ini adalah isi file <code>.gitlab-ci.yml</code> di <a href="https://github.com/ardianta/blog">repo blog saya</a>:</p>
+
+<pre><code class="language-yaml">image: andthensome/alpine-hugo-git-bash:0.31.2
+
+before_script:
+  - hugo version
+
+github_pages:
+  script:
+  - rm -rf public
+  - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public
+  - hugo --config config.production.toml
+  - cd public
+  - git config user.email &quot;&lt;your git email&gt;&quot;
+  - git config --global user.name &quot;&lt;your git name&gt;&quot;
+  - git add -A
+  - git commit -m &quot;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&quot;
+  - git push
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+</code></pre>
+
+<p>Saya menggunakan image docker <code>andthensome/alpine-hugo-git-bash</code>,
+karena membutuhkan perintah <code>hugo</code> dan <code>git</code> saat melakukan build.
+Selain itu, image ini ukurannya relatif kecil yaitu 44MB.</p>
+
+<p>Perintah <code>hugo</code> untuk me-render dari source code, lalu <code>git</code> untuk melakukan clone
+dan push ke github pages.</p>
+
+<p>Variabel env untuk <code>$GITHUB_ACCESS_TOKEN</code> bisa kita isi di <strong>Settings-&gt;CI/DI-&gt;Secret Variables</strong>.</p>
+
+<p><img src="/img/gitlab-github/token-github.png" alt="Secret Variabel Github" /></p>
+
+<p>Nilai dari variabel tersebut adalah personal token dari Github, yang sudah dibuat di
+<a href="https://github.com/settings/tokens">Settings-&gt;Tokens</a>.</p>
+
+<p>Percobaan build&hellip;</p>
+
+<p><img src="/img/gitlab-github/build-ci-gitlab.png" alt="Build CI Gitlab" /></p>
+
+<p>Sukses 🌮</p>
+
+<p>Ini hasilnya di repo Github Pages:</p>
+
+<p><img src="/img/gitlab-github/github-pages.png" alt="Github Pages Blog Ardianta" /></p>
+
+<p>Berikutnya saya ingin agar repo di Github sinkron dengan Gitlab.
+Tapi saat masih belum tahu caranya.</p>
+
+<p>Ya sudah, biarkan saja begini 😄.</p>
+
+                            </div>
+                            <div class="post-footer mt-5 py-4">
+                                
+                                 <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'ardianta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+</script>
+<noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+    <span class="logo-disqus">Disqus</span>
+</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <footer class="mt-5 mb-5">
+    <div class="text-center text-secondary">
+
+       &copy; 2018 <a href="https://ardianta.github.io" class="text-secondary"> Ardianta</a>
+
+    </div>
+</footer>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/prism.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
