@@ -16,12 +16,12 @@
 <meta itemprop="name" content="Experimen Deploy Hugo dari Gitlab CI ke Github Pages">
 <meta itemprop="description" content="Karena di Travis CI lama menunggu Queue build-nya, saya jadi ingin mengganti ke Gitlab CI. 😄
 Ini adalah isi file .gitlab-ci.yml di repo blog saya:
-image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - git config user.email &quot;&lt;your git email&gt;&quot; - git config --global user.name &quot;&lt;your git name&gt;&quot; - git add -A - git commit -m &quot;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&quot; - git push artifacts: paths: - public only: - master  Saya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build.">
+image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - rm -rf ilmu-2017 - git config user.email &quot;&lt;your git email&gt;&quot; - git config --global user.name &quot;&lt;your git name&gt;&quot; - git add -A - git commit -m &quot;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&quot; - git push artifacts: paths: - public only: - master  Saya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build.">
 
 
 <meta itemprop="datePublished" content="2018-01-01T09:39:08&#43;08:00" />
 <meta itemprop="dateModified" content="2018-01-01T09:39:08&#43;08:00" />
-<meta itemprop="wordCount" content="184">
+<meta itemprop="wordCount" content="188">
 
 
 
@@ -31,7 +31,7 @@ image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version git
 <meta property="og:title" content="Experimen Deploy Hugo dari Gitlab CI ke Github Pages" />
 <meta property="og:description" content="Karena di Travis CI lama menunggu Queue build-nya, saya jadi ingin mengganti ke Gitlab CI. 😄
 Ini adalah isi file .gitlab-ci.yml di repo blog saya:
-image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - git config user.email &quot;&lt;your git email&gt;&quot; - git config --global user.name &quot;&lt;your git name&gt;&quot; - git add -A - git commit -m &quot;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&quot; - git push artifacts: paths: - public only: - master  Saya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build." />
+image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - rm -rf ilmu-2017 - git config user.email &quot;&lt;your git email&gt;&quot; - git config --global user.name &quot;&lt;your git name&gt;&quot; - git add -A - git commit -m &quot;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&quot; - git push artifacts: paths: - public only: - master  Saya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ardianta.github.io/blog/gitlab-github-pages/" />
 
@@ -136,6 +136,7 @@ github_pages:
   - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public
   - hugo --config config.production.toml
   - cd public
+  - rm -rf ilmu-2017
   - git config user.email &quot;&lt;your git email&gt;&quot;
   - git config --global user.name &quot;&lt;your git name&gt;&quot;
   - git add -A
