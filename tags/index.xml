@@ -31,7 +31,7 @@
     <item>
       <title>Ci</title>
       <link>https://ardianta.github.io/tags/ci/</link>
-      <pubDate>Sun, 24 Dec 2017 06:05:11 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 2018 09:39:08 +0800</pubDate>
       
       <guid>https://ardianta.github.io/tags/ci/</guid>
       <description></description>
@@ -83,9 +83,18 @@
     </item>
     
     <item>
+      <title>Github</title>
+      <link>https://ardianta.github.io/tags/github/</link>
+      <pubDate>Mon, 01 Jan 2018 09:39:08 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Gitlab</title>
       <link>https://ardianta.github.io/tags/gitlab/</link>
-      <pubDate>Sat, 23 Dec 2017 22:25:46 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 2018 09:39:08 +0800</pubDate>
       
       <guid>https://ardianta.github.io/tags/gitlab/</guid>
       <description></description>
@@ -103,7 +112,7 @@
     <item>
       <title>Hugo</title>
       <link>https://ardianta.github.io/tags/hugo/</link>
-      <pubDate>Sun, 24 Dec 2017 06:05:11 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 2018 09:39:08 +0800</pubDate>
       
       <guid>https://ardianta.github.io/tags/hugo/</guid>
       <description></description>
@@ -196,15 +205,6 @@
       <pubDate>Fri, 29 Dec 2017 04:24:49 +0800</pubDate>
       
       <guid>https://ardianta.github.io/tags/reactjs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag</title>
-      <link>https://ardianta.github.io/tags/tag/</link>
-      <pubDate>Mon, 01 Jan 2018 09:39:08 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/tags/tag/</guid>
       <description></description>
     </item>
     
