@@ -5,10 +5,25 @@
     <link>https://ardianta.github.io/post/</link>
     <description>Recent content in Posts on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Jan 2018 09:39:08 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jan 2018 18:39:53 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kegagalan yang Saya Lakukan di Tahun 2017</title>
+      <link>https://ardianta.github.io/blog/buku-2017/</link>
+      <pubDate>Tue, 02 Jan 2018 18:39:53 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/buku-2017/</guid>
+      <description>Kegagalan yang SUKSESS saya lakukan di tahun 2017 adalah tidak bisa menyelesaikan tantangan Goodreads 😄.
+Padahal hanya membaca 10 buku dalam setahun.
+Sebenarnya saya sudah menyelsaikan beberapa buku, cuma lupa diinputkan ke Goodreads. Akhirnya tidak berhasil menyelesaikan Goodreads Challenge.
+Tidak apa-apa&amp;hellip;
+Kita coba lagi tahun ini.
+Tahun ini saya ingin membaca 10 buku, bahkan lebih.
+Semoga berhasil!</description>
+    </item>
     
     <item>
       <title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title>
