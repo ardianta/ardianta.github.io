@@ -5,10 +5,23 @@
     <link>https://ardianta.github.io/tags/gitlab/</link>
     <description>Recent content in Gitlab on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Jan 2018 09:39:08 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jan 2018 17:59:45 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/tags/gitlab/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cara Deploy Hugo dari Gitlab ke Surge</title>
+      <link>https://ardianta.github.io/blog/hugo-gitlab-surge/</link>
+      <pubDate>Sat, 13 Jan 2018 17:59:45 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/hugo-gitlab-surge/</guid>
+      <description>Saya punya project pembuatan template untuk web company profile. Sewaktu ingin memperlihatkan demo, saya menggunakan layanan hosting Surge. Karen sangat mudah sekali.
+Cukup dengan mengetik perintah:
+surge ./public  Website suda di-deploy ke Surge.
+Namun, tiap kali deploy, kita akan upload semua file public ke surge. Ini saya rasa kurang bagus, karena koneksi internet saya sangat terbatas (lambat dan kuota tinggal sedikit hahaha 😄).
+Karena itu, saya memanfaatkan Gitlab CI:</description>
+    </item>
     
     <item>
       <title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title>

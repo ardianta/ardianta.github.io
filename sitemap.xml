@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/blog/hugo-gitlab-surge/</loc>
+    <lastmod>2018-01-13T17:59:45+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/buku-2017/</loc>
     <lastmod>2018-01-02T18:39:53+08:00</lastmod>
   </url>
@@ -125,13 +130,13 @@
   
   <url>
     <loc>https://ardianta.github.io/</loc>
-    <lastmod>2018-01-02T18:39:53+08:00</lastmod>
+    <lastmod>2018-01-13T17:59:45+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ardianta.github.io/tags/blog/</loc>
-    <lastmod>2017-12-24T06:05:11+08:00</lastmod>
+    <lastmod>2018-01-13T17:59:45+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -190,7 +195,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/gitlab/</loc>
-    <lastmod>2018-01-01T09:39:08+08:00</lastmod>
+    <lastmod>2018-01-13T17:59:45+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -202,7 +207,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/hugo/</loc>
-    <lastmod>2018-01-01T09:39:08+08:00</lastmod>
+    <lastmod>2018-01-13T17:59:45+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -262,13 +267,19 @@
   
   <url>
     <loc>https://ardianta.github.io/post/</loc>
-    <lastmod>2018-01-02T18:39:53+08:00</lastmod>
+    <lastmod>2018-01-13T17:59:45+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ardianta.github.io/tags/reactjs/</loc>
     <lastmod>2017-12-29T04:24:49+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ardianta.github.io/tags/surge/</loc>
+    <lastmod>2018-01-13T17:59:45+08:00</lastmod>
     <priority>0</priority>
   </url>
   
