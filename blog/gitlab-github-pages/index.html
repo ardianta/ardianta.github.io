@@ -9,14 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
-<meta name="keywords" content="Hugo, Gitlab, Github, Deploy"/>
-<meta name="description" content="Bagaimana cara deploy Hugo dari Gitlab ke Github Pages?"/>
-
 
 <meta itemprop="name" content="Experimen Deploy Hugo dari Gitlab CI ke Github Pages">
-<meta itemprop="description" content="Karena di Travis CI lama menunggu Queue build-nya, saya jadi ingin mengganti ke Gitlab CI. 😄
-Ini adalah isi file .gitlab-ci.yml di repo blog saya:
-image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - git config user.email &quot;&lt;your git email&gt;&quot; - git config --global user.name &quot;&lt;your git name&gt;&quot; - git add -A - git commit -m &quot;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&quot; - git push artifacts: paths: - public only: - master  Saya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build.">
+<meta itemprop="description" content="Bagaimana cara deploy Hugo dari Gitlab ke Github Pages?">
 
 
 <meta itemprop="datePublished" content="2018-01-01T09:39:08&#43;08:00" />
@@ -29,9 +24,7 @@ image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version git
 
 
 <meta property="og:title" content="Experimen Deploy Hugo dari Gitlab CI ke Github Pages" />
-<meta property="og:description" content="Karena di Travis CI lama menunggu Queue build-nya, saya jadi ingin mengganti ke Gitlab CI. 😄
-Ini adalah isi file .gitlab-ci.yml di repo blog saya:
-image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - git config user.email &quot;&lt;your git email&gt;&quot; - git config --global user.name &quot;&lt;your git name&gt;&quot; - git add -A - git commit -m &quot;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&quot; - git push artifacts: paths: - public only: - master  Saya menggunakan image docker andthensome/alpine-hugo-git-bash, karena membutuhkan perintah hugo dan git saat melakukan build." />
+<meta property="og:description" content="Bagaimana cara deploy Hugo dari Gitlab ke Github Pages?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ardianta.github.io/blog/gitlab-github-pages/" />
 
@@ -54,7 +47,20 @@ image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version git
 <meta content='summary_large_image' name='twitter:card' />
 <meta content='@ardiantapargo' name='twitter:site' />
 <meta content='@ardiantapargo' name='twitter:creator' />
-<meta property="og:image" content="https://ardianta.github.io/img/gitlab-github/token-github.png" />
+<meta property='og:image' content='https://ardianta.github.io/img/gitlab-github/token-github.png'
+/>
+<meta content='id_ID' property='og:locale' />
+<meta content='ms_MY' property='og:locale:alternate' />
+<meta content='en_US' property='og:locale:alternate' />
+
+
+
+
+<meta content='ardianta.pargo' property='fb:profile_id' />
+
+<meta property="article:author" content="https://web.facebook.com/ardianta.pargo" />
+
+
 
 
 <link rel="icon" href="/img/ardianta.jpg" />

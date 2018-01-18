@@ -9,19 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
-<meta name="keywords" content="Hugo, Firabase, Gitlab, CI"/>
-<meta name="description" content="Cara yang saya gunakan untuk deploy Hugo ke Firebase melalui Gitlab CI"/>
-
 
 <meta itemprop="name" content="Deploy Hugo ke Firebase dengan Gitlab CI">
-<meta itemprop="description" content="Biasanya saya melakukan deploy dengan perintah firebase deploy. Akan tetapi perintah ini sama persis seperti FTP.
-Semua file akan di-upload ke Firebase. Hal ini akan membuat kuota internet saya cepat habis 😄, resiko pakai paket data.
-Lalu sebaiknya bagaimana?
-Saya ingin mencoba workflow pak Ariya. Beliau deploy Hugo ke Firebase melalui Gitlab CI.
-Gambarannya seperti ini:
-Sumber: ariya.io
-Lalu, pada repo Gitlab, saya menggunakan konfigurasi CI seperti ini:
-image: nohitme/hugo-firebase:0.31.1 before_script: - hugo version - firebase --version hugo_firebase: stage: deploy only: - master except: - dev script: - rm -rf public - hugo --config config.">
+<meta itemprop="description" content="Cara yang saya gunakan untuk deploy Hugo ke Firebase melalui Gitlab CI">
 
 
 <meta itemprop="datePublished" content="2017-12-23T22:25:46&#43;08:00" />
@@ -34,14 +24,7 @@ image: nohitme/hugo-firebase:0.31.1 before_script: - hugo version - firebase --v
 
 
 <meta property="og:title" content="Deploy Hugo ke Firebase dengan Gitlab CI" />
-<meta property="og:description" content="Biasanya saya melakukan deploy dengan perintah firebase deploy. Akan tetapi perintah ini sama persis seperti FTP.
-Semua file akan di-upload ke Firebase. Hal ini akan membuat kuota internet saya cepat habis 😄, resiko pakai paket data.
-Lalu sebaiknya bagaimana?
-Saya ingin mencoba workflow pak Ariya. Beliau deploy Hugo ke Firebase melalui Gitlab CI.
-Gambarannya seperti ini:
-Sumber: ariya.io
-Lalu, pada repo Gitlab, saya menggunakan konfigurasi CI seperti ini:
-image: nohitme/hugo-firebase:0.31.1 before_script: - hugo version - firebase --version hugo_firebase: stage: deploy only: - master except: - dev script: - rm -rf public - hugo --config config." />
+<meta property="og:description" content="Cara yang saya gunakan untuk deploy Hugo ke Firebase melalui Gitlab CI" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ardianta.github.io/blog/hugo-gitlab-firebase/" />
 
@@ -64,7 +47,20 @@ image: nohitme/hugo-firebase:0.31.1 before_script: - hugo version - firebase --v
 <meta content='summary_large_image' name='twitter:card' />
 <meta content='@ardiantapargo' name='twitter:site' />
 <meta content='@ardiantapargo' name='twitter:creator' />
-<meta property="og:image" content="https://ardianta.github.io/img/hugo/ci-gitlab.png" />
+<meta property='og:image' content='https://ardianta.github.io/img/hugo/ci-gitlab.png'
+/>
+<meta content='id_ID' property='og:locale' />
+<meta content='ms_MY' property='og:locale:alternate' />
+<meta content='en_US' property='og:locale:alternate' />
+
+
+
+
+<meta content='ardianta.pargo' property='fb:profile_id' />
+
+<meta property="article:author" content="https://web.facebook.com/ardianta.pargo" />
+
+
 
 
 <link rel="icon" href="/img/ardianta.jpg" />

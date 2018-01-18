@@ -9,18 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
-<meta name="keywords" content="Hugo, Blog, Travis CI, CI, Github, Github Pages"/>
-<meta name="description" content="Workflow ngeblog saya berubah. Sekarang sudah dibantu Travis CI untuk build dan deploy"/>
-
 
 <meta itemprop="name" content="Sekarang Blog ini Menggunakan Travis CI">
-<meta itemprop="description" content="Blog ini di-hosting di Github pada repositori ini: https://github.com/ardianta/ardianta.github.io.
-Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
-Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
-Travis CI ini bertugas untuk melakuakn build dan deploy.
-Adapun skrip yang saya gunakan adalah sebagai berikut:
-File deploy-ci.sh
-#!/bin/bash set -e DEPLOY_REPO=&quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&quot; function main { clean get_current_site build_site deploy } function clean { echo &quot;cleaning public folder&quot; if [ -d &quot;public&quot; ]; then rm -rf public; fi } function get_current_site { echo &quot;getting latest site&quot; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &quot;building site.">
+<meta itemprop="description" content="Workflow ngeblog saya berubah. Sekarang sudah dibantu Travis CI untuk build dan deploy">
 
 
 <meta itemprop="datePublished" content="2017-12-24T06:05:11&#43;08:00" />
@@ -33,13 +24,7 @@ File deploy-ci.sh
 
 
 <meta property="og:title" content="Sekarang Blog ini Menggunakan Travis CI" />
-<meta property="og:description" content="Blog ini di-hosting di Github pada repositori ini: https://github.com/ardianta/ardianta.github.io.
-Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
-Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
-Travis CI ini bertugas untuk melakuakn build dan deploy.
-Adapun skrip yang saya gunakan adalah sebagai berikut:
-File deploy-ci.sh
-#!/bin/bash set -e DEPLOY_REPO=&quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&quot; function main { clean get_current_site build_site deploy } function clean { echo &quot;cleaning public folder&quot; if [ -d &quot;public&quot; ]; then rm -rf public; fi } function get_current_site { echo &quot;getting latest site&quot; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &quot;building site." />
+<meta property="og:description" content="Workflow ngeblog saya berubah. Sekarang sudah dibantu Travis CI untuk build dan deploy" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ardianta.github.io/blog/hugo-travis-ci/" />
 
@@ -62,7 +47,20 @@ File deploy-ci.sh
 <meta content='summary_large_image' name='twitter:card' />
 <meta content='@ardiantapargo' name='twitter:site' />
 <meta content='@ardiantapargo' name='twitter:creator' />
-<meta property="og:image" content="https://ardianta.github.io/img/travis/travis-ci.png" />
+<meta property='og:image' content='https://ardianta.github.io/img/travis/travis-ci.png'
+/>
+<meta content='id_ID' property='og:locale' />
+<meta content='ms_MY' property='og:locale:alternate' />
+<meta content='en_US' property='og:locale:alternate' />
+
+
+
+
+<meta content='ardianta.pargo' property='fb:profile_id' />
+
+<meta property="article:author" content="https://web.facebook.com/ardianta.pargo" />
+
+
 
 
 <link rel="icon" href="/img/ardianta.jpg" />
