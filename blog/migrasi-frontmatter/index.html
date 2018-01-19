@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Migrasi Front-matter Hugo dengan sed</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+<meta itemprop="name" content="Migrasi Front-matter Hugo dengan sed">
+<meta itemprop="description" content="Cara saya modifikasi semua front-matter di artikel hugo dengan sed">
+
+
+<meta itemprop="datePublished" content="2018-01-19T20:05:09&#43;08:00" />
+<meta itemprop="dateModified" content="2018-01-19T20:05:09&#43;08:00" />
+<meta itemprop="wordCount" content="250">
+
+
+
+<meta itemprop="keywords" content="hugo,blog," />
+
+
+<meta property="og:title" content="Migrasi Front-matter Hugo dengan sed" />
+<meta property="og:description" content="Cara saya modifikasi semua front-matter di artikel hugo dengan sed" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ardianta.github.io/blog/migrasi-frontmatter/" />
+
+
+
+<meta property="article:published_time" content="2018-01-19T20:05:09&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-01-19T20:05:09&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta content='summary_large_image' name='twitter:card' />
+<meta content='@ardiantapargo' name='twitter:site' />
+<meta content='@ardiantapargo' name='twitter:creator' />
+<meta property='og:image' content='https://ardianta.github.io/img/sed/git-log.png'
+/>
+<meta content='id_ID' property='og:locale' />
+<meta content='ms_MY' property='og:locale:alternate' />
+<meta content='en_US' property='og:locale:alternate' />
+
+
+
+
+<meta content='ardianta.pargo' property='fb:profile_id' />
+
+<meta property="article:author" content="https://web.facebook.com/ardianta.pargo" />
+
+
+
+
+<link rel="icon" href="/img/ardianta.jpg" />
+
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/prism.css" />
+<link rel="stylesheet" href="/css/style.css" />
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'> 
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-54154424-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</head>
+
+<body class="bg-light">
+
+    <header>
+    <div class="container">
+    <div class="row align-items-center justify-content-center">
+    <div class="col-lg-4 text-center mt-5">
+            <h1>
+                <a class="d-block" href="https://ardianta.github.io">
+                    <img class="mw-100" src="/img/ardianta-logo.svg" height="120" alt="ardianta logo" />
+                </a>
+                
+            </h1>
+            <div class="text-secondary">
+                <a class="mx-1" href="/about">About</a>
+                |
+                <a class="mx-1" href="/project">Project</a>
+                |
+                <a class="mx-1" href="https://twitter.com/ardiantapargo" target="blank">Twitter</a>
+                |
+                <a class="mx-1" href="https://github.com/ardianta" target="blank">Github</a>
+                |
+                <a class="mx-1" href="http://feeds.feedburner.com/ardianta">RSS</a>
+            </div>
+    </div>
+    </div>
+    </div>
+</header>
+
+    <div class="container mt-5 mb-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-8">
+                <div class="card rounded-0 post-outer">
+                    <div class="card-body p-md-5">
+                        <div class="post-content">
+                            <div class="post-header mb-3">
+                                <h2 class="post-title">Migrasi Front-matter Hugo dengan sed</h2>
+                                <hr>
+                                <time class="text-secondary small" title="2018-01-19 20:05:09 &#43;0800 &#43;0800">19 Jan 2018</time>
+                            </div>
+                            <div class="post-body">
+                                <p>Saya berencana memperbaiki template dan front-matter Petanikode.
+Ada 300 lebih artikelnya yang harus dimodifikasi.</p>
+
+<p>Saya rasa ini cukup merepotkan, mengedit satu-persatu front-matter
+setiap artikel. Apalagi jumlahnya cukup banyak.</p>
+
+<p>Akhirnyta saya menemukan <code>sed</code> (Stream Editor).</p>
+
+<p>Berawal dari coba-coba dari <a href="https://unix.stackexchange.com/questions/112023/how-can-i-replace-a-string-in-a-files">perintah ini</a>,
+Front-matternya menjadi rusak. Untungnya menggunakan git, jadi masih bisa dikembalikan lagi.</p>
+
+<p>Lalu biar mudah saya membuat <em>branch</em> baru bernama <code>theme-migration</code>.</p>
+
+<pre><code class="language-bash">git checkout -b theme-migration
+</code></pre>
+
+<p>Sekarang saya bebas memodifikasinya dengan <code>sed</code> tanpa harus takut rusak lagi.
+Karena kalau rusak, kita bisa bikin lagi <em>branch</em> baru dari <em>branch</em> <code>master</code>.</p>
+
+<p>Ini adalah log catatan di <em>branch</em> <code>theme-migration</code>:</p>
+
+<p><img src="/img/sed/git-log.png" alt="Git log" /></p>
+
+<p>Kebanyakan yang saya lakukan adalah menghapus dan mengubah agar
+menjadi lebih sederhana.</p>
+
+<p>Contoh:</p>
+
+<p>Mengubah <code>src:</code> menjadi <code>image:</code></p>
+
+<pre><code class="language-bash">sed -i -- 's/src:/image:/g' ./content/post/*
+</code></pre>
+
+<p>Tapi sebelum itu, saya coba-coba dulu melakukan print dengan perintah:</p>
+
+<pre><code class="language-bash">sed -n -- '/src:/p' ./content/post/*
+</code></pre>
+
+<p>Kalau sudah yakin bari menjalankan perintah yang atas.</p>
+
+<p>Saya belum begitu paham dengan <code>sed</code> terutama pada <em>regex</em>.
+Namun, bisa diperlajari pada <a href="https://www.tutorialspoint.com/sed/index.htm">tutorialspoint</a>.</p>
+
+<p>Kedepannya, saya akan menggunakan <em>archetype</em> ini untuk postingan terbaru
+di Petanikode:</p>
+
+<pre><code class="language-yaml">---
+draft: true
+date: {{ .Date }}
+updated: {{ .Date }}
+type: post
+
+title: &quot;{{ replace .TranslationBaseName &quot;-&quot; &quot; &quot; | title }}&quot;
+slug: {{ .BaseFileName }}
+
+topik:
+    - Python
+    - Java
+    - Javascript
+    - PHP
+    - HTML
+
+kategori:
+    - Pemrograman
+    - Web
+    - Desktop
+    - Mobile
+    - Jaringan
+    - Game
+
+image: &quot;/img/&quot;
+thumbnail: &quot;/img/&quot;
+description: &quot;{{ replace .TranslationBaseName &quot;-&quot; &quot; &quot; | title }}&quot;
+---
+</code></pre>
+
+<p>Setelah selesai mengedit front-matter dengan <code>sed</code>, berikutnya melakukan <em>testing</em>
+dan <em>merge</em> ke <em>branch</em> <code>master</code>. Terakhir melakuan <em>deploy</em> dan beres! 😄</p>
+
+                            </div>
+                            <div class="post-footer mt-5 py-4">
+                                
+                                 <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'ardianta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+</script>
+<noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+    <span class="logo-disqus">Disqus</span>
+</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <footer class="mt-5 mb-5">
+    <div class="text-center text-secondary">
+
+       &copy; 2018 <a href="https://ardianta.github.io" class="text-secondary"> Ardianta</a>
+
+    </div>
+</footer>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/prism.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

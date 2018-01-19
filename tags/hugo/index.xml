@@ -5,10 +5,24 @@
     <link>https://ardianta.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 13 Jan 2018 17:59:45 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jan 2018 20:05:09 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Migrasi Front-matter Hugo dengan sed</title>
+      <link>https://ardianta.github.io/blog/migrasi-frontmatter/</link>
+      <pubDate>Fri, 19 Jan 2018 20:05:09 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/migrasi-frontmatter/</guid>
+      <description>Saya berencana memperbaiki template dan front-matter Petanikode. Ada 300 lebih artikelnya yang harus dimodifikasi.
+Saya rasa ini cukup merepotkan, mengedit satu-persatu front-matter setiap artikel. Apalagi jumlahnya cukup banyak.
+Akhirnyta saya menemukan sed (Stream Editor).
+Berawal dari coba-coba dari perintah ini, Front-matternya menjadi rusak. Untungnya menggunakan git, jadi masih bisa dikembalikan lagi.
+Lalu biar mudah saya membuat branch baru bernama theme-migration.
+git checkout -b theme-migration  Sekarang saya bebas memodifikasinya dengan sed tanpa harus takut rusak lagi.</description>
+    </item>
     
     <item>
       <title>Cara Deploy Hugo dari Gitlab ke Surge</title>
