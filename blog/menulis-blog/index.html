@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title>
+    <title>Tahapan Menulis Artikel di Blog (Ternyata Selama ini saya salah dalam menulis)</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,29 +10,29 @@
 
 
 
-<meta itemprop="name" content="Experimen Deploy Hugo dari Gitlab CI ke Github Pages">
-<meta itemprop="description" content="Bagaimana cara deploy Hugo dari Gitlab ke Github Pages?">
+<meta itemprop="name" content="Tahapan Menulis Artikel di Blog (Ternyata Selama ini saya salah dalam menulis)">
+<meta itemprop="description" content="Saya baru menyadari, kalau selama ini cara saya menulis memang salah. Saya menulis draft, sekaligus mengedit, dan membuat gambar ilustrasinya.">
 
 
-<meta itemprop="datePublished" content="2018-01-01T09:39:08&#43;08:00" />
-<meta itemprop="dateModified" content="2018-01-01T09:39:08&#43;08:00" />
-<meta itemprop="wordCount" content="199">
+<meta itemprop="datePublished" content="2018-01-24T03:01:24&#43;08:00" />
+<meta itemprop="dateModified" content="2018-01-24T03:01:24&#43;08:00" />
+<meta itemprop="wordCount" content="276">
 
 
 
-<meta itemprop="keywords" content="Hugo,Github,Gitlab,CI," />
+<meta itemprop="keywords" content="Blog,Menulis," />
 
 
-<meta property="og:title" content="Experimen Deploy Hugo dari Gitlab CI ke Github Pages" />
-<meta property="og:description" content="Bagaimana cara deploy Hugo dari Gitlab ke Github Pages?" />
+<meta property="og:title" content="Tahapan Menulis Artikel di Blog (Ternyata Selama ini saya salah dalam menulis)" />
+<meta property="og:description" content="Saya baru menyadari, kalau selama ini cara saya menulis memang salah. Saya menulis draft, sekaligus mengedit, dan membuat gambar ilustrasinya." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ardianta.github.io/blog/gitlab-github-pages/" />
+<meta property="og:url" content="https://ardianta.github.io/blog/menulis-blog/" />
 
 
 
-<meta property="article:published_time" content="2018-01-01T09:39:08&#43;08:00"/>
+<meta property="article:published_time" content="2018-01-24T03:01:24&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-01-01T09:39:08&#43;08:00"/>
+<meta property="article:modified_time" content="2018-01-24T03:01:24&#43;08:00"/>
 
 
 
@@ -47,7 +47,7 @@
 <meta content='summary_large_image' name='twitter:card' />
 <meta content='@ardiantapargo' name='twitter:site' />
 <meta content='@ardiantapargo' name='twitter:creator' />
-<meta property='og:image' content='https://ardianta.github.io/img/gitlab-github/token-github.png'
+<meta property='og:image' content='https://ardianta.github.io/img/menulis/menulis.jpg'
 />
 <meta content='id_ID' property='og:locale' />
 <meta content='ms_MY' property='og:locale:alternate' />
@@ -127,70 +127,78 @@ ga('send', 'pageview');
                     <div class="card-body p-md-5">
                         <div class="post-content">
                             <div class="post-header mb-3">
-                                <h2 class="post-title">Experimen Deploy Hugo dari Gitlab CI ke Github Pages</h2>
+                                <h2 class="post-title">Tahapan Menulis Artikel di Blog (Ternyata Selama ini saya salah dalam menulis)</h2>
                                 <hr>
-                                <time class="text-secondary small" title="2018-01-01 09:39:08 &#43;0800 &#43;0800">1 Jan 2018</time>
+                                <time class="text-secondary small" title="2018-01-24 03:01:24 &#43;0800 &#43;0800">24 Jan 2018</time>
                             </div>
                             <div class="post-body">
-                                <p>Di awal tahun baru, sepertinya pegawai <a href="/blog/hugo-travis-ci/">Travis CI</a> sedang liburan.
-Hal ini munkin menyebabkan gangguan build di Travis CI.
-Akibanya lama menunggu Queue build-nya.</p>
+                                
 
-<p>Sebagai alternatif, saya menggunakan CI milik Gitlab.</p>
+<p>Saya baru menyadari, kalau selama ini cara saya menulis memang salah.
+Saya menulis draft, sekaligus mengedit, dan membuat gambar ilustrasinya.</p>
 
-<p>Ini adalah isi file <code>.gitlab-ci.yml</code> di <a href="https://github.com/ardianta/blog">repo blog saya</a>:</p>
+<p>Jadi kurang fokus pada menuangkan isi pikiran yang akan ditulis.
+Akibatnya pembutan artikel jadi lama dan berakhir menjadi draft.</p>
 
-<pre><code class="language-yaml">image: andthensome/alpine-hugo-git-bash:0.31.2
+<p>Setelah saya mencoba untuk fokus di satu saja, ternyata hasilnya
+lumayan berbeda.</p>
 
-before_script:
-  - hugo version
+<h2 id="pertama-menulis-draft">Pertama: Menulis Draft</h2>
 
-github_pages:
-  script:
-  - rm -rf public
-  - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public
-  - hugo --config config.production.toml
-  - cd public
-  - git config user.email &quot;&lt;your git email&gt;&quot;
-  - git config --global user.name &quot;&lt;your git name&gt;&quot;
-  - git add -A
-  - git commit -m &quot;Build from $CI_SERVER_NAME $CI_PIPELINE_ID&quot;
-  - git push
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
-</code></pre>
+<p>Saya menulis apa yang sedang terlintas dipikiran tanpa
+memperhatikan typo dan kalimat yang bagus. Tulis saja apa adanya.</p>
 
-<p>Saya menggunakan image docker <a href="https://hub.docker.com/r/andthensome/alpine-hugo-git-bash/tags/">andthensome/alpine-hugo-git-bash</a>,
-karena membutuhkan perintah <code>hugo</code> dan <code>git</code> saat melakukan build.
-Selain itu, image ini ukurannya relatif kecil yaitu 44MB.</p>
+<p>Hasilnya saya bisa menulis sekitar 200 baris teks draft dalam bebera menit.</p>
 
-<p>Perintah <code>hugo</code> untuk me-render dari source code, lalu <code>git</code> untuk melakukan clone
-dan push ke github pages.</p>
+<p><img src="/img/menulis/draf.png" alt="Gambar Draft" /></p>
 
-<p>Variabel env untuk <code>$GITHUB_ACCESS_TOKEN</code> bisa kita isi di <strong>Settings-&gt;CI/DI-&gt;Secret Variables</strong>.</p>
+<p>Jadi di tahapan ini fokusnya satu saja. Tuliskan apa yang terlintas
+di pikiran. Jangan pikirkan typo, screenshot, gambar, dll.</p>
 
-<p><img src="/img/gitlab-github/token-github.png" alt="Secret Variabel Github" /></p>
+<p>Fokus tulis yang ada dipikiran!</p>
 
-<p>Nilai dari variabel ini adalah personal token dari Github, yang sudah dibuat di
-<a href="https://github.com/settings/tokens">Settings-&gt;Tokens</a>.</p>
+<p>Titik. 😝</p>
 
-<p>Percobaan build&hellip;</p>
+<h2 id="kedua-proses-editing">Kedua: Proses editing</h2>
 
-<p><img src="/img/gitlab-github/build-ci-gitlab.png" alt="Build CI Gitlab" /></p>
+<p>Pada tahapan ini saya melakukan editing terhadap kalimat dan typo
+yang dilakuan. Jadi sekarang sudah fokusnya berbeda dengan tahap pertama.</p>
 
-<p>Sukses 🌮</p>
+<p><img src="/img/menulis/editing.png" alt="Editing Artikel" /></p>
 
-<p>Ini hasilnya di repo Github Pages:</p>
+<p>Bisa jadi pada tahapan ini akan muncul kalimat baru yang lebih
+bagus dari ide sebelumnya. Karena pada tahapan ini saya
+membaca ulang. Ada baiknya juga membaca dengan kacamata pembaca
+(maksudnya sudut pandang orang yang akan membaca artikelnya).</p>
 
-<p><img src="/img/gitlab-github/github-pages.png" alt="Github Pages Blog Ardianta" /></p>
+<p>Apakah kalimatnya akan dipahami atau tidak oleh pembaca?</p>
 
-<p>Berikutnya saya ingin agar repo di Github sinkron dengan Gitlab.
-Tapi saat masih belum tahu caranya.</p>
+<h2 id="ketiga-menambahkan-gambar">Ketiga: Menambahkan Gambar</h2>
 
-<p>Ya sudah, biarkan saja begini 😄.</p>
+<p>Gambar adalah hal yang sering saya tambahkan di tulisan,
+karena akan membuatnya terlihat menarik.</p>
+
+<p>Nah pada tahapan ini, biasanya saya melakukan editing
+dan desain gambar sambil mencari referensi
+gambar yang bagus di internet.</p>
+
+<p><img src="/img/menulis/editing-gambar.png" alt="Editing Gambar untuk Artikel" /></p>
+
+<h2 id="akhir-kata">Akhir Kata&hellip;</h2>
+
+<p>Ternyta selama ini saya sudah menulis dengan cara yang salah.
+Tiga tahapan dilakukan sekaligus yang membuat tulisan saya
+lama terbit.</p>
+
+<p>Setelah menggunakan tahapan di atas, saya merasa proses menulis
+menjadi lebih cepat. Mungkin akan lebih lama pada tahapan editing
+dan desain gambarnya.</p>
+
+<p>Oya, tulisan ini juga dibuat dengan tahapan di atas.</p>
+
+<p>Bagaimana caramu menulis?</p>
+
+<p>Barangkali ada yang mau kasih masukan.</p>
 
                             </div>
                             <div class="post-footer mt-5 py-4">

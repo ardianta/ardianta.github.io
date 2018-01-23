@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Menulis on Ardianta</title>
+    <link>https://ardianta.github.io/tags/menulis/</link>
+    <description>Recent content in Menulis on Ardianta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 24 Jan 2018 03:01:24 +0800</lastBuildDate>
+    
+	<atom:link href="https://ardianta.github.io/tags/menulis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tahapan Menulis Artikel di Blog (Ternyata Selama ini saya salah dalam menulis)</title>
+      <link>https://ardianta.github.io/blog/menulis-blog/</link>
+      <pubDate>Wed, 24 Jan 2018 03:01:24 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/menulis-blog/</guid>
+      <description>Saya baru menyadari, kalau selama ini cara saya menulis memang salah. Saya menulis draft, sekaligus mengedit, dan membuat gambar ilustrasinya.
+Jadi kurang fokus pada menuangkan isi pikiran yang akan ditulis. Akibatnya pembutan artikel jadi lama dan berakhir menjadi draft.
+Setelah saya mencoba untuk fokus di satu saja, ternyata hasilnya lumayan berbeda.
+Pertama: Menulis Draft Saya menulis apa yang sedang terlintas dipikiran tanpa memperhatikan typo dan kalimat yang bagus. Tulis saja apa adanya.</description>
+    </item>
+    
+  </channel>
+</rss>
