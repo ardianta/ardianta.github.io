@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/blog/template-blogger/</loc>
+    <lastmod>2018-01-25T20:30:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ardianta.github.io/</loc>
+    <lastmod>2018-01-25T20:12:09+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/menulis-blog/</loc>
     <lastmod>2018-01-24T03:01:24+08:00</lastmod>
   </url>
@@ -149,14 +159,14 @@
   </url>
   
   <url>
-    <loc>https://ardianta.github.io/</loc>
-    <lastmod>2018-01-24T03:01:24+08:00</lastmod>
+    <loc>https://ardianta.github.io/tags/blog/</loc>
+    <lastmod>2018-01-25T20:30:53+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ardianta.github.io/tags/blog/</loc>
-    <lastmod>2018-01-24T03:01:24+08:00</lastmod>
+    <loc>https://ardianta.github.io/tags/bootstrap/</loc>
+    <lastmod>2018-01-25T20:30:53+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -299,7 +309,7 @@
   
   <url>
     <loc>https://ardianta.github.io/post/</loc>
-    <lastmod>2018-01-24T03:01:24+08:00</lastmod>
+    <lastmod>2018-01-25T20:30:53+08:00</lastmod>
     <priority>0</priority>
   </url>
   

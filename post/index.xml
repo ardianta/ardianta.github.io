@@ -5,10 +5,22 @@
     <link>https://ardianta.github.io/post/</link>
     <description>Recent content in Posts on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 24 Jan 2018 03:01:24 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jan 2018 20:30:53 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eksperimen Membuat Template Blogger dengan Bootstrap 4</title>
+      <link>https://ardianta.github.io/blog/template-blogger/</link>
+      <pubDate>Thu, 25 Jan 2018 20:30:53 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/template-blogger/</guid>
+      <description>Tadi malam saya coba eksperimen membuat template blogger dengan Bootstrap 4. Saya membuat blog baru (https://bs4blogger.blogspot.com) untuk eksperimen ini.
+Membuat template blog sepertinya lebih sulit daripada membuat template Hugo. Karena dokumentasi template blogger sangat minim.
+Berikut ini link dokumentasi yang bisa digunakan:
+ Pengenalan konsep dasar template blogger Penjelasan tentang CSS di Template Penjelasan tentang kode widget Variabel data di template  Saya juga menggunakan semacam cheatsheet untuk mempermudah dalam mengetahui isi dari variabel data.</description>
+    </item>
     
     <item>
       <title>Tahapan Menulis Artikel di Blog (Ternyata Selama ini saya salah dalam menulis)</title>
