@@ -17,7 +17,7 @@
       
       <guid>https://ardianta.github.io/tools/</guid>
       <description> Halaman ini berisi daftar peralatan dan teknologi yang bisa saya gunakan untuk bekerja:
-Sistem Operasi  Linux (Ubuntu, Linux Mint) Windows Android  Bahasa Pemrograman  PHP Javascript Java Python  Bahasa yang lainnya  SQL (MySQL, SQLite, PostgreSQL) HTML XML JSON YAML TOML Markdown  Framework  CodeIgniter Slim Framework Hugo Laravel  IDE dan Teks Editor  Visual Studio Code Android Studio Netbeans  Development Tool  Git CI/DI (Gilab CI, Travis CI) Composer NPM Yarn Apache Maven Gradle  Peralatan Desain  Inkscape GIMP StarUML  </description>
+Sistem Operasi  Linux (Ubuntu, Linux Mint) Windows Android  Bahasa Pemrograman  PHP Javascript Java Python  Bahasa yang lainnya  SQL (MySQL, SQLite, PostgreSQL) HTML XML JSON YAML TOML Markdown  Framework  CodeIgniter Slim Framework Hugo Laravel Bootstrap  IDE dan Teks Editor  Visual Studio Code Android Studio Netbeans  Development Tool  Git CI/DI (Gilab CI, Travis CI) Composer NPM Yarn Apache Maven Gradle  Server  Heroku Firebase Netlify  Peralatan Desain  Inkscape GIMP StarUML  </description>
     </item>
     
     <item>
