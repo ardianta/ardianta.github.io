@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/tools/</loc>
+    <lastmod>2018-01-28T23:01:25+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/template-blogger/</loc>
     <lastmod>2018-01-25T20:30:53+08:00</lastmod>
   </url>
@@ -123,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://ardianta.github.io/project/</loc>
+    <loc>https://ardianta.github.io/works/</loc>
     <lastmod>2017-12-17T19:51:02+08:00</lastmod>
   </url>
   

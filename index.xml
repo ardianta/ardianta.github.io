@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Tools</title>
+      <link>https://ardianta.github.io/tools/</link>
+      <pubDate>Sun, 28 Jan 2018 23:01:25 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/tools/</guid>
+      <description> Halaman ini berisi daftar peralatan dan teknologi yang bisa saya gunakan untuk bekerja:
+Sistem Operasi  Linux (Ubuntu, Linux Mint) Windows Android  Bahasa Pemrograman  PHP Javascript Java Python  Bahasa yang lainnya  SQL (MySQL, SQLite, PostgreSQL) HTML XML JSON YAML TOML Markdown  Framework  CodeIgniter Slim Framework Hugo Laravel  IDE dan Teks Editor  Visual Studio Code Android Studio Netbeans  Development Tool  Git CI/DI (Gilab CI, Travis CI) Composer NPM Yarn Apache Maven Gradle  Peralatan Desain  Inkscape GIMP StarUML  </description>
+    </item>
+    
+    <item>
       <title>Eksperimen Membuat Template Blogger dengan Bootstrap 4</title>
       <link>https://ardianta.github.io/blog/template-blogger/</link>
       <pubDate>Thu, 25 Jan 2018 20:30:53 +0800</pubDate>
@@ -335,15 +345,14 @@ baseurl = &amp;quot;https://ardianta.github.io/&amp;quot; title = &amp;quot;Ardi
     </item>
     
     <item>
-      <title>Project</title>
-      <link>https://ardianta.github.io/project/</link>
+      <title>Works</title>
+      <link>https://ardianta.github.io/works/</link>
       <pubDate>Sun, 17 Dec 2017 19:51:02 +0800</pubDate>
       
-      <guid>https://ardianta.github.io/project/</guid>
-      <description>Halaman ini berisi project yang pernah saya kerjakan dan yang sedang dikerjakan. Ada yang bersifat side project dan ada juga yang serius. Untuk project yang lainnya bisa ditemukan di Github.
+      <guid>https://ardianta.github.io/works/</guid>
+      <description>Halaman ini berisi project yang pernah saya kerjakan dan yang sedang dikerjakan. Ada yang bersifat side project dan ada juga yang serius. Untuk project private, saya tidak cantumkan di sini. Untuk project yang lainnya bisa ditemukan di Github.
 Petanikode  URL: petanikode.com Status: production  Petanikode adalah sebuah blog dengan niche pemrograman untuk membantu siapa saja yang ingin belajar pemrograman menggunakan Linux.
-Kebanyakan kontennya menggunakan Linux. Namun, tidak menutup kemungkinan ada beberapa yang menggunakan Windows.
-Petanikode awalnya dibuat menggunakan Blogger.</description>
+Kebanyakan kontennya menggunakan Linux. Namun, tidak menutup kemungkinan ada beberapa yang menggunakan Windows.</description>
     </item>
     
     <item>
