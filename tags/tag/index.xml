@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag on Ardianta</title>
+    <link>https://ardianta.github.io/tags/tag/</link>
+    <description>Recent content in Tag on Ardianta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 31 Jan 2018 10:52:18 +0800</lastBuildDate>
+    
+	<atom:link href="https://ardianta.github.io/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Verifikasi Profil Upwork via Video Chat</title>
+      <link>https://ardianta.github.io/blog/verifikasi-upwork/</link>
+      <pubDate>Wed, 31 Jan 2018 10:52:18 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/verifikasi-upwork/</guid>
+      <description>Hari ini saya melakukan verifikasi profil upwork 😄&amp;hellip;
+Sebenarnya saya sudah daftar upwork sejak era Odesk dan Elance masih berjaya, namun belum pernah melakukan apa-apa.
+Nah kemarin dapat kebetulan job pertama bikin pop-up dengan vex untuk Hugo.
+&amp;hellip;dan beberapa hari berikutnya dapat email dari Upwork yang mengatakan: akun saya sementara ditahan dan harus melalkukan verifikasi melalui video chat.
+Video chat!!
+Ini terdengar sulit bagi saya. Karena beberapa waktu yang lalu pernah video chat via skype dengan orang inggris.</description>
+    </item>
+    
+  </channel>
+</rss>
