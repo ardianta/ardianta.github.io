@@ -5,10 +5,24 @@
     <link>https://ardianta.github.io/tags/linux/</link>
     <description>Recent content in Linux on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 31 Jan 2018 04:18:56 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 06 Feb 2018 16:29:16 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Install Inkscape Terbaru dari PPA Resmi</title>
+      <link>https://ardianta.github.io/blog/ppa-inkscape/</link>
+      <pubDate>Tue, 06 Feb 2018 16:29:16 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/ppa-inkscape/</guid>
+      <description>Saya menggunakan Inkscape 0.91, kadang sering stuck saat melakukan dragging dengan tombol spasi dan mouse.
+Mungkin saja di versi 0.92 sudah diperbaiki. Oya, versi 0.91 ini dirilis pada tahun 2015, sedangkan 0.92 pada tahun 2017.
+Saya ingin upgrade ke 0.92, namun belum tersedia di repositori resmi.
+Akhirnya menemukan PPA ini:
+sudo add-apt-repository ppa:inkscape.dev/stable sudo apt-get update  Dan sekarang saya sudah bisa install Inkscape 0.92, yay!
+Sumber: https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable</description>
+    </item>
     
     <item>
       <title>Masalah Saat Upgrade Linux Mint 18</title>
