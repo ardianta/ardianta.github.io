@@ -11,6 +11,22 @@
     
     
     <item>
+      <title>Isengin Web Python dan dapat akses Shell Linux Gratis!</title>
+      <link>https://ardianta.github.io/blog/shell-web-python/</link>
+      <pubDate>Fri, 16 Feb 2018 07:15:15 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/shell-web-python/</guid>
+      <description>Karena habis gentayangan di beberapa cloud workspace seperti c9.io, codenvy, dan glitch saya tiba-tiba kepikiran untuk mengakses shell dari web Python.
+Di website Python, terdapat shell python yang bisa kita gunakan untuk ujicaoba kode python.
+Lalu, bagaimana kalau&amp;hellip;
+Kita akses shell seperti bash atau zsh di sana?
+Ya, itu bisa.
+Caranya:
+Pertama saya coba-coba dulu menjalankan perintah Linux dengan mengimpor modul os.
+Di dalam modul os, terdapat fungsi untuk menjalankan perintah Linux, yaitu: system().</description>
+    </item>
+    
+    <item>
       <title>Rasio Pentalan Terjun Bebas! dan Saya tidak tahu mengapa?</title>
       <link>https://ardianta.github.io/blog/rasio-pentalan/</link>
       <pubDate>Tue, 13 Feb 2018 23:11:24 +0800</pubDate>
@@ -27,8 +43,8 @@ Saat itu, rasio pentalan (bounce rate) blog saya sekitar 50%&amp;ndash;70%. Menu
       <pubDate>Mon, 12 Feb 2018 23:20:53 +0800</pubDate>
       
       <guid>https://ardianta.github.io/blog/keyboard-vim/</guid>
-      <description>Kira-kira sudah hampir satu minggu saya membeisakan diri menggunakan keymap VIM dengan menginstall exension VIM di Google Chrome dan VS Code.
-Di Google Chome saya install Vimum. Sedangkan di VS Code saya install vim.
+      <description>Kira-kira sudah hampir satu minggu saya membiasakan diri menggunakan keymap VIM dengan menginstall exension VIM di Google Chrome dan VS Code.
+Di Google Chome saya install Vimum. Sedangkan di VS Code saya install vim (emulator).
 Saya mulai terbiasa menggunakan tombol navigasi h,j,k, dan l dan merasakan lebih mudah daripada menekan tombol navigasi panah.
 Biasanya saya menugaskan jari kelingking untuk menekan tomol panah. Namun setelah menggunakan tombol navigasi VIM, saya malah jarang menekan tombol itu.</description>
     </item>
@@ -199,7 +215,7 @@ image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version git
       <description>Waktu sangat cepat berlalu ya&amp;hellip;
 Sekarang kita sudah sampai di tahun 2018. Artinya bumi sudah melakukan revolusi (mengelilingi matahari) sebanyak 2018x sejak tahun masehi dimulai.
 Ada beberapa goal yang ingin saya capai di tahun 2018:
-Terbiasa menggunakan Vim Bisa membuat Game dengan Unity atau Godot Membaca 10+ buku (Goodreads Chellange) Menerbitkan Buku atau Ebook Membuat Aplikasi/Game Android dan Akun Playstore Melengkapi Tutorial di Petanikode Perbanyak latihan komunikasi dan public speaking (sampai jadi PD) Ngumpulin uang buat beli Wacom agar bisa menyalurkan bakat Fasih berbahasa inggris Morning rituals: Olahraga tiap pagi (minimal push-up 10x) Morning rituals: Rapikan kamar, Nyapu halaman tiap pagi Tidur tepat Waktu sesuai jam alam  Beberapa goal mungkin tidak akan bisa dicapai.</description>
+Terbiasa menggunakan Vim (4%) Bisa membuat Game dengan Unity atau Godot Membaca 10+ buku (Goodreads Chellange) (1%) Menerbitkan Buku atau Ebook Membuat Aplikasi/Game Android dan Akun Playstore Melengkapi Tutorial di Petanikode Perbanyak latihan komunikasi dan public speaking (sampai jadi PD) Ngumpulin uang buat beli Wacom agar bisa menyalurkan bakat Fasih berbahasa inggris Belajar Teknologi Bitcoin Morning rituals: Olahraga tiap pagi (minimal push-up 10x) Morning rituals: Rapikan kamar, Nyapu halaman tiap pagi Tidur tepat Waktu sesuai jam alam  Beberapa goal mungkin tidak akan bisa dicapai.</description>
     </item>
     
     <item>
