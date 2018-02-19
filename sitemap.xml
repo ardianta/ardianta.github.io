@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/blog/buku-creative-writing/</loc>
+    <lastmod>2018-02-19T20:15:20+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/shell-web-python/</loc>
     <lastmod>2018-02-16T07:15:15+08:00</lastmod>
   </url>
@@ -207,7 +212,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/buku/</loc>
-    <lastmod>2018-01-23T20:01:12+08:00</lastmod>
+    <lastmod>2018-02-19T20:15:20+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -356,7 +361,7 @@
   
   <url>
     <loc>https://ardianta.github.io/post/</loc>
-    <lastmod>2018-02-16T07:15:15+08:00</lastmod>
+    <lastmod>2018-02-19T20:15:20+08:00</lastmod>
     <priority>0</priority>
   </url>
   

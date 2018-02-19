@@ -5,10 +5,23 @@
     <link>https://ardianta.github.io/tags/buku/</link>
     <description>Recent content in Buku on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Jan 2018 20:01:12 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 19 Feb 2018 20:15:20 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/tags/buku/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Challenge 2018] Buku #1: Craetive Writing</title>
+      <link>https://ardianta.github.io/blog/buku-creative-writing/</link>
+      <pubDate>Mon, 19 Feb 2018 20:15:20 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/buku-creative-writing/</guid>
+      <description>Buku ini adalah buku pertama yang saya selesaikan tahun ini. Sebenarnya mulai dibaca sejak tahun lalu, namun karena tidak pernah dibuka lagi, jadi terbengkalai 😄.
+Buku ini saya beli di Playstore dengan harga yang sangat murah. Karena saat itu sedang ada diskon besar-besaran.
+Bayarnya via pulsa. Asik kan.
+Sebenarnya pingin juga punya versi cetaknya, buat dijadikan koleksi.
+Buku ini biasanya saya baca saat mau tidur untuk memancing rasa ngantuk.</description>
+    </item>
     
     <item>
       <title>Belajar Menulis Buku dengan Pandoc</title>
