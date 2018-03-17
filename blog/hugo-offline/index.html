@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Install Inkscape Terbaru dari PPA Resmi</title>
+    <title>Agar Hugo tidak melakukan HTTP Request saat Offline</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,29 +10,39 @@
 
 
 
-<meta itemprop="name" content="Install Inkscape Terbaru dari PPA Resmi">
-<meta itemprop="description" content="Saya menggunakan Inkscape 0.91, kadang sering stuck saat melakukan dragging dengan tombol spasi dan mouse.">
+<meta itemprop="name" content="Agar Hugo tidak melakukan HTTP Request saat Offline">
+<meta itemprop="description" content="Saya menggunakan shortcode twitter dan instagram di dalam postingan. Setiap kali mau render, pasti akan melakukan HTTP Request ke API twitter dan instagram.
+Sehingga, apabila kita render saat dalam keadaan offline, maka akan menghasilkan error seperti ini:
+Cara mencegahnya:
+Kita cukup mengisi alamat baseurl dengan localhost:
+baseurl = &quot;http://localhost&quot;  Atau bisa juga diberikan saat me-render atau menjalankan server Hugo dengan flag -b atau --baseURL.
+hugo server -b http://localhost  Maka Hugo tidak akan melakukan HTTP Request lagi.">
 
 
-<meta itemprop="datePublished" content="2018-02-06T16:29:16&#43;08:00" />
-<meta itemprop="dateModified" content="2018-02-06T16:29:16&#43;08:00" />
-<meta itemprop="wordCount" content="67">
+<meta itemprop="datePublished" content="2018-03-18T00:37:25&#43;08:00" />
+<meta itemprop="dateModified" content="2018-03-18T00:37:25&#43;08:00" />
+<meta itemprop="wordCount" content="77">
 
 
 
-<meta itemprop="keywords" content="Inkscape,Linux," />
+<meta itemprop="keywords" content="blog,hugo," />
 
 
-<meta property="og:title" content="Install Inkscape Terbaru dari PPA Resmi" />
-<meta property="og:description" content="Saya menggunakan Inkscape 0.91, kadang sering stuck saat melakukan dragging dengan tombol spasi dan mouse." />
+<meta property="og:title" content="Agar Hugo tidak melakukan HTTP Request saat Offline" />
+<meta property="og:description" content="Saya menggunakan shortcode twitter dan instagram di dalam postingan. Setiap kali mau render, pasti akan melakukan HTTP Request ke API twitter dan instagram.
+Sehingga, apabila kita render saat dalam keadaan offline, maka akan menghasilkan error seperti ini:
+Cara mencegahnya:
+Kita cukup mengisi alamat baseurl dengan localhost:
+baseurl = &quot;http://localhost&quot;  Atau bisa juga diberikan saat me-render atau menjalankan server Hugo dengan flag -b atau --baseURL.
+hugo server -b http://localhost  Maka Hugo tidak akan melakukan HTTP Request lagi." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ardianta.github.io/blog/ppa-inkscape/" />
+<meta property="og:url" content="https://ardianta.github.io/blog/hugo-offline/" />
 
 
 
-<meta property="article:published_time" content="2018-02-06T16:29:16&#43;08:00"/>
+<meta property="article:published_time" content="2018-03-18T00:37:25&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-02-06T16:29:16&#43;08:00"/>
+<meta property="article:modified_time" content="2018-03-18T00:37:25&#43;08:00"/>
 
 
 
@@ -47,7 +57,7 @@
 <meta content='summary_large_image' name='twitter:card' />
 <meta content='@ardiantapargo' name='twitter:site' />
 <meta content='@ardiantapargo' name='twitter:creator' />
-<meta property='og:image' content='https://ardianta.github.io/img/inkscape/ppa-inkscape.png'
+<meta property='og:image' content='https://ardianta.github.io'
 />
 <meta content='id_ID' property='og:locale' />
 <meta content='ms_MY' property='og:locale:alternate' />
@@ -125,32 +135,33 @@ ga('send', 'pageview');
                     <div class="card-body p-md-5">
                         <div class="post-content">
                             <div class="post-header mb-3">
-                                <h2 class="post-title">Install Inkscape Terbaru dari PPA Resmi</h2>
+                                <h2 class="post-title">Agar Hugo tidak melakukan HTTP Request saat Offline</h2>
                                 <hr>
-                                <time class="text-secondary small" title="2018-02-06 16:29:16 &#43;0800 &#43;0800">6 Feb 2018</time>
+                                <time class="text-secondary small" title="2018-03-18 00:37:25 &#43;0800 &#43;0800">18 Mar 2018</time>
                             </div>
                             <div class="post-body">
-                                <p>Saya menggunakan Inkscape 0.91, kadang sering <em>stuck</em>
-saat melakukan <em>dragging</em> dengan tombol spasi dan mouse.</p>
+                                <p>Saya menggunakan shortcode <em>twitter</em> dan <em>instagram</em> di dalam postingan.
+Setiap kali mau render, pasti akan melakukan HTTP Request ke API twitter dan instagram.</p>
 
-<p>Mungkin saja di versi 0.92 sudah diperbaiki. Oya, versi
-0.91 ini dirilis pada tahun 2015, sedangkan 0.92 pada
-tahun 2017.</p>
+<p>Sehingga, apabila kita render saat dalam keadaan offline, maka akan menghasilkan
+error seperti ini:</p>
 
-<p>Saya ingin upgrade ke 0.92, namun belum tersedia
-di repositori resmi.</p>
+<p><img src="/img/hugo/error-getjson.png" alt="Error Call GetJSON" /></p>
 
-<p>Akhirnya menemukan PPA ini:</p>
+<p>Cara mencegahnya:</p>
 
-<pre><code class="language-bash">sudo add-apt-repository ppa:inkscape.dev/stable
-sudo apt-get update
+<p>Kita cukup mengisi alamat <code>baseurl</code> dengan <code>localhost</code>:</p>
+
+<pre><code class="language-toml">baseurl = &quot;http://localhost&quot;
 </code></pre>
 
-<p>Dan sekarang saya sudah bisa install Inkscape 0.92, yay!</p>
+<p>Atau bisa juga diberikan saat me-render atau menjalankan server Hugo
+dengan flag <code>-b</code> atau <code>--baseURL</code>.</p>
 
-<p><img src="/img/inkscape/ppa-inkscape.png" alt="PPA Inkscape" /></p>
+<pre><code class="language-bash">hugo server -b http://localhost
+</code></pre>
 
-<p>Sumber: <a href="https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable">https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable</a></p>
+<p>Maka Hugo tidak akan melakukan HTTP Request lagi. 😜</p>
 
                             </div>
                             <div class="post-footer mt-5 py-4">

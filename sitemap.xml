@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/blog/hugo-offline/</loc>
+    <lastmod>2018-03-18T00:37:25+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/buku-creative-writing/</loc>
     <lastmod>2018-02-19T20:15:20+08:00</lastmod>
   </url>
@@ -200,7 +205,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/blog/</loc>
-    <lastmod>2018-02-13T23:11:24+08:00</lastmod>
+    <lastmod>2018-03-18T00:37:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -283,7 +288,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/hugo/</loc>
-    <lastmod>2018-02-13T23:11:24+08:00</lastmod>
+    <lastmod>2018-03-18T00:37:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -361,7 +366,7 @@
   
   <url>
     <loc>https://ardianta.github.io/post/</loc>
-    <lastmod>2018-02-19T20:15:20+08:00</lastmod>
+    <lastmod>2018-03-18T00:37:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -5,10 +5,24 @@
     <link>https://ardianta.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 13 Feb 2018 23:11:24 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 18 Mar 2018 00:37:25 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Agar Hugo tidak melakukan HTTP Request saat Offline</title>
+      <link>https://ardianta.github.io/blog/hugo-offline/</link>
+      <pubDate>Sun, 18 Mar 2018 00:37:25 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/hugo-offline/</guid>
+      <description>Saya menggunakan shortcode twitter dan instagram di dalam postingan. Setiap kali mau render, pasti akan melakukan HTTP Request ke API twitter dan instagram.
+Sehingga, apabila kita render saat dalam keadaan offline, maka akan menghasilkan error seperti ini:
+Cara mencegahnya:
+Kita cukup mengisi alamat baseurl dengan localhost:
+baseurl = &amp;quot;http://localhost&amp;quot;  Atau bisa juga diberikan saat me-render atau menjalankan server Hugo dengan flag -b atau --baseURL.
+hugo server -b http://localhost  Maka Hugo tidak akan melakukan HTTP Request lagi.</description>
+    </item>
     
     <item>
       <title>Rasio Pentalan Terjun Bebas! dan Saya tidak tahu mengapa?</title>
