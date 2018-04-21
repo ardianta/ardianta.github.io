@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/blog/satu-bulan-menggambar/</loc>
+    <lastmod>2018-04-21T15:27:53+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/isra-mikraj-2018/</loc>
     <lastmod>2018-04-06T22:47:33+08:00</lastmod>
   </url>
@@ -209,6 +214,12 @@
   </url>
   
   <url>
+    <loc>https://ardianta.github.io/tags/art/</loc>
+    <lastmod>2018-04-21T15:27:53+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/tags/blog/</loc>
     <lastmod>2018-03-18T00:37:25+08:00</lastmod>
     <priority>0</priority>
@@ -292,6 +303,12 @@
   </url>
   
   <url>
+    <loc>https://ardianta.github.io/tags/hobi/</loc>
+    <lastmod>2018-04-21T15:27:53+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/tags/hugo/</loc>
     <lastmod>2018-03-18T00:37:25+08:00</lastmod>
     <priority>0</priority>
@@ -371,7 +388,7 @@
   
   <url>
     <loc>https://ardianta.github.io/post/</loc>
-    <lastmod>2018-04-06T22:47:33+08:00</lastmod>
+    <lastmod>2018-04-21T15:27:53+08:00</lastmod>
     <priority>0</priority>
   </url>
   
