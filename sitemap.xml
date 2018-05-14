@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/blog/wacom/</loc>
+    <lastmod>2018-05-14T10:38:39+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/lomba-gambar-kecamatan/</loc>
     <lastmod>2018-05-12T22:55:39+08:00</lastmod>
   </url>
@@ -225,7 +230,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/art/</loc>
-    <lastmod>2018-04-21T15:27:53+08:00</lastmod>
+    <lastmod>2018-05-14T10:38:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -273,6 +278,12 @@
   <url>
     <loc>https://ardianta.github.io/tags/docker/</loc>
     <lastmod>2017-12-31T04:29:54+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ardianta.github.io/tags/drawing/</loc>
+    <lastmod>2018-05-14T10:38:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -410,7 +421,7 @@
   
   <url>
     <loc>https://ardianta.github.io/post/</loc>
-    <lastmod>2018-05-12T22:55:39+08:00</lastmod>
+    <lastmod>2018-05-14T10:38:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
