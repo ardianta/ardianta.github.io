@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/blog/install-laravel/</loc>
+    <lastmod>2018-05-30T04:42:41+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/wacom/</loc>
     <lastmod>2018-05-14T10:38:39+08:00</lastmod>
   </url>
@@ -270,6 +275,12 @@
   </url>
   
   <url>
+    <loc>https://ardianta.github.io/tags/coding/</loc>
+    <lastmod>2018-05-30T04:42:41+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/tags/dns/</loc>
     <lastmod>2017-12-24T18:31:41+08:00</lastmod>
     <priority>0</priority>
@@ -354,6 +365,12 @@
   </url>
   
   <url>
+    <loc>https://ardianta.github.io/tags/laravel/</loc>
+    <lastmod>2018-05-30T04:42:41+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/tags/linux/</loc>
     <lastmod>2018-02-16T07:15:15+08:00</lastmod>
     <priority>0</priority>
@@ -420,8 +437,14 @@
   </url>
   
   <url>
+    <loc>https://ardianta.github.io/tags/php/</loc>
+    <lastmod>2018-05-30T04:42:41+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/post/</loc>
-    <lastmod>2018-05-14T10:38:39+08:00</lastmod>
+    <lastmod>2018-05-30T04:42:41+08:00</lastmod>
     <priority>0</priority>
   </url>
   
