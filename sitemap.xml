@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/blog/ganti-distro/</loc>
+    <lastmod>2018-06-07T06:20:39+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/install-laravel/</loc>
     <lastmod>2018-05-30T04:42:41+08:00</lastmod>
   </url>
@@ -359,6 +364,12 @@
   </url>
   
   <url>
+    <loc>https://ardianta.github.io/tags/kubuntu/</loc>
+    <lastmod>2018-06-07T06:20:39+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/tags/laptop/</loc>
     <lastmod>2015-06-06T23:44:45+08:00</lastmod>
     <priority>0</priority>
@@ -372,7 +383,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/linux/</loc>
-    <lastmod>2018-02-16T07:15:15+08:00</lastmod>
+    <lastmod>2018-06-07T06:20:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -444,7 +455,7 @@
   
   <url>
     <loc>https://ardianta.github.io/post/</loc>
-    <lastmod>2018-05-30T04:42:41+08:00</lastmod>
+    <lastmod>2018-06-07T06:20:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -481,6 +492,12 @@
   <url>
     <loc>https://ardianta.github.io/tags/travis/</loc>
     <lastmod>2017-12-24T06:05:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ardianta.github.io/tags/ubuntu/</loc>
+    <lastmod>2018-06-07T06:20:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Ardianta</title>
+    <link>https://ardianta.github.io/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Ardianta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 07 Jun 2018 06:20:39 +0800</lastBuildDate>
+    
+	<atom:link href="https://ardianta.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Saya Ganti Distro, dari Linux Mint ke Kubuntu</title>
+      <link>https://ardianta.github.io/blog/ganti-distro/</link>
+      <pubDate>Thu, 07 Jun 2018 06:20:39 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/ganti-distro/</guid>
+      <description>Hari ini saya selesai menginstal distro Kubuntu 18.04 yang instalasinya dimulai dari kemarin tanggal 06/06/2018.
+Momentum banget ini, saat ulang tahun&amp;hellip; saya ganti distro. Hehe, mungkin nanti biar ingat, kapan saat saya ganti distro.
+Sejak hari kemarin, saya melakukan backup semua data ke laptop bapak, karena nanti hardisk laptop saya akan dipartisi ulang.
+Partisi root yang sebelumnya saya gunakan 30GB, sekarang saya pakai sekitar 60GB. Dua kali lipat dari yang sebelumnya.</description>
+    </item>
+    
+  </channel>
+</rss>
