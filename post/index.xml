@@ -5,10 +5,26 @@
     <link>https://ardianta.github.io/post/</link>
     <description>Recent content in Posts on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 07 Jun 2018 06:20:39 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jun 2018 03:02:11 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Animasi Pertamaku: Dibuat dengan Krita dan GIMP</title>
+      <link>https://ardianta.github.io/blog/animasi-pertama/</link>
+      <pubDate>Fri, 22 Jun 2018 03:02:11 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/animasi-pertama/</guid>
+      <description>Dulu saat masih kecil, saya cuma bisa penasaran:
+&amp;ldquo;Bagaimana sih cara buat kartun/animasi?&amp;rdquo;
+Setelah dewasa, saya akhirnya tahu jawabannya.
+Mulai dari Menggambar dulu&amp;hellip; Beberapa bulan terakhir ini, saya belajar dan berlatih menggambar secara otodidak.
+Saya belajar menggambar di kertas dan di komputer menggunakan MyPaint, Krita, dan GIMP.
+Berjam-jam waktu dihabiskan. Bahkan waktu yang seharusnya dipakai buat kerja dipakai buat gambar.
+Tapi hasilnya:
+Sedikit demi sedikit saya mulai memahami cara menggunakan berbagai macam tools di tiga aplikasi tersebut.</description>
+    </item>
     
     <item>
       <title>Saya Ganti Distro, dari Linux Mint ke Kubuntu</title>
