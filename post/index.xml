@@ -5,10 +5,30 @@
     <link>https://ardianta.github.io/post/</link>
     <description>Recent content in Posts on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 22 Jun 2018 03:02:11 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jul 2018 10:14:57 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gempa Bumi di Lombok dan Coding</title>
+      <link>https://ardianta.github.io/blog/gemba-coding/</link>
+      <pubDate>Sun, 29 Jul 2018 10:14:57 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/gemba-coding/</guid>
+      <description>Minggu, 29 Juli 2018, Pagi ini Lombok diguncang gempa 6 SR.
+Saat itu, saya masih tertidur&amp;hellip;
+&amp;hellip;dan dibangunkan oleh gempa ini.
+Laptop saya masih menyala, karena semalam tiduran sambil ngoding.
+Menyelesaikan tugas submission 4 dari Dicoding..
+Android Studio masih terbuka&amp;hellip;
+Menampilkan baris-baris kode Kotlin.
+Gempa makin besar!
+Yang saya pikirkan pertama kali saat itu:
+&amp;ldquo;Bagaimana nih menyelamatkan laptop saya&amp;rdquo;
+Haha, keselamatan sendiri tidak dipikirkan.
+Sementara ibu saya sudah berteriak menyuruh saya keluar.</description>
+    </item>
     
     <item>
       <title>Animasi Pertamaku: Dibuat dengan Krita dan GIMP</title>
