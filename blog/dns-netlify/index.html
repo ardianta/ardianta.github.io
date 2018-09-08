@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Partial Penghitung Kata pada Hugo</title>
+    <title>Error 520: Petanikode Down!</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,28 +10,28 @@
 
 
 
-<meta itemprop="name" content="Partial Penghitung Kata pada Hugo">
-<meta itemprop="description" content="Setiap menulis blog, Saya jarang memperhatikan jumlah kata yang ditulis. Rencananya saya ingin menulis 1000&#43; kata untuk setiap artikel.">
+<meta itemprop="name" content="Error 520: Petanikode Down!">
+<meta itemprop="description" content="Beberapa hari ini saya sering mendapatkan laporan error 520 dari pengunjung Petanikode. Saya tidak tahu penyebabnya apa...">
 
 
-<meta itemprop="datePublished" content="2018-09-08T22:15:58&#43;08:00" />
-<meta itemprop="dateModified" content="2018-09-08T22:15:58&#43;08:00" />
-<meta itemprop="wordCount" content="131">
+<meta itemprop="datePublished" content="2018-09-04T18:05:05&#43;08:00" />
+<meta itemprop="dateModified" content="2018-09-04T18:05:05&#43;08:00" />
+<meta itemprop="wordCount" content="181">
 
 
 
-<meta itemprop="keywords" content="hugo,blog," />
+<meta itemprop="keywords" content="cloudflare,blog,netlify," />
 
 
-<meta property="og:title" content="Partial Penghitung Kata pada Hugo" />
-<meta property="og:description" content="Setiap menulis blog, Saya jarang memperhatikan jumlah kata yang ditulis. Rencananya saya ingin menulis 1000&#43; kata untuk setiap artikel." />
+<meta property="og:title" content="Error 520: Petanikode Down!" />
+<meta property="og:description" content="Beberapa hari ini saya sering mendapatkan laporan error 520 dari pengunjung Petanikode. Saya tidak tahu penyebabnya apa..." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ardianta.github.io/blog/hugo-wordscounter/" /><meta property="article:published_time" content="2018-09-08T22:15:58&#43;08:00"/>
-<meta property="article:modified_time" content="2018-09-08T22:15:58&#43;08:00"/>
+<meta property="og:url" content="https://ardianta.github.io/blog/dns-netlify/" /><meta property="article:published_time" content="2018-09-04T18:05:05&#43;08:00"/>
+<meta property="article:modified_time" content="2018-09-04T18:05:05&#43;08:00"/>
 <meta content='summary_large_image' name='twitter:card' />
 <meta content='@ardiantapargo' name='twitter:site' />
 <meta content='@ardiantapargo' name='twitter:creator' />
-<meta property='og:image' content='https://ardianta.github.io/img/wordscounter/layout.png'
+<meta property='og:image' content='https://ardianta.github.io/img/dns-netlify/520.png'
 />
 <meta content='id_ID' property='og:locale' />
 <meta content='ms_MY' property='og:locale:alternate' />
@@ -115,56 +115,70 @@ if (!doNotTrack) {
                     <div class="card-body p-md-5">
                         <div class="post-content">
                             <div class="post-header mb-3">
-                                <h2 class="post-title">Partial Penghitung Kata pada Hugo</h2>
+                                <h2 class="post-title">Error 520: Petanikode Down!</h2>
                                 <hr>
-                                <time class="text-secondary small" title="2018-09-08 22:15:58 &#43;0800 &#43;0800">8 Sep 2018</time>
+                                <time class="text-secondary small" title="2018-09-04 18:05:05 &#43;0800 &#43;0800">4 Sep 2018</time>
                             </div>
                             <div class="post-body">
-                                <p>Setiap menulis blog, Saya jarang memperhatikan
-jumlah kata yang ditulis.</p>
+                                
 
-<p>Rencananya saya ingin menulis 1000+ kata
-untuk setiap artikel.</p>
+<p>Beberapa hari ini saya sering mendapatkan laporan <strong>error 520</strong>
+dari pengunjung <a href="https://www.petanikode.com/">Petanikode</a>.</p>
 
-<p>Karena itu, saya perlu bantuan penghitung
-kata pada tulisa.</p>
+<p><img src="/img/dns-netlify/520.png" alt="Error pada petanikode" /></p>
 
-<p>Saya menggunakan teks editor VS Code untuk
-menulis. Kadang menggunakan VIM.</p>
+<p>Apakah mungkin karena trafiknya terlalu ramai?</p>
 
-<p>Di VS Code, saya tidak ingin menginstal ekstensi
-untuk menghitung jumlah kata.</p>
+<p>Ataukah Netlify yang tidak mau akur dengan cloudflare?</p>
 
-<p>Karena di artikel yang ditulis terdapat
-front-matter yang juga akan masuk hitungan.</p>
+<p>Saya tidak tahu penyebabnya apa&hellip;</p>
 
-<p>Karena itu, solusinya membuat partial
-penghitung kata.</p>
+<p>Namun, screenshot di atas menujukan kalau server tempat
+Petanikode di-hosting telah down.</p>
 
-<p>Oke, ini dia partialnya:</p>
+<p>Sedangkan Cloudflare berusaha melayani request dengan
+cache yang ada.</p>
 
-<p><img src="/img/wordscounter/partial.png" alt="Partial Penghitung kata di Hugo" /></p>
+<p>Hmmm&hellip;.</p>
 
-<p>Saya memberi nama <code>statusbar.html</code>,
-karena akan ditampilkan pada bagian bawah.</p>
+<h2 id="apakah-bandwidth-nya-habis">Apakah Bandwidth-nya habis?</h2>
 
-<p>Setelah itu, partial ini tinggal kita pakai
-pada layout <code>single.html</code>.</p>
+<p>Netlify memberikan kuota bandwidth sampai 100GB per bulan.
+Kalau dilihat dari analytic Cloudflare&hellip;</p>
 
-<p><img src="/img/wordscounter/layout.png" alt="Menggunakan partial" /></p>
+<p><img src="/img/dns-netlify/bandwidth.jpg" alt="Analytic Cloudflare" /></p>
 
-<p>Hasilnya:</p>
+<p>Kuota bandwidth yang dihabiskan Petanikode selama sehari
+sekitar 500MB. Dalam sebulan, bisa mencapai 15GB.</p>
 
-<p><img src="/img/wordscounter/output.png" alt="Hasil partial" /></p>
+<p>Menurut saya ini bukan masalah pada bandwidth.</p>
 
-<p>Mantap :+1:</p>
+<p>Mungkin saja Netlify dan Cloudflare tidak mau akur,
+karena beberapa hari yang lalu saya pernah membaca
+blog netlify yang memberikan alasan: <a href="https://www.netlify.com/blog/2017/03/28/why-you-dont-need-cloudflare-with-netlify/">&ldquo;Mengapa netlify tidak perlu pakai cloudflare&rdquo;</a></p>
 
-<p>Sekarang saya bisa tahu jumlah kata yang
-ditulis.</p>
+<h2 id="percobaan-melepas-cloudflare">Percobaan Melepas Cloudflare</h2>
 
-<blockquote class="twitter-tweet"><p lang="in" dir="ltr">Partial Hugo untuk menghitung jumlah kata dalam artikel...<br>Hanya akan tampil di localhost saja, agar menambah semangat menulis 😀 <a href="https://t.co/ykOl4uOjLv">pic.twitter.com/ykOl4uOjLv</a></p>&mdash; Ardianta (@ArdiantaPargo) <a href="https://twitter.com/ArdiantaPargo/status/1037985999752593408?ref_src=twsrc%5Etfw">September 7, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Sebelum melepas cloudflare, saya akan coba dulu
+di blog saya yang lain, yaitu <a href="https://www.lombokfoss.com">lombokfoss.com</a>.</p>
 
+<p>Blog ini masih sepi pengunjung, jadi saya tidak
+akan khwatir kalau down beberapa hari karena propagasi.</p>
+
+<p>Saya langsung mengubah Nameserver di IDWebhost
+agar mengarah ke Netlify.</p>
+
+<p><img src="/img/dns-netlify/idwebhost.png" alt="DNS IDwebhost" /></p>
+
+<p>Lalu beberapa menit kemudian, saya verifikiasi
+konfigurasi DNS di Netlify.</p>
+
+<p>&hellip;dan berhasil.</p>
+
+<p><img src="/img/dns-netlify/netlify.png" alt="Konfigurasi DNS Netlify" /></p>
+
+<p>Webnya masih mengudara hingga saat ini.
+Tidak ada propagasi.</p>
 
                             </div>
                             <div class="post-footer mt-5 py-4">

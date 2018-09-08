@@ -26,6 +26,22 @@ Karena itu, solusinya membuat partial penghitung kata.</description>
     </item>
     
     <item>
+      <title>Error 520: Petanikode Down!</title>
+      <link>https://ardianta.github.io/blog/dns-netlify/</link>
+      <pubDate>Tue, 04 Sep 2018 18:05:05 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/dns-netlify/</guid>
+      <description>Beberapa hari ini saya sering mendapatkan laporan error 520 dari pengunjung Petanikode.
+Apakah mungkin karena trafiknya terlalu ramai?
+Ataukah Netlify yang tidak mau akur dengan cloudflare?
+Saya tidak tahu penyebabnya apa&amp;hellip;
+Namun, screenshot di atas menujukan kalau server tempat Petanikode di-hosting telah down.
+Sedangkan Cloudflare berusaha melayani request dengan cache yang ada.
+Hmmm&amp;hellip;.
+Apakah Bandwidth-nya habis? Netlify memberikan kuota bandwidth sampai 100GB per bulan. Kalau dilihat dari analytic Cloudflare&amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>Melanjutkan Pembuatan Template Blogger dengan Bootstrap</title>
       <link>https://ardianta.github.io/blog/template-bs4blogger/</link>
       <pubDate>Wed, 25 Apr 2018 21:22:40 +0800</pubDate>
