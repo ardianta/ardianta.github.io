@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ardianta.github.io/blog/hugo-wordscounter/</loc>
+    <lastmod>2018-09-08T22:15:58+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ardianta.github.io/blog/kritik-menjatuhkan/</loc>
     <lastmod>2018-08-27T09:59:16+08:00</lastmod>
   </url>
@@ -279,7 +284,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/blog/</loc>
-    <lastmod>2018-04-25T21:22:40+08:00</lastmod>
+    <lastmod>2018-09-08T22:15:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -398,7 +403,7 @@
   
   <url>
     <loc>https://ardianta.github.io/tags/hugo/</loc>
-    <lastmod>2018-03-18T00:37:25+08:00</lastmod>
+    <lastmod>2018-09-08T22:15:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -512,7 +517,7 @@
   
   <url>
     <loc>https://ardianta.github.io/post/</loc>
-    <lastmod>2018-08-27T09:59:16+08:00</lastmod>
+    <lastmod>2018-09-08T22:15:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
