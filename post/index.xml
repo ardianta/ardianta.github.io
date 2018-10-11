@@ -5,10 +5,26 @@
     <link>https://ardianta.github.io/post/</link>
     <description>Recent content in Posts on Ardianta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 08 Sep 2018 22:15:58 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Oct 2018 21:17:26 +0800</lastBuildDate>
     
 	<atom:link href="https://ardianta.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>9 Buku yang Saya Borong Hari ini</title>
+      <link>https://ardianta.github.io/blog/9-buku/</link>
+      <pubDate>Thu, 11 Oct 2018 21:17:26 +0800</pubDate>
+      
+      <guid>https://ardianta.github.io/blog/9-buku/</guid>
+      <description>Siang ini panas sekali, suhu di tempat saya mencapai 32° C.
+Rencananya:
+Hari ini saya mau pergi ke bank untuk transfer pembayaran pre-order Kelas Design Sprint dari Techinasia.
+Mengapa tidak transfer via ATM?
+Sejak kartu saya ditelan mesin ATM, kini tak bisa digunakan untuk transfer.
+Makannya saya pergi ke bank.
+Tapi untungnya di bank tidak begitu ramai. Sehingga begitu saya selesai mengisi slip, teller bank langsung melayani saya.
+Habis dari bank, saya langsung banting stir ke toko buku.</description>
+    </item>
     
     <item>
       <title>Partial Penghitung Kata pada Hugo</title>
@@ -419,7 +435,7 @@ image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version git
       <description>Waktu sangat cepat berlalu ya&amp;hellip;
 Sekarang kita sudah sampai di tahun 2018. Artinya bumi sudah melakukan revolusi (mengelilingi matahari) sebanyak 2018x sejak tahun masehi dimulai.
 Ada beberapa goal yang ingin saya capai di tahun 2018:
-Terbiasa menggunakan Vim (4%) Bisa membuat Game dengan Unity atau Godot Membaca 10+ buku (Goodreads Chellange) (1%) Menerbitkan Buku atau Ebook Membuat Aplikasi/Game Android dan Akun Playstore Melengkapi Tutorial di Petanikode Perbanyak latihan komunikasi dan public speaking (sampai jadi PD) Belajar Menggambar Lagi (dimulai 18 Maret 2018) Ngumpulin uang buat beli Wacom agar bisa menyalurkan bakat (in progress) Fasih berbahasa inggris Belajar Teknologi Bitcoin Morning rituals: Olahraga tiap pagi (minimal push-up 10x) Morning rituals: Rapikan kamar, Nyapu halaman tiap pagi Tidur tepat Waktu sesuai jam alam  Beberapa goal mungkin tidak akan bisa dicapai.</description>
+Terbiasa menggunakan Vim (15%) Bisa membuat Game dengan Unity atau Godot Membaca 10+ buku (Goodreads Chellange) (30%) Menerbitkan Buku atau Ebook Membuat Aplikasi/Game Android dan Akun Playstore Melengkapi Tutorial di Petanikode Perbanyak latihan komunikasi dan public speaking (sampai jadi PD) Belajar Menggambar Lagi (dimulai 18 Maret 2018) Ngumpulin uang buat beli Wacom agar bisa menyalurkan bakat Fasih berbahasa inggris Belajar Teknologi Bitcoin Morning rituals: Olahraga tiap pagi (minimal push-up 10x) Morning rituals: Rapikan kamar, Nyapu halaman tiap pagi Tidur tepat Waktu sesuai jam alam  Beberapa goal mungkin tidak akan bisa dicapai.</description>
     </item>
     
     <item>
