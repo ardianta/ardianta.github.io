@@ -1,71 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Buku on Ardianta</title>
-    <link>https://ardianta.github.io/tags/buku/</link>
-    <description>Recent content in Buku on Ardianta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 Oct 2018 21:17:26 +0800</lastBuildDate>
-    
-	<atom:link href="https://ardianta.github.io/tags/buku/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>9 Buku yang Saya Borong Hari ini</title>
-      <link>https://ardianta.github.io/blog/9-buku/</link>
-      <pubDate>Thu, 11 Oct 2018 21:17:26 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/9-buku/</guid>
-      <description>Siang ini panas sekali, suhu di tempat saya mencapai 32° C.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Buku on Ardianta</title><link>https://ardianta.github.io/tags/buku/</link><description>Recent content in Buku on Ardianta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 11 Oct 2018 21:17:26 +0800</lastBuildDate><atom:link href="https://ardianta.github.io/tags/buku/index.xml" rel="self" type="application/rss+xml"/><item><title>9 Buku yang Saya Borong Hari ini</title><link>https://ardianta.github.io/blog/9-buku/</link><pubDate>Thu, 11 Oct 2018 21:17:26 +0800</pubDate><guid>https://ardianta.github.io/blog/9-buku/</guid><description>Siang ini panas sekali, suhu di tempat saya mencapai 32° C.
 Rencananya:
 Hari ini saya mau pergi ke bank untuk transfer pembayaran pre-order Kelas Design Sprint dari Techinasia.
 Mengapa tidak transfer via ATM?
 Sejak kartu saya ditelan mesin ATM, kini tak bisa digunakan untuk transfer.
 Makannya saya pergi ke bank.
 Tapi untungnya di bank tidak begitu ramai. Sehingga begitu saya selesai mengisi slip, teller bank langsung melayani saya.
-Habis dari bank, saya langsung banting stir ke toko buku.</description>
-    </item>
-    
-    <item>
-      <title>[Challenge 2018] Buku #1: Craetive Writing</title>
-      <link>https://ardianta.github.io/blog/buku-creative-writing/</link>
-      <pubDate>Mon, 19 Feb 2018 20:15:20 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/buku-creative-writing/</guid>
-      <description>Buku ini adalah buku pertama yang saya selesaikan tahun ini. Sebenarnya mulai dibaca sejak tahun lalu, namun karena tidak pernah dibuka lagi, jadi terbengkalai 😄.
+Habis dari bank, saya langsung banting stir ke toko buku.</description></item><item><title>[Challenge 2018] Buku #1: Craetive Writing</title><link>https://ardianta.github.io/blog/buku-creative-writing/</link><pubDate>Mon, 19 Feb 2018 20:15:20 +0800</pubDate><guid>https://ardianta.github.io/blog/buku-creative-writing/</guid><description>Buku ini adalah buku pertama yang saya selesaikan tahun ini. Sebenarnya mulai dibaca sejak tahun lalu, namun karena tidak pernah dibuka lagi, jadi terbengkalai 😄.
 Buku ini saya beli di Playstore dengan harga yang sangat murah. Karena saat itu sedang ada diskon besar-besaran.
 Bayarnya via pulsa. Asik kan.
 Sebenarnya pingin juga punya versi cetaknya, buat dijadikan koleksi.
-Buku ini biasanya saya baca saat mau tidur untuk memancing rasa ngantuk.</description>
-    </item>
-    
-    <item>
-      <title>Belajar Menulis Buku dengan Pandoc</title>
-      <link>https://ardianta.github.io/blog/buku-pandoc/</link>
-      <pubDate>Tue, 23 Jan 2018 20:01:12 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/buku-pandoc/</guid>
-      <description>Salah satu goal saya di tahun 2018 adalah membuat buku. Setidaknya bisa membuat ebook untuk catatan pribadi.
+Buku ini biasanya saya baca saat mau tidur untuk memancing rasa ngantuk.</description></item><item><title>Belajar Menulis Buku dengan Pandoc</title><link>https://ardianta.github.io/blog/buku-pandoc/</link><pubDate>Tue, 23 Jan 2018 20:01:12 +0800</pubDate><guid>https://ardianta.github.io/blog/buku-pandoc/</guid><description>Salah satu goal saya di tahun 2018 adalah membuat buku. Setidaknya bisa membuat ebook untuk catatan pribadi.
 Syukur-syukur kalau ada yang mau baca 😄.
 Pertama saya coba-coba lihat info di leanpub tentang cara menulis di sana. Namun, sepertinya berbayar $99 untuk bisa menulis di sana.
 Dulu saya juga pernah coba-coba gitbook, tapi sudah lupa.
-Nah sekarang saya menemukan Pandoc yang merupakan sebuah program CLI untuk konversi dokumen ke beberapa format seperti HTML, EPUB, dll.</description>
-    </item>
-    
-    <item>
-      <title>Kegagalan yang Saya Lakukan di Tahun 2017</title>
-      <link>https://ardianta.github.io/blog/buku-2017/</link>
-      <pubDate>Tue, 02 Jan 2018 18:39:53 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/buku-2017/</guid>
-      <description>Kegagalan yang SUKSESS saya lakukan di tahun 2017 adalah tidak bisa menyelesaikan tantangan Goodreads 😄.
+Nah sekarang saya menemukan Pandoc yang merupakan sebuah program CLI untuk konversi dokumen ke beberapa format seperti HTML, EPUB, dll.</description></item><item><title>Kegagalan yang Saya Lakukan di Tahun 2017</title><link>https://ardianta.github.io/blog/buku-2017/</link><pubDate>Tue, 02 Jan 2018 18:39:53 +0800</pubDate><guid>https://ardianta.github.io/blog/buku-2017/</guid><description>Kegagalan yang SUKSESS saya lakukan di tahun 2017 adalah tidak bisa menyelesaikan tantangan Goodreads 😄.
 Padahal hanya membaca 10 buku dalam setahun.
 Sebenarnya saya sudah menyelsaikan beberapa buku, cuma lupa diinputkan ke Goodreads. Akhirnya tidak berhasil menyelesaikan Goodreads Challenge.
 Tidak apa-apa&amp;hellip;
 Kita coba lagi tahun ini.
 Tahun ini saya ingin membaca 10 buku, bahkan lebih.
-Semoga berhasil!</description>
-    </item>
-    
-  </channel>
-</rss>
+Semoga berhasil!</description></item></channel></rss>

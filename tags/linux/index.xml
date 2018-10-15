@@ -1,96 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Linux on Ardianta</title>
-    <link>https://ardianta.github.io/tags/linux/</link>
-    <description>Recent content in Linux on Ardianta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 07 Jun 2018 06:20:39 +0800</lastBuildDate>
-    
-	<atom:link href="https://ardianta.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Saya Ganti Distro, dari Linux Mint ke Kubuntu</title>
-      <link>https://ardianta.github.io/blog/ganti-distro/</link>
-      <pubDate>Thu, 07 Jun 2018 06:20:39 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/ganti-distro/</guid>
-      <description>Hari ini saya selesai menginstal distro Kubuntu 18.04 yang instalasinya dimulai dari kemarin tanggal 06/06/2018.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Ardianta</title><link>https://ardianta.github.io/tags/linux/</link><description>Recent content in Linux on Ardianta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 07 Jun 2018 06:20:39 +0800</lastBuildDate><atom:link href="https://ardianta.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Saya Ganti Distro, dari Linux Mint ke Kubuntu</title><link>https://ardianta.github.io/blog/ganti-distro/</link><pubDate>Thu, 07 Jun 2018 06:20:39 +0800</pubDate><guid>https://ardianta.github.io/blog/ganti-distro/</guid><description>Hari ini saya selesai menginstal distro Kubuntu 18.04 yang instalasinya dimulai dari kemarin tanggal 06/06/2018.
 Momentum banget ini, saat ulang tahun&amp;hellip; saya ganti distro. Hehe, mungkin nanti biar ingat, kapan saat saya ganti distro.
 Sejak hari kemarin, saya melakukan backup semua data ke laptop bapak, karena nanti hardisk laptop saya akan dipartisi ulang.
-Partisi root yang sebelumnya saya gunakan 30GB, sekarang saya pakai sekitar 60GB. Dua kali lipat dari yang sebelumnya.</description>
-    </item>
-    
-    <item>
-      <title>Isengin Web Python dan dapat akses Shell Linux Gratis!</title>
-      <link>https://ardianta.github.io/blog/shell-web-python/</link>
-      <pubDate>Fri, 16 Feb 2018 07:15:15 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/shell-web-python/</guid>
-      <description>Karena habis gentayangan di beberapa cloud workspace seperti c9.io, codenvy, dan glitch saya tiba-tiba kepikiran untuk mengakses shell dari web Python.
+Partisi root yang sebelumnya saya gunakan 30GB, sekarang saya pakai sekitar 60GB. Dua kali lipat dari yang sebelumnya.</description></item><item><title>Isengin Web Python dan dapat akses Shell Linux Gratis!</title><link>https://ardianta.github.io/blog/shell-web-python/</link><pubDate>Fri, 16 Feb 2018 07:15:15 +0800</pubDate><guid>https://ardianta.github.io/blog/shell-web-python/</guid><description>Karena habis gentayangan di beberapa cloud workspace seperti c9.io, codenvy, dan glitch saya tiba-tiba kepikiran untuk mengakses shell dari web Python.
 Di website Python, terdapat shell python yang bisa kita gunakan untuk ujicaoba kode python.
 Lalu, bagaimana kalau&amp;hellip;
 Kita akses shell seperti bash atau zsh di sana?
 Ya, itu bisa.
 Caranya:
 Pertama saya coba-coba dulu menjalankan perintah Linux dengan mengimpor modul os.
-Di dalam modul os, terdapat fungsi untuk menjalankan perintah Linux, yaitu: system().</description>
-    </item>
-    
-    <item>
-      <title>Install Inkscape Terbaru dari PPA Resmi</title>
-      <link>https://ardianta.github.io/blog/ppa-inkscape/</link>
-      <pubDate>Tue, 06 Feb 2018 16:29:16 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/ppa-inkscape/</guid>
-      <description>Saya menggunakan Inkscape 0.91, kadang sering stuck saat melakukan dragging dengan tombol spasi dan mouse.
+Di dalam modul os, terdapat fungsi untuk menjalankan perintah Linux, yaitu: system().</description></item><item><title>Install Inkscape Terbaru dari PPA Resmi</title><link>https://ardianta.github.io/blog/ppa-inkscape/</link><pubDate>Tue, 06 Feb 2018 16:29:16 +0800</pubDate><guid>https://ardianta.github.io/blog/ppa-inkscape/</guid><description>Saya menggunakan Inkscape 0.91, kadang sering stuck saat melakukan dragging dengan tombol spasi dan mouse.
 Mungkin saja di versi 0.92 sudah diperbaiki. Oya, versi 0.91 ini dirilis pada tahun 2015, sedangkan 0.92 pada tahun 2017.
 Saya ingin upgrade ke 0.92, namun belum tersedia di repositori resmi.
 Akhirnya menemukan PPA ini:
-sudo add-apt-repository ppa:inkscape.dev/stable sudo apt-get update  Dan sekarang saya sudah bisa install Inkscape 0.92, yay!
-Sumber: https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable</description>
-    </item>
-    
-    <item>
-      <title>Masalah Saat Upgrade Linux Mint 18</title>
-      <link>https://ardianta.github.io/blog/upgrade-lm-18/</link>
-      <pubDate>Wed, 31 Jan 2018 04:18:56 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/upgrade-lm-18/</guid>
-      <description>Kemarin saya pergi ke tempat Wifi.id dan melakukan upgrade Linux Mint. Akan tetapi dapat sedikit masalah dengan mysql-server.
+sudo add-apt-repository ppa:inkscape.dev/stable sudo apt-get update Dan sekarang saya sudah bisa install Inkscape 0.92, yay!
+Sumber: https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable</description></item><item><title>Masalah Saat Upgrade Linux Mint 18</title><link>https://ardianta.github.io/blog/upgrade-lm-18/</link><pubDate>Wed, 31 Jan 2018 04:18:56 +0800</pubDate><guid>https://ardianta.github.io/blog/upgrade-lm-18/</guid><description>Kemarin saya pergi ke tempat Wifi.id dan melakukan upgrade Linux Mint. Akan tetapi dapat sedikit masalah dengan mysql-server.
 Entah mengapa ini bisa terjadi&amp;hellip;
 Sebenarnya ini yang membuat saya malas upgrade Linux. Kadang sering terjadi error karena ada beberapa bugs yang belum diperbaiki.
 Namun, untungnya sudah solved dengan solusi dari https://askubuntu.com/a/762432/235594.
 Berikut ini log Terminal saya:
-petanikode@imajinasi ~ $ apt install shutter [sudo] password for petanikode: Reading package lists... Done Building dependency tree Reading state information.</description>
-    </item>
-    
-    <item>
-      <title>9 Ilmu (Teknologi) yang Saya Pelajari selama Tahun 2017</title>
-      <link>https://ardianta.github.io/blog/ilmu-2017/</link>
-      <pubDate>Sun, 31 Dec 2017 04:29:54 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/ilmu-2017/</guid>
-      <description>Saya tidak begitu pandai membuat rencana. Kadang sering mengubah rencana secara tiba-tiba.
+petanikode@imajinasi ~ $ apt install shutter [sudo] password for petanikode: Reading package lists... Done Building dependency tree Reading state information.</description></item><item><title>9 Ilmu (Teknologi) yang Saya Pelajari selama Tahun 2017</title><link>https://ardianta.github.io/blog/ilmu-2017/</link><pubDate>Sun, 31 Dec 2017 04:29:54 +0800</pubDate><guid>https://ardianta.github.io/blog/ilmu-2017/</guid><description>Saya tidak begitu pandai membuat rencana. Kadang sering mengubah rencana secara tiba-tiba.
 Sebelum masuk tahun 2017 saya membuat rencana ingin belajar berbagai macam teknologi. Tapi malah melenceng, alias tidak sesuai dengan yang direncanakan.
 &amp;hellip;dan sekarang saya ingin me-review apa saja yang sudah dipelajari sepanjang tahun 2017.
-1. Membuat Blog dengan Hugo Akhir tahun lalu, saya mulai mengenal Hugo karena menonton video benchmark-nya di Youtube. Hugo bisa me-render 5000 halaman dalam beberapa detik.</description>
-    </item>
-    
-    <item>
-      <title>Install Docker di Linux Mint 18</title>
-      <link>https://ardianta.github.io/blog/install-docker/</link>
-      <pubDate>Sat, 30 Dec 2017 17:41:27 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/install-docker/</guid>
-      <description>Pertama lakukan update:
-sudo apt-get update  Berikutnya install paket-paket yang dibutuhkan:
-sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ software-properties-common  Tamhakan GPG Key resmi Docker:
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  Versifikasi fingerprint 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88
-sudo apt-key fingerprint 0EBFCD88  outputnya:
-pub 4096R/0EBFCD88 2017-02-22 Key fingerprint = 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88 uid Docker Release (CE deb) &amp;lt;docker@docker.</description>
-    </item>
-    
-  </channel>
-</rss>
+1. Membuat Blog dengan Hugo Akhir tahun lalu, saya mulai mengenal Hugo karena menonton video benchmark-nya di Youtube. Hugo bisa me-render 5000 halaman dalam beberapa detik.</description></item><item><title>Install Docker di Linux Mint 18</title><link>https://ardianta.github.io/blog/install-docker/</link><pubDate>Sat, 30 Dec 2017 17:41:27 +0800</pubDate><guid>https://ardianta.github.io/blog/install-docker/</guid><description>Pertama lakukan update:
+sudo apt-get update Berikutnya install paket-paket yang dibutuhkan:
+sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ software-properties-common Tamhakan GPG Key resmi Docker:
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - Versifikasi fingerprint 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88
+sudo apt-key fingerprint 0EBFCD88 outputnya:
+pub 4096R/0EBFCD88 2017-02-22 Key fingerprint = 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88 uid Docker Release (CE deb) &amp;lt;docker@docker.</description></item></channel></rss>

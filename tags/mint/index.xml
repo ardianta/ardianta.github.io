@@ -1,40 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Mint on Ardianta</title>
-    <link>https://ardianta.github.io/tags/mint/</link>
-    <description>Recent content in Mint on Ardianta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 31 Dec 2017 04:29:54 +0800</lastBuildDate>
-    
-	<atom:link href="https://ardianta.github.io/tags/mint/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>9 Ilmu (Teknologi) yang Saya Pelajari selama Tahun 2017</title>
-      <link>https://ardianta.github.io/blog/ilmu-2017/</link>
-      <pubDate>Sun, 31 Dec 2017 04:29:54 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/ilmu-2017/</guid>
-      <description>Saya tidak begitu pandai membuat rencana. Kadang sering mengubah rencana secara tiba-tiba.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mint on Ardianta</title><link>https://ardianta.github.io/tags/mint/</link><description>Recent content in Mint on Ardianta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 31 Dec 2017 04:29:54 +0800</lastBuildDate><atom:link href="https://ardianta.github.io/tags/mint/index.xml" rel="self" type="application/rss+xml"/><item><title>9 Ilmu (Teknologi) yang Saya Pelajari selama Tahun 2017</title><link>https://ardianta.github.io/blog/ilmu-2017/</link><pubDate>Sun, 31 Dec 2017 04:29:54 +0800</pubDate><guid>https://ardianta.github.io/blog/ilmu-2017/</guid><description>Saya tidak begitu pandai membuat rencana. Kadang sering mengubah rencana secara tiba-tiba.
 Sebelum masuk tahun 2017 saya membuat rencana ingin belajar berbagai macam teknologi. Tapi malah melenceng, alias tidak sesuai dengan yang direncanakan.
 &amp;hellip;dan sekarang saya ingin me-review apa saja yang sudah dipelajari sepanjang tahun 2017.
-1. Membuat Blog dengan Hugo Akhir tahun lalu, saya mulai mengenal Hugo karena menonton video benchmark-nya di Youtube. Hugo bisa me-render 5000 halaman dalam beberapa detik.</description>
-    </item>
-    
-    <item>
-      <title>Install Docker di Linux Mint 18</title>
-      <link>https://ardianta.github.io/blog/install-docker/</link>
-      <pubDate>Sat, 30 Dec 2017 17:41:27 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/install-docker/</guid>
-      <description>Pertama lakukan update:
-sudo apt-get update  Berikutnya install paket-paket yang dibutuhkan:
-sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ software-properties-common  Tamhakan GPG Key resmi Docker:
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  Versifikasi fingerprint 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88
-sudo apt-key fingerprint 0EBFCD88  outputnya:
-pub 4096R/0EBFCD88 2017-02-22 Key fingerprint = 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88 uid Docker Release (CE deb) &amp;lt;docker@docker.</description>
-    </item>
-    
-  </channel>
-</rss>
+1. Membuat Blog dengan Hugo Akhir tahun lalu, saya mulai mengenal Hugo karena menonton video benchmark-nya di Youtube. Hugo bisa me-render 5000 halaman dalam beberapa detik.</description></item><item><title>Install Docker di Linux Mint 18</title><link>https://ardianta.github.io/blog/install-docker/</link><pubDate>Sat, 30 Dec 2017 17:41:27 +0800</pubDate><guid>https://ardianta.github.io/blog/install-docker/</guid><description>Pertama lakukan update:
+sudo apt-get update Berikutnya install paket-paket yang dibutuhkan:
+sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ software-properties-common Tamhakan GPG Key resmi Docker:
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - Versifikasi fingerprint 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88
+sudo apt-key fingerprint 0EBFCD88 outputnya:
+pub 4096R/0EBFCD88 2017-02-22 Key fingerprint = 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88 uid Docker Release (CE deb) &amp;lt;docker@docker.</description></item></channel></rss>

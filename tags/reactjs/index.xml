@@ -1,22 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Reactjs on Ardianta</title>
-    <link>https://ardianta.github.io/tags/reactjs/</link>
-    <description>Recent content in Reactjs on Ardianta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 29 Dec 2017 04:24:49 +0800</lastBuildDate>
-    
-	<atom:link href="https://ardianta.github.io/tags/reactjs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Langkah Awal: Belajar Reactjs</title>
-      <link>https://ardianta.github.io/blog/belajar-reactjs/</link>
-      <pubDate>Fri, 29 Dec 2017 04:24:49 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/belajar-reactjs/</guid>
-      <description>Saya telat ikut kulgram Reactjs di @lombokjs, karena kehabisan kuota 😢.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reactjs on Ardianta</title><link>https://ardianta.github.io/tags/reactjs/</link><description>Recent content in Reactjs on Ardianta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 29 Dec 2017 04:24:49 +0800</lastBuildDate><atom:link href="https://ardianta.github.io/tags/reactjs/index.xml" rel="self" type="application/rss+xml"/><item><title>Langkah Awal: Belajar Reactjs</title><link>https://ardianta.github.io/blog/belajar-reactjs/</link><pubDate>Fri, 29 Dec 2017 04:24:49 +0800</pubDate><guid>https://ardianta.github.io/blog/belajar-reactjs/</guid><description>Saya telat ikut kulgram Reactjs di @lombokjs, karena kehabisan kuota 😢.
 Tapi tak masalah, di Telegram masih tersimpan arsipnya.
 Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya.
 Bagaimana sejarahnya?
@@ -25,8 +7,4 @@ Bagaimana konsep React?
 Kira-kira itulah isi dari kulgram semalam yang nggak saya ikuti.
 Tapi pagi ini, saya mau coba-coba langsung&amp;hellip;
 Coba nginstall aja, siapa tau mau belajar lebih lanjut.
-Memulai Project React Saya akan menggunakan yarn dan create-react-app untuk memulai.</description>
-    </item>
-    
-  </channel>
-</rss>
+Memulai Project React Saya akan menggunakan yarn dan create-react-app untuk memulai.</description></item></channel></rss>

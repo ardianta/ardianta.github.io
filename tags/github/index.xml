@@ -1,26 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Github on Ardianta</title>
-    <link>https://ardianta.github.io/tags/github/</link>
-    <description>Recent content in Github on Ardianta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Jan 2018 09:39:08 +0800</lastBuildDate>
-    
-	<atom:link href="https://ardianta.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title>
-      <link>https://ardianta.github.io/blog/gitlab-github-pages/</link>
-      <pubDate>Mon, 01 Jan 2018 09:39:08 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/gitlab-github-pages/</guid>
-      <description>Di awal tahun baru, sepertinya pegawai Travis CI sedang liburan. Hal ini munkin menyebabkan gangguan build di Travis CI. Akibanya lama menunggu Queue build-nya.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on Ardianta</title><link>https://ardianta.github.io/tags/github/</link><description>Recent content in Github on Ardianta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 01 Jan 2018 09:39:08 +0800</lastBuildDate><atom:link href="https://ardianta.github.io/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title><link>https://ardianta.github.io/blog/gitlab-github-pages/</link><pubDate>Mon, 01 Jan 2018 09:39:08 +0800</pubDate><guid>https://ardianta.github.io/blog/gitlab-github-pages/</guid><description>Di awal tahun baru, sepertinya pegawai Travis CI sedang liburan. Hal ini munkin menyebabkan gangguan build di Travis CI. Akibanya lama menunggu Queue build-nya.
 Sebagai alternatif, saya menggunakan CI milik Gitlab.
 Ini adalah isi file .gitlab-ci.yml di repo blog saya:
-image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - git config user.email &amp;quot;&amp;lt;your git email&amp;gt;&amp;quot; - git config --global user.</description>
-    </item>
-    
-  </channel>
-</rss>
+image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - git config user.email &amp;quot;&amp;lt;your git email&amp;gt;&amp;quot; - git config --global user.</description></item></channel></rss>

@@ -1,39 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Git on Ardianta</title>
-    <link>https://ardianta.github.io/tags/git/</link>
-    <description>Recent content in Git on Ardianta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 Dec 2017 04:13:15 +0800</lastBuildDate>
-    
-	<atom:link href="https://ardianta.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Clone Commit Terakhir dari Repository Git</title>
-      <link>https://ardianta.github.io/blog/git-clone-depth/</link>
-      <pubDate>Tue, 26 Dec 2017 04:13:15 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/git-clone-depth/</guid>
-      <description>Banyangkan ada 12283192311 commit yang sudah dilakukan pada repository. Lalu kita ingin clone ke lokal.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on Ardianta</title><link>https://ardianta.github.io/tags/git/</link><description>Recent content in Git on Ardianta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 26 Dec 2017 04:13:15 +0800</lastBuildDate><atom:link href="https://ardianta.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Clone Commit Terakhir dari Repository Git</title><link>https://ardianta.github.io/blog/git-clone-depth/</link><pubDate>Tue, 26 Dec 2017 04:13:15 +0800</pubDate><guid>https://ardianta.github.io/blog/git-clone-depth/</guid><description>Banyangkan ada 12283192311 commit yang sudah dilakukan pada repository. Lalu kita ingin clone ke lokal.
 Berapa besar file yang akan di-download?
 Pastinya cukup besar.
 Nah, bagaimana caranya clone hanya commit terakhir saja?
 Cukup dengan perintah ini:
-git clone --depth=1 &amp;lt;remote_repo_url&amp;gt;  Referensi:
- https://git-scm.com/docs/git-clone https://stackoverflow.com/a/1210012/2658551  Contoh:
+git clone --depth=1 &amp;lt;remote_repo_url&amp;gt; Referensi:
+https://git-scm.com/docs/git-clone https://stackoverflow.com/a/1210012/2658551 Contoh:
 Ada 1221 commit yang sudah dibuat pada repository ini:
-Lalu tinggal di-clone aja dengan perintah tadi.</description>
-    </item>
-    
-    <item>
-      <title>Git Push, Lalu Tiba-tiba Matilampu!</title>
-      <link>https://ardianta.github.io/blog/git-push-matilampu/</link>
-      <pubDate>Wed, 20 Dec 2017 00:59:23 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/git-push-matilampu/</guid>
-      <description>Apa yang akan terjadi saat menjalankan perintah git push lalu ditengah-tengah mati lampu?
+Lalu tinggal di-clone aja dengan perintah tadi.</description></item><item><title>Git Push, Lalu Tiba-tiba Matilampu!</title><link>https://ardianta.github.io/blog/git-push-matilampu/</link><pubDate>Wed, 20 Dec 2017 00:59:23 +0800</pubDate><guid>https://ardianta.github.io/blog/git-push-matilampu/</guid><description>Apa yang akan terjadi saat menjalankan perintah git push lalu ditengah-tengah mati lampu?
 Jika pakai laptop nggak masalah, karena daya masih bisa ngambil dari baterai.
 Tapi yang pakai komputer?
 atau yang laptopnya nggak bisa nyala tanpa cas?
@@ -42,8 +15,4 @@ Sebenarnya kejadian ini sudah pernah saya alami sebelumnya.
 Repositori jadi rusak dan tidak bisa melakukan apa-apa.
 Solusi &amp;ldquo;bodohnya&amp;rdquo; kita harus membuat repositori baru.
 Hapus dulu database git yang sudah ada:
-rm -rf .</description>
-    </item>
-    
-  </channel>
-</rss>
+rm -rf .</description></item></channel></rss>

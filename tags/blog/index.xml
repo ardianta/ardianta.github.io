@@ -1,208 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blog on Ardianta</title>
-    <link>https://ardianta.github.io/tags/blog/</link>
-    <description>Recent content in Blog on Ardianta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 08 Sep 2018 22:15:58 +0800</lastBuildDate>
-    
-	<atom:link href="https://ardianta.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Partial Penghitung Kata pada Hugo</title>
-      <link>https://ardianta.github.io/blog/hugo-wordscounter/</link>
-      <pubDate>Sat, 08 Sep 2018 22:15:58 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hugo-wordscounter/</guid>
-      <description>Setiap menulis blog, Saya jarang memperhatikan jumlah kata yang ditulis.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Ardianta</title><link>https://ardianta.github.io/tags/blog/</link><description>Recent content in Blog on Ardianta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 08 Sep 2018 22:15:58 +0800</lastBuildDate><atom:link href="https://ardianta.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Partial Penghitung Kata pada Hugo</title><link>https://ardianta.github.io/blog/hugo-wordscounter/</link><pubDate>Sat, 08 Sep 2018 22:15:58 +0800</pubDate><guid>https://ardianta.github.io/blog/hugo-wordscounter/</guid><description>Setiap menulis blog, Saya jarang memperhatikan jumlah kata yang ditulis.
 Rencananya saya ingin menulis 1000+ kata untuk setiap artikel.
 Karena itu, saya perlu bantuan penghitung kata pada tulisa.
 Saya menggunakan teks editor VS Code untuk menulis. Kadang menggunakan VIM.
 Di VS Code, saya tidak ingin menginstal ekstensi untuk menghitung jumlah kata.
 Karena di artikel yang ditulis terdapat front-matter yang juga akan masuk hitungan.
-Karena itu, solusinya membuat partial penghitung kata.</description>
-    </item>
-    
-    <item>
-      <title>Error 520: Petanikode Down!</title>
-      <link>https://ardianta.github.io/blog/dns-netlify/</link>
-      <pubDate>Tue, 04 Sep 2018 18:05:05 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/dns-netlify/</guid>
-      <description>Beberapa hari ini saya sering mendapatkan laporan error 520 dari pengunjung Petanikode.
+Karena itu, solusinya membuat partial penghitung kata.</description></item><item><title>Error 520: Petanikode Down!</title><link>https://ardianta.github.io/blog/dns-netlify/</link><pubDate>Tue, 04 Sep 2018 18:05:05 +0800</pubDate><guid>https://ardianta.github.io/blog/dns-netlify/</guid><description>Beberapa hari ini saya sering mendapatkan laporan error 520 dari pengunjung Petanikode.
 Apakah mungkin karena trafiknya terlalu ramai?
 Ataukah Netlify yang tidak mau akur dengan cloudflare?
 Saya tidak tahu penyebabnya apa&amp;hellip;
 Namun, screenshot di atas menujukan kalau server tempat Petanikode di-hosting telah down.
 Sedangkan Cloudflare berusaha melayani request dengan cache yang ada.
 Hmmm&amp;hellip;.
-Apakah Bandwidth-nya habis? Netlify memberikan kuota bandwidth sampai 100GB per bulan. Kalau dilihat dari analytic Cloudflare&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Melanjutkan Pembuatan Template Blogger dengan Bootstrap</title>
-      <link>https://ardianta.github.io/blog/template-bs4blogger/</link>
-      <pubDate>Wed, 25 Apr 2018 21:22:40 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/template-bs4blogger/</guid>
-      <description>Sudah cukup lama saya mulai pembuatan template ini. Namun, belum sempat dilanjutkan lagi.
+Apakah Bandwidth-nya habis? Netlify memberikan kuota bandwidth sampai 100GB per bulan. Kalau dilihat dari analytic Cloudflare&amp;hellip;</description></item><item><title>Melanjutkan Pembuatan Template Blogger dengan Bootstrap</title><link>https://ardianta.github.io/blog/template-bs4blogger/</link><pubDate>Wed, 25 Apr 2018 21:22:40 +0800</pubDate><guid>https://ardianta.github.io/blog/template-bs4blogger/</guid><description>Sudah cukup lama saya mulai pembuatan template ini. Namun, belum sempat dilanjutkan lagi.
 Kemarin saya coba otak-atik lagi&amp;hellip;
 &amp;hellip;dan ini hasilnya:
 Terlhat bagus 😄
 Template ini sebenarnya replika dari template Petani Kode. Karena banyak yang meminta saya untuk membuat versi Bloggernya.
 Template ini saya persembahkan untuk kawan-kawan yang ingin membuat blognya terlihat:
- Bersih Rapi Elegan Sederhana dan profesional.  Tertarik? Cek demonya di sini: https://bs4blogger.blogspot.co.id/
-Oya, template ini masih belum jadi&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Agar Hugo tidak melakukan HTTP Request saat Offline</title>
-      <link>https://ardianta.github.io/blog/hugo-offline/</link>
-      <pubDate>Sun, 18 Mar 2018 00:37:25 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hugo-offline/</guid>
-      <description>Saya menggunakan shortcode twitter dan instagram di dalam postingan. Setiap kali mau render, pasti akan melakukan HTTP Request ke API twitter dan instagram.
+Bersih Rapi Elegan Sederhana dan profesional. Tertarik? Cek demonya di sini: https://bs4blogger.blogspot.co.id/
+Oya, template ini masih belum jadi&amp;hellip;</description></item><item><title>Agar Hugo tidak melakukan HTTP Request saat Offline</title><link>https://ardianta.github.io/blog/hugo-offline/</link><pubDate>Sun, 18 Mar 2018 00:37:25 +0800</pubDate><guid>https://ardianta.github.io/blog/hugo-offline/</guid><description>Saya menggunakan shortcode twitter dan instagram di dalam postingan. Setiap kali mau render, pasti akan melakukan HTTP Request ke API twitter dan instagram.
 Sehingga, apabila kita render saat dalam keadaan offline, maka akan menghasilkan error seperti ini:
 Cara mencegahnya:
 Kita cukup mengisi alamat baseurl dengan localhost:
-baseurl = &amp;quot;http://localhost&amp;quot;  Atau bisa juga diberikan saat me-render atau menjalankan server Hugo dengan flag -b atau --baseURL.
-hugo server -b http://localhost  Maka Hugo tidak akan melakukan HTTP Request lagi.</description>
-    </item>
-    
-    <item>
-      <title>Rasio Pentalan Terjun Bebas! dan Saya tidak tahu mengapa?</title>
-      <link>https://ardianta.github.io/blog/rasio-pentalan/</link>
-      <pubDate>Tue, 13 Feb 2018 23:11:24 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/rasio-pentalan/</guid>
-      <description>Bulan Januari tahun 2017 yang lalu, saya migrasi dari platform Blogger ke Hugo. Sejak saat itu, masih banyak yang harus dikerjakan seperti mendasain ulang template, memperbaiki konten, memperbaiki broken link, dsb.
+baseurl = &amp;quot;http://localhost&amp;quot; Atau bisa juga diberikan saat me-render atau menjalankan server Hugo dengan flag -b atau --baseURL.
+hugo server -b http://localhost Maka Hugo tidak akan melakukan HTTP Request lagi.</description></item><item><title>Rasio Pentalan Terjun Bebas! dan Saya tidak tahu mengapa?</title><link>https://ardianta.github.io/blog/rasio-pentalan/</link><pubDate>Tue, 13 Feb 2018 23:11:24 +0800</pubDate><guid>https://ardianta.github.io/blog/rasio-pentalan/</guid><description>Bulan Januari tahun 2017 yang lalu, saya migrasi dari platform Blogger ke Hugo. Sejak saat itu, masih banyak yang harus dikerjakan seperti mendasain ulang template, memperbaiki konten, memperbaiki broken link, dsb.
 Yang paling lama adalah memperbaiki kontentnya. Karena saya menemukan banyak konten yang kualitasnya rendah. Hingga saat ini pekerjaan memperbaiki konten masih belum selsai dan akan terus dilakukan.
-Saat itu, rasio pentalan (bounce rate) blog saya sekitar 50%&amp;ndash;70%. Menurut saya ini hal yang wajar.</description>
-    </item>
-    
-    <item>
-      <title>Eksperimen Membuat Template Blogger dengan Bootstrap 4</title>
-      <link>https://ardianta.github.io/blog/template-blogger/</link>
-      <pubDate>Thu, 25 Jan 2018 20:30:53 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/template-blogger/</guid>
-      <description>Tadi malam saya coba eksperimen membuat template blogger dengan Bootstrap 4. Saya membuat blog baru (https://bs4blogger.blogspot.com) untuk eksperimen ini.
+Saat itu, rasio pentalan (bounce rate) blog saya sekitar 50%&amp;ndash;70%. Menurut saya ini hal yang wajar.</description></item><item><title>Eksperimen Membuat Template Blogger dengan Bootstrap 4</title><link>https://ardianta.github.io/blog/template-blogger/</link><pubDate>Thu, 25 Jan 2018 20:30:53 +0800</pubDate><guid>https://ardianta.github.io/blog/template-blogger/</guid><description>Tadi malam saya coba eksperimen membuat template blogger dengan Bootstrap 4. Saya membuat blog baru (https://bs4blogger.blogspot.com) untuk eksperimen ini.
 Membuat template blog sepertinya lebih sulit daripada membuat template Hugo. Karena dokumentasi template blogger sangat minim.
 Berikut ini link dokumentasi yang bisa digunakan:
- Pengenalan konsep dasar template blogger Penjelasan tentang CSS di Template Penjelasan tentang kode widget Variabel data di template  Saya juga menggunakan semacam cheatsheet untuk mempermudah dalam mengetahui isi dari variabel data.</description>
-    </item>
-    
-    <item>
-      <title>Tahapan Menulis Artikel di Blog</title>
-      <link>https://ardianta.github.io/blog/menulis-blog/</link>
-      <pubDate>Wed, 24 Jan 2018 03:01:24 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/menulis-blog/</guid>
-      <description>Saya baru menyadari, kalau selama ini cara saya menulis memang salah. Saya menulis draft, sekaligus mengedit, dan membuat gambar ilustrasinya.
+Pengenalan konsep dasar template blogger Penjelasan tentang CSS di Template Penjelasan tentang kode widget Variabel data di template Saya juga menggunakan semacam cheatsheet untuk mempermudah dalam mengetahui isi dari variabel data.</description></item><item><title>Tahapan Menulis Artikel di Blog</title><link>https://ardianta.github.io/blog/menulis-blog/</link><pubDate>Wed, 24 Jan 2018 03:01:24 +0800</pubDate><guid>https://ardianta.github.io/blog/menulis-blog/</guid><description>Saya baru menyadari, kalau selama ini cara saya menulis memang salah. Saya menulis draft, sekaligus mengedit, dan membuat gambar ilustrasinya.
 Jadi kurang fokus pada menuangkan isi pikiran yang akan ditulis. Akibatnya pembutan artikel jadi lama dan berakhir menjadi draft.
 Setelah saya mencoba untuk fokus di satu saja, ternyata hasilnya lumayan berbeda.
-Pertama: Menulis Draft Saya menulis apa yang sedang terlintas dipikiran tanpa memperhatikan typo dan kalimat yang bagus. Tulis saja apa adanya.</description>
-    </item>
-    
-    <item>
-      <title>Migrasi Front-matter Hugo dengan sed</title>
-      <link>https://ardianta.github.io/blog/migrasi-frontmatter/</link>
-      <pubDate>Fri, 19 Jan 2018 20:05:09 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/migrasi-frontmatter/</guid>
-      <description>Saya berencana memperbaiki template dan front-matter Petanikode. Ada 300 lebih artikelnya yang harus dimodifikasi.
+Pertama: Menulis Draft Saya menulis apa yang sedang terlintas dipikiran tanpa memperhatikan typo dan kalimat yang bagus. Tulis saja apa adanya.</description></item><item><title>Migrasi Front-matter Hugo dengan sed</title><link>https://ardianta.github.io/blog/migrasi-frontmatter/</link><pubDate>Fri, 19 Jan 2018 20:05:09 +0800</pubDate><guid>https://ardianta.github.io/blog/migrasi-frontmatter/</guid><description>Saya berencana memperbaiki template dan front-matter Petanikode. Ada 300 lebih artikelnya yang harus dimodifikasi.
 Saya rasa ini cukup merepotkan, mengedit satu-persatu front-matter setiap artikel. Apalagi jumlahnya cukup banyak.
 Akhirnyta saya menemukan sed (Stream Editor).
 Berawal dari coba-coba dari perintah ini, Front-matternya menjadi rusak. Untungnya menggunakan git, jadi masih bisa dikembalikan lagi.
 Lalu biar mudah saya membuat branch baru bernama theme-migration.
-git checkout -b theme-migration  Sekarang saya bebas memodifikasinya dengan sed tanpa harus takut rusak lagi.</description>
-    </item>
-    
-    <item>
-      <title>Cara Deploy Hugo dari Gitlab ke Surge</title>
-      <link>https://ardianta.github.io/blog/hugo-gitlab-surge/</link>
-      <pubDate>Sat, 13 Jan 2018 17:59:45 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hugo-gitlab-surge/</guid>
-      <description>Saya punya project pembuatan template untuk web company profile. Sewaktu ingin memperlihatkan demo, saya menggunakan layanan hosting Surge. Karen sangat mudah sekali.
+git checkout -b theme-migration Sekarang saya bebas memodifikasinya dengan sed tanpa harus takut rusak lagi.</description></item><item><title>Cara Deploy Hugo dari Gitlab ke Surge</title><link>https://ardianta.github.io/blog/hugo-gitlab-surge/</link><pubDate>Sat, 13 Jan 2018 17:59:45 +0800</pubDate><guid>https://ardianta.github.io/blog/hugo-gitlab-surge/</guid><description>Saya punya project pembuatan template untuk web company profile. Sewaktu ingin memperlihatkan demo, saya menggunakan layanan hosting Surge. Karen sangat mudah sekali.
 Cukup dengan mengetik perintah:
-surge ./public  Website suda di-deploy ke Surge.
+surge ./public Website suda di-deploy ke Surge.
 Namun, tiap kali deploy, kita akan upload semua file public ke surge. Ini saya rasa kurang bagus, karena koneksi internet saya sangat terbatas (lambat dan kuota tinggal sedikit hahaha 😄).
-Karena itu, saya memanfaatkan Gitlab CI:</description>
-    </item>
-    
-    <item>
-      <title>Sekarang Blog ini Menggunakan Travis CI</title>
-      <link>https://ardianta.github.io/blog/hugo-travis-ci/</link>
-      <pubDate>Sun, 24 Dec 2017 06:05:11 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hugo-travis-ci/</guid>
-      <description>Blog ini di-hosting di Github pada repositori ini: https://github.com/ardianta/ardianta.github.io.
+Karena itu, saya memanfaatkan Gitlab CI:</description></item><item><title>Sekarang Blog ini Menggunakan Travis CI</title><link>https://ardianta.github.io/blog/hugo-travis-ci/</link><pubDate>Sun, 24 Dec 2017 06:05:11 +0800</pubDate><guid>https://ardianta.github.io/blog/hugo-travis-ci/</guid><description>Blog ini di-hosting di Github pada repositori ini: https://github.com/ardianta/ardianta.github.io.
 Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
 Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
 Travis CI ini bertugas untuk melakuakn build dan deploy.
 Adapun skrip yang saya gunakan adalah sebagai berikut:
 File deploy-ci.sh
-#!/bin/bash set -e DEPLOY_REPO=&amp;quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&amp;quot; function main { clean get_current_site build_site deploy } function clean { echo &amp;quot;cleaning public folder&amp;quot; if [ -d &amp;quot;public&amp;quot; ]; then rm -rf public; fi } function get_current_site { echo &amp;quot;getting latest site&amp;quot; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &amp;quot;building site.</description>
-    </item>
-    
-    <item>
-      <title>Template Baru untuk Lombokfoss</title>
-      <link>https://ardianta.github.io/blog/template-lombokfoss/</link>
-      <pubDate>Thu, 21 Dec 2017 16:03:55 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/template-lombokfoss/</guid>
-      <description>Setelah membuat template untuk blog ini. Sekarang giliran blog Lombokfoss yang saya buatkan templatenya.
+#!/bin/bash set -e DEPLOY_REPO=&amp;quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&amp;quot; function main { clean get_current_site build_site deploy } function clean { echo &amp;quot;cleaning public folder&amp;quot; if [ -d &amp;quot;public&amp;quot; ]; then rm -rf public; fi } function get_current_site { echo &amp;quot;getting latest site&amp;quot; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &amp;quot;building site.</description></item><item><title>Template Baru untuk Lombokfoss</title><link>https://ardianta.github.io/blog/template-lombokfoss/</link><pubDate>Thu, 21 Dec 2017 16:03:55 +0800</pubDate><guid>https://ardianta.github.io/blog/template-lombokfoss/</guid><description>Setelah membuat template untuk blog ini. Sekarang giliran blog Lombokfoss yang saya buatkan templatenya.
 Pengerjaannya sangat cepat, cuma 1 hari. Karena saya copas dari template blog ini. Lalu tinggal dimodif dan diatur tata letaknya.
 Maka jadilah seperti ini.
 Halaman home:
 Halaman artikel:
 Seperti biasa, untuk tampilan saya masih mengandalkan Bootstrap 4.
 Template ini masih belum selesai.
-Pekerjaan Selanjutnya Perbaiki tampilan untuk mobile Pasang Komentar Faceook (diganti pakai disqus) Pasang Komentar Disqus Menambahkan Google Analytic (pakai Cloudflare) Menambahkan Open Graph Menambahkan Share Button Mendaftarkan ke Google Webmaster Perbaiki Kualitas Konten Pembuatan halaman 404.</description>
-    </item>
-    
-    <item>
-      <title>Membuat Tema Hugo Sendiri</title>
-      <link>https://ardianta.github.io/blog/tema-baru-hugo/</link>
-      <pubDate>Mon, 18 Dec 2017 15:49:46 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/tema-baru-hugo/</guid>
-      <description>Menggunakan tema orang lain, rasanya saya kurang bebas. Karena banyak yang tidak dipahami di stuktur tema mereka.
+Pekerjaan Selanjutnya Perbaiki tampilan untuk mobile Pasang Komentar Faceook (diganti pakai disqus) Pasang Komentar Disqus Menambahkan Google Analytic (pakai Cloudflare) Menambahkan Open Graph Menambahkan Share Button Mendaftarkan ke Google Webmaster Perbaiki Kualitas Konten Pembuatan halaman 404.</description></item><item><title>Membuat Tema Hugo Sendiri</title><link>https://ardianta.github.io/blog/tema-baru-hugo/</link><pubDate>Mon, 18 Dec 2017 15:49:46 +0800</pubDate><guid>https://ardianta.github.io/blog/tema-baru-hugo/</guid><description>Menggunakan tema orang lain, rasanya saya kurang bebas. Karena banyak yang tidak dipahami di stuktur tema mereka.
 Akhirnya saya membuat tema sendiri untuk blog ini.
 Tema Baru Ardianta ini isi file config.toml:
-baseurl = &amp;quot;https://ardianta.github.io/&amp;quot; title = &amp;quot;Ardianta&amp;quot; theme = &amp;quot;ardianta&amp;quot; googleAnalytics = &amp;quot;UA-54154424-1&amp;quot; disqusShortname = &amp;quot;ardianta&amp;quot; [permalinks] post = &amp;quot;/blog/:slug/&amp;quot; page = &amp;quot;/:slug/&amp;quot; [params] # Site Author author = &amp;quot;Dian&amp;quot; # Description/subtitle for homepage description = &amp;quot;Hello, saya Dian.</description>
-    </item>
-    
-    <item>
-      <title>Migrasi Lombokfoss ke Hugo dan Firebase</title>
-      <link>https://ardianta.github.io/blog/lombokfoss-firebase/</link>
-      <pubDate>Mon, 06 Nov 2017 23:44:45 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/lombokfoss-firebase/</guid>
-      <description>Minggu ini saya melakukan migrasi blog saya Lombokfoss, karena nggak pernah diurus.
+baseurl = &amp;quot;https://ardianta.github.io/&amp;quot; title = &amp;quot;Ardianta&amp;quot; theme = &amp;quot;ardianta&amp;quot; googleAnalytics = &amp;quot;UA-54154424-1&amp;quot; disqusShortname = &amp;quot;ardianta&amp;quot; [permalinks] post = &amp;quot;/blog/:slug/&amp;quot; page = &amp;quot;/:slug/&amp;quot; [params] # Site Author author = &amp;quot;Dian&amp;quot; # Description/subtitle for homepage description = &amp;quot;Hello, saya Dian.</description></item><item><title>Migrasi Lombokfoss ke Hugo dan Firebase</title><link>https://ardianta.github.io/blog/lombokfoss-firebase/</link><pubDate>Mon, 06 Nov 2017 23:44:45 +0800</pubDate><guid>https://ardianta.github.io/blog/lombokfoss-firebase/</guid><description>Minggu ini saya melakukan migrasi blog saya Lombokfoss, karena nggak pernah diurus.
 Rencananya saya mau pakai Hugo dan hostingnya di Firebase, lalu untuk DNS saya masih percayakan pada CloudFlare.
 Saya baru pertama kali mencoba hosting di Firebase dan mengkonfigurasi kustom domainnya.
 Di CloudFlare saya set seperti ini:
 Hampir satu minggu saya tunggu, tapi belum juga bisa.
 Ternyata masalahanya cuma di pengaturan SSL Cloudflare saja.
 Harus diset &amp;ldquo;Full&amp;rdquo;:
-Setelah beberapa menit, akhirnya bisa juga dibuka di https://www.</description>
-    </item>
-    
-    <item>
-      <title>Hello World! Tulisan Pertama di Blog Hugo</title>
-      <link>https://ardianta.github.io/blog/hello-world/</link>
-      <pubDate>Tue, 24 Jan 2017 14:35:02 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hello-world/</guid>
-      <description>Hello World!
+Setelah beberapa menit, akhirnya bisa juga dibuka di https://www.</description></item><item><title>Hello World! Tulisan Pertama di Blog Hugo</title><link>https://ardianta.github.io/blog/hello-world/</link><pubDate>Tue, 24 Jan 2017 14:35:02 +0800</pubDate><guid>https://ardianta.github.io/blog/hello-world/</guid><description>Hello World!
 ini adalah tulisan pertama di blog ini. Baru saja saya membuat blog dengan Hugo. Sekarang lagi dikembangkan dengan tema Hugo Bootstrap v4 Blog.
 Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress. Meskipun saya belum mengerti bahasa pemrograman Go.
-Deploy saya lakukan ke Github Pages dengan dua repositori terpisah. Pertama, repositori ardianta-pargo untuk menyimpan konten, kemudian repositori ardianta.github.io untuk menyimpan halaman publik hasil render dari Hugo.</description>
-    </item>
-    
-  </channel>
-</rss>
+Deploy saya lakukan ke Github Pages dengan dua repositori terpisah. Pertama, repositori ardianta-pargo untuk menyimpan konten, kemudian repositori ardianta.github.io untuk menyimpan halaman publik hasil render dari Hugo.</description></item></channel></rss>

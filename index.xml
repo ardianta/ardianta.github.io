@@ -1,85 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ardianta - Ahmad Muhar Dian Lasmita on Ardianta</title>
-    <link>https://ardianta.github.io/</link>
-    <description>Recent content in Ardianta - Ahmad Muhar Dian Lasmita on Ardianta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jan 2018 20:12:09 +0800</lastBuildDate>
-    
-	<atom:link href="https://ardianta.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>9 Buku yang Saya Borong Hari ini</title>
-      <link>https://ardianta.github.io/blog/9-buku/</link>
-      <pubDate>Thu, 11 Oct 2018 21:17:26 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/9-buku/</guid>
-      <description>Siang ini panas sekali, suhu di tempat saya mencapai 32° C.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ardianta - Ahmad Muhar Dian Lasmita on Ardianta</title><link>https://ardianta.github.io/</link><description>Recent content in Ardianta - Ahmad Muhar Dian Lasmita on Ardianta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 25 Jan 2018 20:12:09 +0800</lastBuildDate><atom:link href="https://ardianta.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Ulang Tahun Komunitas Lombok Phonegrapy yang ke-3</title><link>https://ardianta.github.io/blog/lombok-phonegrapy-3/</link><pubDate>Mon, 15 Oct 2018 10:10:42 +0800</pubDate><guid>https://ardianta.github.io/blog/lombok-phonegrapy-3/</guid><description>Bisa dibilang&amp;hellip; saya keluarga baru di komunitas ini. Saya bergabung di group facebook Lombok Phonegraphy sekitar satu tahun yang lalu.
+Saya suka dengan karya-karya mereka, apalagi foto-foto yang diambil lokasinya di Lombok.
+Saya mungkin member yang pasif, karena belum bisa berkontribusi banyak di komunitas ini.
+Karena itu&amp;hellip;
+Pada acara perayaan ulang tahun yang ke-3 ini, saya berusaha untuk hadir.
+Meskipun hari itu sangat panas&amp;hellip;
+Di sana saya bertemu dengan banyak orang yang sebagian besar belum saya kenal.</description></item><item><title>9 Buku yang Saya Borong Hari ini</title><link>https://ardianta.github.io/blog/9-buku/</link><pubDate>Thu, 11 Oct 2018 21:17:26 +0800</pubDate><guid>https://ardianta.github.io/blog/9-buku/</guid><description>Siang ini panas sekali, suhu di tempat saya mencapai 32° C.
 Rencananya:
 Hari ini saya mau pergi ke bank untuk transfer pembayaran pre-order Kelas Design Sprint dari Techinasia.
 Mengapa tidak transfer via ATM?
 Sejak kartu saya ditelan mesin ATM, kini tak bisa digunakan untuk transfer.
 Makannya saya pergi ke bank.
 Tapi untungnya di bank tidak begitu ramai. Sehingga begitu saya selesai mengisi slip, teller bank langsung melayani saya.
-Habis dari bank, saya langsung banting stir ke toko buku.</description>
-    </item>
-    
-    <item>
-      <title>Partial Penghitung Kata pada Hugo</title>
-      <link>https://ardianta.github.io/blog/hugo-wordscounter/</link>
-      <pubDate>Sat, 08 Sep 2018 22:15:58 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hugo-wordscounter/</guid>
-      <description>Setiap menulis blog, Saya jarang memperhatikan jumlah kata yang ditulis.
+Habis dari bank, saya langsung banting stir ke toko buku.</description></item><item><title>Partial Penghitung Kata pada Hugo</title><link>https://ardianta.github.io/blog/hugo-wordscounter/</link><pubDate>Sat, 08 Sep 2018 22:15:58 +0800</pubDate><guid>https://ardianta.github.io/blog/hugo-wordscounter/</guid><description>Setiap menulis blog, Saya jarang memperhatikan jumlah kata yang ditulis.
 Rencananya saya ingin menulis 1000+ kata untuk setiap artikel.
 Karena itu, saya perlu bantuan penghitung kata pada tulisa.
 Saya menggunakan teks editor VS Code untuk menulis. Kadang menggunakan VIM.
 Di VS Code, saya tidak ingin menginstal ekstensi untuk menghitung jumlah kata.
 Karena di artikel yang ditulis terdapat front-matter yang juga akan masuk hitungan.
-Karena itu, solusinya membuat partial penghitung kata.</description>
-    </item>
-    
-    <item>
-      <title>Error 520: Petanikode Down!</title>
-      <link>https://ardianta.github.io/blog/dns-netlify/</link>
-      <pubDate>Tue, 04 Sep 2018 18:05:05 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/dns-netlify/</guid>
-      <description>Beberapa hari ini saya sering mendapatkan laporan error 520 dari pengunjung Petanikode.
+Karena itu, solusinya membuat partial penghitung kata.</description></item><item><title>Error 520: Petanikode Down!</title><link>https://ardianta.github.io/blog/dns-netlify/</link><pubDate>Tue, 04 Sep 2018 18:05:05 +0800</pubDate><guid>https://ardianta.github.io/blog/dns-netlify/</guid><description>Beberapa hari ini saya sering mendapatkan laporan error 520 dari pengunjung Petanikode.
 Apakah mungkin karena trafiknya terlalu ramai?
 Ataukah Netlify yang tidak mau akur dengan cloudflare?
 Saya tidak tahu penyebabnya apa&amp;hellip;
 Namun, screenshot di atas menujukan kalau server tempat Petanikode di-hosting telah down.
 Sedangkan Cloudflare berusaha melayani request dengan cache yang ada.
 Hmmm&amp;hellip;.
-Apakah Bandwidth-nya habis? Netlify memberikan kuota bandwidth sampai 100GB per bulan. Kalau dilihat dari analytic Cloudflare&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Kritik yang Menjatuhkan...</title>
-      <link>https://ardianta.github.io/blog/kritik-menjatuhkan/</link>
-      <pubDate>Mon, 27 Aug 2018 09:59:16 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/kritik-menjatuhkan/</guid>
-      <description>Pernahkan kamu mendengar kalimat kritik seperti ini:
+Apakah Bandwidth-nya habis? Netlify memberikan kuota bandwidth sampai 100GB per bulan. Kalau dilihat dari analytic Cloudflare&amp;hellip;</description></item><item><title>Kritik yang Menjatuhkan...</title><link>https://ardianta.github.io/blog/kritik-menjatuhkan/</link><pubDate>Mon, 27 Aug 2018 09:59:16 +0800</pubDate><guid>https://ardianta.github.io/blog/kritik-menjatuhkan/</guid><description>Pernahkan kamu mendengar kalimat kritik seperti ini:
 &amp;ldquo;Ah sok kamu pakai bahasa inggris&amp;rdquo;
 Mendengarnya akan membuat mental kita jatuh&amp;hellip;
 Kita yang awalnya semangat untuk belajar, tapi malah jadi gak semangat lagi.
 Hal senada sering saya dengar belakangan ini.
 Saat pemuda-pemuda Lombok mulai kehilangan kepercayaan terhadap BMKG. Mereka mulai belajar sendiri tentang geologi.
 Bahkan puluhan pertanyaan pun bermunculan setiap hari di group facebook yang saya ikuti.
-Namun, ditengah itu ada juga yang memberi kritik:</description>
-    </item>
-    
-    <item>
-      <title>Gempa Bumi di Lombok dan Coding</title>
-      <link>https://ardianta.github.io/blog/gemba-coding/</link>
-      <pubDate>Sun, 29 Jul 2018 10:14:57 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/gemba-coding/</guid>
-      <description>Minggu, 29 Juli 2018. Pagi ini Lombok diguncang gempa 6 SR.
+Namun, ditengah itu ada juga yang memberi kritik:</description></item><item><title>Gempa Bumi di Lombok dan Coding</title><link>https://ardianta.github.io/blog/gemba-coding/</link><pubDate>Sun, 29 Jul 2018 10:14:57 +0800</pubDate><guid>https://ardianta.github.io/blog/gemba-coding/</guid><description>Minggu, 29 Juli 2018. Pagi ini Lombok diguncang gempa 6 SR.
 Saat itu, saya masih tertidur&amp;hellip;
 &amp;hellip;dan dibangunkan oleh gempa ini.
 Laptop saya masih menyala, karena semalam tiduran sambil ngoding.
@@ -90,56 +42,20 @@ Gempa makin besar!
 Yang saya pikirkan pertama kali saat itu:
 &amp;ldquo;Bagaimana nih menyelamatkan laptop saya&amp;rdquo;
 Haha, keselamatan sendiri tidak dipikirkan.
-Sementara ibu saya sudah berteriak menyuruh saya keluar.</description>
-    </item>
-    
-    <item>
-      <title>Animasi Pertamaku: Dibuat dengan Krita dan GIMP</title>
-      <link>https://ardianta.github.io/blog/animasi-pertama/</link>
-      <pubDate>Fri, 22 Jun 2018 03:02:11 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/animasi-pertama/</guid>
-      <description>Dulu saat masih kecil, saya cuma bisa penasaran:
+Sementara ibu saya sudah berteriak menyuruh saya keluar.</description></item><item><title>Animasi Pertamaku: Dibuat dengan Krita dan GIMP</title><link>https://ardianta.github.io/blog/animasi-pertama/</link><pubDate>Fri, 22 Jun 2018 03:02:11 +0800</pubDate><guid>https://ardianta.github.io/blog/animasi-pertama/</guid><description>Dulu saat masih kecil, saya cuma bisa penasaran:
 &amp;ldquo;Bagaimana sih cara buat kartun/animasi?&amp;rdquo;
 Setelah dewasa, saya akhirnya tahu jawabannya.
 Mulai dari Menggambar dulu&amp;hellip; Beberapa bulan terakhir ini, saya belajar dan berlatih menggambar secara otodidak.
 Saya belajar menggambar di kertas dan di komputer menggunakan MyPaint, Krita, dan GIMP.
 Berjam-jam waktu dihabiskan. Bahkan waktu yang seharusnya dipakai buat kerja dipakai buat gambar.
 Tapi hasilnya:
-Sedikit demi sedikit saya mulai memahami cara menggunakan berbagai macam tools di tiga aplikasi tersebut.</description>
-    </item>
-    
-    <item>
-      <title>Saya Ganti Distro, dari Linux Mint ke Kubuntu</title>
-      <link>https://ardianta.github.io/blog/ganti-distro/</link>
-      <pubDate>Thu, 07 Jun 2018 06:20:39 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/ganti-distro/</guid>
-      <description>Hari ini saya selesai menginstal distro Kubuntu 18.04 yang instalasinya dimulai dari kemarin tanggal 06/06/2018.
+Sedikit demi sedikit saya mulai memahami cara menggunakan berbagai macam tools di tiga aplikasi tersebut.</description></item><item><title>Saya Ganti Distro, dari Linux Mint ke Kubuntu</title><link>https://ardianta.github.io/blog/ganti-distro/</link><pubDate>Thu, 07 Jun 2018 06:20:39 +0800</pubDate><guid>https://ardianta.github.io/blog/ganti-distro/</guid><description>Hari ini saya selesai menginstal distro Kubuntu 18.04 yang instalasinya dimulai dari kemarin tanggal 06/06/2018.
 Momentum banget ini, saat ulang tahun&amp;hellip; saya ganti distro. Hehe, mungkin nanti biar ingat, kapan saat saya ganti distro.
 Sejak hari kemarin, saya melakukan backup semua data ke laptop bapak, karena nanti hardisk laptop saya akan dipartisi ulang.
-Partisi root yang sebelumnya saya gunakan 30GB, sekarang saya pakai sekitar 60GB. Dua kali lipat dari yang sebelumnya.</description>
-    </item>
-    
-    <item>
-      <title>Masalah Saat Install Laravel</title>
-      <link>https://ardianta.github.io/blog/install-laravel/</link>
-      <pubDate>Wed, 30 May 2018 04:42:41 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/install-laravel/</guid>
-      <description>Server tidak bisa dijalankan: $ php artisan serve PHP Warning: require(/home/petanikode/tmp/mikroblog/vendor/autoload.php): failed to open stream: No such file or directory in /home/petanikode/tmp/mikroblog/artisan on line 18 PHP Fatal error: require(): Failed opening required &#39;/home/petanikode/tmp/mikroblog/vendor/autoload.php&#39; (include_path=&#39;.:/usr/share/php&#39;) in /home/petanikode/tmp/mikroblog/artisan on line 18  Solusi:
+Partisi root yang sebelumnya saya gunakan 30GB, sekarang saya pakai sekitar 60GB. Dua kali lipat dari yang sebelumnya.</description></item><item><title>Masalah Saat Install Laravel</title><link>https://ardianta.github.io/blog/install-laravel/</link><pubDate>Wed, 30 May 2018 04:42:41 +0800</pubDate><guid>https://ardianta.github.io/blog/install-laravel/</guid><description>Server tidak bisa dijalankan: $ php artisan serve PHP Warning: require(/home/petanikode/tmp/mikroblog/vendor/autoload.php): failed to open stream: No such file or directory in /home/petanikode/tmp/mikroblog/artisan on line 18 PHP Fatal error: require(): Failed opening required &#39;/home/petanikode/tmp/mikroblog/vendor/autoload.php&#39; (include_path=&#39;.:/usr/share/php&#39;) in /home/petanikode/tmp/mikroblog/artisan on line 18 Solusi:
 Coba jalankan perintah:
-composer install  Versi PHP masih Versi Lama Muncul masalah lagi, ternyata versi PHP yang saya gunakan masih versi lama:
-$ composer install Loading composer repositories with package information Updating dependencies (including require-dev) Your requirements could not be resolved to an installable set of packages.</description>
-    </item>
-    
-    <item>
-      <title>Hasil Latihan Menggambar Menggunakan Pen Tablet Wacom Selama 1 Minggu</title>
-      <link>https://ardianta.github.io/blog/wacom/</link>
-      <pubDate>Mon, 14 May 2018 10:38:39 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/wacom/</guid>
-      <description>Hari sabtu tanggal 3 Mei kemarin, saya membeli pen tablet wacom milik teman saya.
+composer install Versi PHP masih Versi Lama Muncul masalah lagi, ternyata versi PHP yang saya gunakan masih versi lama:
+$ composer install Loading composer repositories with package information Updating dependencies (including require-dev) Your requirements could not be resolved to an installable set of packages.</description></item><item><title>Hasil Latihan Menggambar Menggunakan Pen Tablet Wacom Selama 1 Minggu</title><link>https://ardianta.github.io/blog/wacom/</link><pubDate>Mon, 14 May 2018 10:38:39 +0800</pubDate><guid>https://ardianta.github.io/blog/wacom/</guid><description>Hari sabtu tanggal 3 Mei kemarin, saya membeli pen tablet wacom milik teman saya.
 Wacom model Intuos CTH-480.
 Ini memang model lama, Dia beli skitar 3 tahun yang lalu. Namun, tidak pernah dipakai.
 Pengalaman Pertama Menggunakan Wacom Dulu saya memang pernah mencoba wacom ini, hasilnya:
@@ -147,62 +63,26 @@ Ini saya gambar sekitar 3 tahun yang lalu&amp;hellip;
 Sekarang saya mencoba lagi menggunakan Wacom.
 Hasilnya:
 Sabtu, 05 Mei 2018 Gambar Pertama:
- Gambar Kedua:</description>
-    </item>
-    
-    <item>
-      <title>Lomba Gambar Tingkat Kecamatan</title>
-      <link>https://ardianta.github.io/blog/lomba-gambar-kecamatan/</link>
-      <pubDate>Sat, 12 May 2018 22:55:39 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/lomba-gambar-kecamatan/</guid>
-      <description>Dulu saat SD pernah ikut lomba gambar tingkat kecamatan di acara 17-an. Peserta cuma dua orang, saya dan seseorang yang tidak saya kenal.
+Gambar Kedua:</description></item><item><title>Lomba Gambar Tingkat Kecamatan</title><link>https://ardianta.github.io/blog/lomba-gambar-kecamatan/</link><pubDate>Sat, 12 May 2018 22:55:39 +0800</pubDate><guid>https://ardianta.github.io/blog/lomba-gambar-kecamatan/</guid><description>Dulu saat SD pernah ikut lomba gambar tingkat kecamatan di acara 17-an. Peserta cuma dua orang, saya dan seseorang yang tidak saya kenal.
 Kami disuruh menggambar tentang suasana desa.
 Waktu itu saya menggambar sawah dengan pensil.
 Sementara dia menggunakan cat air.
 Hasilnya:
- Juara 1: Dia Juara 2: Saya  Saya memang mengakui keahliannya&amp;hellip;
+Juara 1: Dia Juara 2: Saya Saya memang mengakui keahliannya&amp;hellip;
 Saya hanya bisa kagum melihat hasil lukisannya.
 Sementara punya saya jelek dan apa adanya 😄&amp;hellip;
-Saat lomba, saya tidak pernah ngomong dengannya.</description>
-    </item>
-    
-    <item>
-      <title>Melanjutkan Pembuatan Template Blogger dengan Bootstrap</title>
-      <link>https://ardianta.github.io/blog/template-bs4blogger/</link>
-      <pubDate>Wed, 25 Apr 2018 21:22:40 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/template-bs4blogger/</guid>
-      <description>Sudah cukup lama saya mulai pembuatan template ini. Namun, belum sempat dilanjutkan lagi.
+Saat lomba, saya tidak pernah ngomong dengannya.</description></item><item><title>Melanjutkan Pembuatan Template Blogger dengan Bootstrap</title><link>https://ardianta.github.io/blog/template-bs4blogger/</link><pubDate>Wed, 25 Apr 2018 21:22:40 +0800</pubDate><guid>https://ardianta.github.io/blog/template-bs4blogger/</guid><description>Sudah cukup lama saya mulai pembuatan template ini. Namun, belum sempat dilanjutkan lagi.
 Kemarin saya coba otak-atik lagi&amp;hellip;
 &amp;hellip;dan ini hasilnya:
 Terlhat bagus 😄
 Template ini sebenarnya replika dari template Petani Kode. Karena banyak yang meminta saya untuk membuat versi Bloggernya.
 Template ini saya persembahkan untuk kawan-kawan yang ingin membuat blognya terlihat:
- Bersih Rapi Elegan Sederhana dan profesional.  Tertarik? Cek demonya di sini: https://bs4blogger.blogspot.co.id/
-Oya, template ini masih belum jadi&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Hasil Latihan Belajar Menggambar Selama Satu Bulan</title>
-      <link>https://ardianta.github.io/blog/satu-bulan-menggambar/</link>
-      <pubDate>Sat, 21 Apr 2018 15:27:53 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/satu-bulan-menggambar/</guid>
-      <description>Sejak tanggal 18 maret yang lalu, saya tidak sengaja mencorat-coret kertas bekas dengan pensil. Melihat hasilnya yang cukup bagus, saya tertarik lagi untuk menggambar.
+Bersih Rapi Elegan Sederhana dan profesional. Tertarik? Cek demonya di sini: https://bs4blogger.blogspot.co.id/
+Oya, template ini masih belum jadi&amp;hellip;</description></item><item><title>Hasil Latihan Belajar Menggambar Selama Satu Bulan</title><link>https://ardianta.github.io/blog/satu-bulan-menggambar/</link><pubDate>Sat, 21 Apr 2018 15:27:53 +0800</pubDate><guid>https://ardianta.github.io/blog/satu-bulan-menggambar/</guid><description>Sejak tanggal 18 maret yang lalu, saya tidak sengaja mencorat-coret kertas bekas dengan pensil. Melihat hasilnya yang cukup bagus, saya tertarik lagi untuk menggambar.
 Nyoba belajar gambar lagi... pic.twitter.com/uK631mVrla
-&amp;mdash; Ardianta (@ArdiantaPargo) March 17, 2018  Menggambar adalah hobi saya sejak SD dan SMP.
+&amp;mdash; Ardianta (@ArdiantaPargo) March 17, 2018 Menggambar adalah hobi saya sejak SD dan SMP.
 Lalu, saat masuk SMK dan kuliah, saya tidak menggambar lagi. Karena mungkin tidak ada teman yang sehobi dengan saya.
-Lalu beberapa waktu yang lalu, saya menemukan video tutorial menggambar manga di Youtube.</description>
-    </item>
-    
-    <item>
-      <title>2 Minggu Tanpa Coding</title>
-      <link>https://ardianta.github.io/blog/isra-mikraj-2018/</link>
-      <pubDate>Fri, 06 Apr 2018 22:47:33 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/isra-mikraj-2018/</guid>
-      <description>Dua minggu ini saya nggak pernah coding, karena acara lomba dalam rangka peringatan Isra&amp;rsquo; Mikraj.
+Lalu beberapa waktu yang lalu, saya menemukan video tutorial menggambar manga di Youtube.</description></item><item><title>2 Minggu Tanpa Coding</title><link>https://ardianta.github.io/blog/isra-mikraj-2018/</link><pubDate>Fri, 06 Apr 2018 22:47:33 +0800</pubDate><guid>https://ardianta.github.io/blog/isra-mikraj-2018/</guid><description>Dua minggu ini saya nggak pernah coding, karena acara lomba dalam rangka peringatan Isra&amp;rsquo; Mikraj.
 Saya menjadi panitia di acara ini.
 Selama dua minggu ini, jarang online&amp;hellip;
 &amp;hellip;karena acara selesai sampai jam 10, dan beres-beres sampai jam 12.
@@ -210,291 +90,93 @@ Akun github saya menjadi sepi.
 Tapi yang seru di acara ini:
 Bisa ngopi bareng teman-teman.
 Bisa merasakan &amp;ldquo;lelahnya&amp;rdquo; menjadi panitia.
-dan masih banyak lagi.</description>
-    </item>
-    
-    <item>
-      <title>Agar Hugo tidak melakukan HTTP Request saat Offline</title>
-      <link>https://ardianta.github.io/blog/hugo-offline/</link>
-      <pubDate>Sun, 18 Mar 2018 00:37:25 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hugo-offline/</guid>
-      <description>Saya menggunakan shortcode twitter dan instagram di dalam postingan. Setiap kali mau render, pasti akan melakukan HTTP Request ke API twitter dan instagram.
+dan masih banyak lagi.</description></item><item><title>Agar Hugo tidak melakukan HTTP Request saat Offline</title><link>https://ardianta.github.io/blog/hugo-offline/</link><pubDate>Sun, 18 Mar 2018 00:37:25 +0800</pubDate><guid>https://ardianta.github.io/blog/hugo-offline/</guid><description>Saya menggunakan shortcode twitter dan instagram di dalam postingan. Setiap kali mau render, pasti akan melakukan HTTP Request ke API twitter dan instagram.
 Sehingga, apabila kita render saat dalam keadaan offline, maka akan menghasilkan error seperti ini:
 Cara mencegahnya:
 Kita cukup mengisi alamat baseurl dengan localhost:
-baseurl = &amp;quot;http://localhost&amp;quot;  Atau bisa juga diberikan saat me-render atau menjalankan server Hugo dengan flag -b atau --baseURL.
-hugo server -b http://localhost  Maka Hugo tidak akan melakukan HTTP Request lagi.</description>
-    </item>
-    
-    <item>
-      <title>[Challenge 2018] Buku #1: Craetive Writing</title>
-      <link>https://ardianta.github.io/blog/buku-creative-writing/</link>
-      <pubDate>Mon, 19 Feb 2018 20:15:20 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/buku-creative-writing/</guid>
-      <description>Buku ini adalah buku pertama yang saya selesaikan tahun ini. Sebenarnya mulai dibaca sejak tahun lalu, namun karena tidak pernah dibuka lagi, jadi terbengkalai 😄.
+baseurl = &amp;quot;http://localhost&amp;quot; Atau bisa juga diberikan saat me-render atau menjalankan server Hugo dengan flag -b atau --baseURL.
+hugo server -b http://localhost Maka Hugo tidak akan melakukan HTTP Request lagi.</description></item><item><title>[Challenge 2018] Buku #1: Craetive Writing</title><link>https://ardianta.github.io/blog/buku-creative-writing/</link><pubDate>Mon, 19 Feb 2018 20:15:20 +0800</pubDate><guid>https://ardianta.github.io/blog/buku-creative-writing/</guid><description>Buku ini adalah buku pertama yang saya selesaikan tahun ini. Sebenarnya mulai dibaca sejak tahun lalu, namun karena tidak pernah dibuka lagi, jadi terbengkalai 😄.
 Buku ini saya beli di Playstore dengan harga yang sangat murah. Karena saat itu sedang ada diskon besar-besaran.
 Bayarnya via pulsa. Asik kan.
 Sebenarnya pingin juga punya versi cetaknya, buat dijadikan koleksi.
-Buku ini biasanya saya baca saat mau tidur untuk memancing rasa ngantuk.</description>
-    </item>
-    
-    <item>
-      <title>Isengin Web Python dan dapat akses Shell Linux Gratis!</title>
-      <link>https://ardianta.github.io/blog/shell-web-python/</link>
-      <pubDate>Fri, 16 Feb 2018 07:15:15 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/shell-web-python/</guid>
-      <description>Karena habis gentayangan di beberapa cloud workspace seperti c9.io, codenvy, dan glitch saya tiba-tiba kepikiran untuk mengakses shell dari web Python.
+Buku ini biasanya saya baca saat mau tidur untuk memancing rasa ngantuk.</description></item><item><title>Isengin Web Python dan dapat akses Shell Linux Gratis!</title><link>https://ardianta.github.io/blog/shell-web-python/</link><pubDate>Fri, 16 Feb 2018 07:15:15 +0800</pubDate><guid>https://ardianta.github.io/blog/shell-web-python/</guid><description>Karena habis gentayangan di beberapa cloud workspace seperti c9.io, codenvy, dan glitch saya tiba-tiba kepikiran untuk mengakses shell dari web Python.
 Di website Python, terdapat shell python yang bisa kita gunakan untuk ujicaoba kode python.
 Lalu, bagaimana kalau&amp;hellip;
 Kita akses shell seperti bash atau zsh di sana?
 Ya, itu bisa.
 Caranya:
 Pertama saya coba-coba dulu menjalankan perintah Linux dengan mengimpor modul os.
-Di dalam modul os, terdapat fungsi untuk menjalankan perintah Linux, yaitu: system().</description>
-    </item>
-    
-    <item>
-      <title>Rasio Pentalan Terjun Bebas! dan Saya tidak tahu mengapa?</title>
-      <link>https://ardianta.github.io/blog/rasio-pentalan/</link>
-      <pubDate>Tue, 13 Feb 2018 23:11:24 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/rasio-pentalan/</guid>
-      <description>Bulan Januari tahun 2017 yang lalu, saya migrasi dari platform Blogger ke Hugo. Sejak saat itu, masih banyak yang harus dikerjakan seperti mendasain ulang template, memperbaiki konten, memperbaiki broken link, dsb.
+Di dalam modul os, terdapat fungsi untuk menjalankan perintah Linux, yaitu: system().</description></item><item><title>Rasio Pentalan Terjun Bebas! dan Saya tidak tahu mengapa?</title><link>https://ardianta.github.io/blog/rasio-pentalan/</link><pubDate>Tue, 13 Feb 2018 23:11:24 +0800</pubDate><guid>https://ardianta.github.io/blog/rasio-pentalan/</guid><description>Bulan Januari tahun 2017 yang lalu, saya migrasi dari platform Blogger ke Hugo. Sejak saat itu, masih banyak yang harus dikerjakan seperti mendasain ulang template, memperbaiki konten, memperbaiki broken link, dsb.
 Yang paling lama adalah memperbaiki kontentnya. Karena saya menemukan banyak konten yang kualitasnya rendah. Hingga saat ini pekerjaan memperbaiki konten masih belum selsai dan akan terus dilakukan.
-Saat itu, rasio pentalan (bounce rate) blog saya sekitar 50%&amp;ndash;70%. Menurut saya ini hal yang wajar.</description>
-    </item>
-    
-    <item>
-      <title>Satu Minggu Belajar Keymap VIM</title>
-      <link>https://ardianta.github.io/blog/keyboard-vim/</link>
-      <pubDate>Mon, 12 Feb 2018 23:20:53 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/keyboard-vim/</guid>
-      <description>Kira-kira sudah hampir satu minggu saya membiasakan diri menggunakan keymap VIM dengan menginstall exension VIM di Google Chrome dan VS Code.
+Saat itu, rasio pentalan (bounce rate) blog saya sekitar 50%&amp;ndash;70%. Menurut saya ini hal yang wajar.</description></item><item><title>Satu Minggu Belajar Keymap VIM</title><link>https://ardianta.github.io/blog/keyboard-vim/</link><pubDate>Mon, 12 Feb 2018 23:20:53 +0800</pubDate><guid>https://ardianta.github.io/blog/keyboard-vim/</guid><description>Kira-kira sudah hampir satu minggu saya membiasakan diri menggunakan keymap VIM dengan menginstall exension VIM di Google Chrome dan VS Code.
 Di Google Chome saya install Vimum. Sedangkan di VS Code saya install vim (emulator).
 Saya mulai terbiasa menggunakan tombol navigasi h,j,k, dan l dan merasakan lebih mudah daripada menekan tombol navigasi panah.
-Biasanya saya menugaskan jari kelingking untuk menekan tomol panah. Namun setelah menggunakan tombol navigasi VIM, saya malah jarang menekan tombol itu.</description>
-    </item>
-    
-    <item>
-      <title>Install Inkscape Terbaru dari PPA Resmi</title>
-      <link>https://ardianta.github.io/blog/ppa-inkscape/</link>
-      <pubDate>Tue, 06 Feb 2018 16:29:16 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/ppa-inkscape/</guid>
-      <description>Saya menggunakan Inkscape 0.91, kadang sering stuck saat melakukan dragging dengan tombol spasi dan mouse.
+Biasanya saya menugaskan jari kelingking untuk menekan tomol panah. Namun setelah menggunakan tombol navigasi VIM, saya malah jarang menekan tombol itu.</description></item><item><title>Install Inkscape Terbaru dari PPA Resmi</title><link>https://ardianta.github.io/blog/ppa-inkscape/</link><pubDate>Tue, 06 Feb 2018 16:29:16 +0800</pubDate><guid>https://ardianta.github.io/blog/ppa-inkscape/</guid><description>Saya menggunakan Inkscape 0.91, kadang sering stuck saat melakukan dragging dengan tombol spasi dan mouse.
 Mungkin saja di versi 0.92 sudah diperbaiki. Oya, versi 0.91 ini dirilis pada tahun 2015, sedangkan 0.92 pada tahun 2017.
 Saya ingin upgrade ke 0.92, namun belum tersedia di repositori resmi.
 Akhirnya menemukan PPA ini:
-sudo add-apt-repository ppa:inkscape.dev/stable sudo apt-get update  Dan sekarang saya sudah bisa install Inkscape 0.92, yay!
-Sumber: https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable</description>
-    </item>
-    
-    <item>
-      <title>Verifikasi Profil Upwork via Video Chat</title>
-      <link>https://ardianta.github.io/blog/verifikasi-upwork/</link>
-      <pubDate>Wed, 31 Jan 2018 10:52:18 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/verifikasi-upwork/</guid>
-      <description>Hari ini saya melakukan verifikasi profil upwork 😄&amp;hellip;
+sudo add-apt-repository ppa:inkscape.dev/stable sudo apt-get update Dan sekarang saya sudah bisa install Inkscape 0.92, yay!
+Sumber: https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable</description></item><item><title>Verifikasi Profil Upwork via Video Chat</title><link>https://ardianta.github.io/blog/verifikasi-upwork/</link><pubDate>Wed, 31 Jan 2018 10:52:18 +0800</pubDate><guid>https://ardianta.github.io/blog/verifikasi-upwork/</guid><description>Hari ini saya melakukan verifikasi profil upwork 😄&amp;hellip;
 Sebenarnya saya sudah daftar upwork sejak era Odesk dan Elance masih berjaya, namun belum pernah melakukan apa-apa.
 Nah kemarin dapat kebetulan job pertama bikin pop-up dengan vex untuk Hugo.
 &amp;hellip;dan beberapa hari berikutnya dapat email dari Upwork yang mengatakan: akun saya sementara ditahan dan harus melalkukan verifikasi melalui video chat.
 Video chat!!
-Ini terdengar sulit bagi saya. Karena beberapa waktu yang lalu pernah video chat via skype dengan orang inggris.</description>
-    </item>
-    
-    <item>
-      <title>Masalah Saat Upgrade Linux Mint 18</title>
-      <link>https://ardianta.github.io/blog/upgrade-lm-18/</link>
-      <pubDate>Wed, 31 Jan 2018 04:18:56 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/upgrade-lm-18/</guid>
-      <description>Kemarin saya pergi ke tempat Wifi.id dan melakukan upgrade Linux Mint. Akan tetapi dapat sedikit masalah dengan mysql-server.
+Ini terdengar sulit bagi saya. Karena beberapa waktu yang lalu pernah video chat via skype dengan orang inggris.</description></item><item><title>Masalah Saat Upgrade Linux Mint 18</title><link>https://ardianta.github.io/blog/upgrade-lm-18/</link><pubDate>Wed, 31 Jan 2018 04:18:56 +0800</pubDate><guid>https://ardianta.github.io/blog/upgrade-lm-18/</guid><description>Kemarin saya pergi ke tempat Wifi.id dan melakukan upgrade Linux Mint. Akan tetapi dapat sedikit masalah dengan mysql-server.
 Entah mengapa ini bisa terjadi&amp;hellip;
 Sebenarnya ini yang membuat saya malas upgrade Linux. Kadang sering terjadi error karena ada beberapa bugs yang belum diperbaiki.
 Namun, untungnya sudah solved dengan solusi dari https://askubuntu.com/a/762432/235594.
 Berikut ini log Terminal saya:
-petanikode@imajinasi ~ $ apt install shutter [sudo] password for petanikode: Reading package lists... Done Building dependency tree Reading state information.</description>
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>https://ardianta.github.io/tools/</link>
-      <pubDate>Sun, 28 Jan 2018 23:01:25 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/tools/</guid>
-      <description> Halaman ini berisi daftar peralatan dan teknologi yang bisa saya gunakan untuk bekerja:
-Sistem Operasi  Linux (Ubuntu, Linux Mint) Windows Android  Bahasa Pemrograman  PHP Javascript Java Python  Bahasa yang lainnya  SQL (MySQL, SQLite, PostgreSQL) HTML XML JSON YAML TOML Markdown  Framework  CodeIgniter Slim Framework Hugo Laravel Bootstrap  IDE dan Teks Editor  Visual Studio Code Android Studio Netbeans  Development Tool  Git CI/DI (Gilab CI, Travis CI) Composer NPM Yarn Apache Maven Gradle  Server  Heroku Firebase Netlify  Peralatan Desain  Inkscape GIMP StarUML  </description>
-    </item>
-    
-    <item>
-      <title>Eksperimen Membuat Template Blogger dengan Bootstrap 4</title>
-      <link>https://ardianta.github.io/blog/template-blogger/</link>
-      <pubDate>Thu, 25 Jan 2018 20:30:53 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/template-blogger/</guid>
-      <description>Tadi malam saya coba eksperimen membuat template blogger dengan Bootstrap 4. Saya membuat blog baru (https://bs4blogger.blogspot.com) untuk eksperimen ini.
+petanikode@imajinasi ~ $ apt install shutter [sudo] password for petanikode: Reading package lists... Done Building dependency tree Reading state information.</description></item><item><title>Tools</title><link>https://ardianta.github.io/tools/</link><pubDate>Sun, 28 Jan 2018 23:01:25 +0800</pubDate><guid>https://ardianta.github.io/tools/</guid><description> Halaman ini berisi daftar peralatan dan teknologi yang bisa saya gunakan untuk bekerja:
+Sistem Operasi Linux (Ubuntu, Linux Mint) Windows Android Bahasa Pemrograman PHP Javascript Java Python Bahasa yang lainnya SQL (MySQL, SQLite, PostgreSQL) HTML XML JSON YAML TOML Markdown Framework CodeIgniter Slim Framework Hugo Laravel Bootstrap IDE dan Teks Editor Visual Studio Code Android Studio Netbeans Development Tool Git CI/DI (Gilab CI, Travis CI) Composer NPM Yarn Apache Maven Gradle Server Heroku Firebase Netlify Peralatan Desain Inkscape GIMP StarUML</description></item><item><title>Eksperimen Membuat Template Blogger dengan Bootstrap 4</title><link>https://ardianta.github.io/blog/template-blogger/</link><pubDate>Thu, 25 Jan 2018 20:30:53 +0800</pubDate><guid>https://ardianta.github.io/blog/template-blogger/</guid><description>Tadi malam saya coba eksperimen membuat template blogger dengan Bootstrap 4. Saya membuat blog baru (https://bs4blogger.blogspot.com) untuk eksperimen ini.
 Membuat template blog sepertinya lebih sulit daripada membuat template Hugo. Karena dokumentasi template blogger sangat minim.
 Berikut ini link dokumentasi yang bisa digunakan:
- Pengenalan konsep dasar template blogger Penjelasan tentang CSS di Template Penjelasan tentang kode widget Variabel data di template  Saya juga menggunakan semacam cheatsheet untuk mempermudah dalam mengetahui isi dari variabel data.</description>
-    </item>
-    
-    <item>
-      <title>Tahapan Menulis Artikel di Blog</title>
-      <link>https://ardianta.github.io/blog/menulis-blog/</link>
-      <pubDate>Wed, 24 Jan 2018 03:01:24 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/menulis-blog/</guid>
-      <description>Saya baru menyadari, kalau selama ini cara saya menulis memang salah. Saya menulis draft, sekaligus mengedit, dan membuat gambar ilustrasinya.
+Pengenalan konsep dasar template blogger Penjelasan tentang CSS di Template Penjelasan tentang kode widget Variabel data di template Saya juga menggunakan semacam cheatsheet untuk mempermudah dalam mengetahui isi dari variabel data.</description></item><item><title>Tahapan Menulis Artikel di Blog</title><link>https://ardianta.github.io/blog/menulis-blog/</link><pubDate>Wed, 24 Jan 2018 03:01:24 +0800</pubDate><guid>https://ardianta.github.io/blog/menulis-blog/</guid><description>Saya baru menyadari, kalau selama ini cara saya menulis memang salah. Saya menulis draft, sekaligus mengedit, dan membuat gambar ilustrasinya.
 Jadi kurang fokus pada menuangkan isi pikiran yang akan ditulis. Akibatnya pembutan artikel jadi lama dan berakhir menjadi draft.
 Setelah saya mencoba untuk fokus di satu saja, ternyata hasilnya lumayan berbeda.
-Pertama: Menulis Draft Saya menulis apa yang sedang terlintas dipikiran tanpa memperhatikan typo dan kalimat yang bagus. Tulis saja apa adanya.</description>
-    </item>
-    
-    <item>
-      <title>Belajar Menulis Buku dengan Pandoc</title>
-      <link>https://ardianta.github.io/blog/buku-pandoc/</link>
-      <pubDate>Tue, 23 Jan 2018 20:01:12 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/buku-pandoc/</guid>
-      <description>Salah satu goal saya di tahun 2018 adalah membuat buku. Setidaknya bisa membuat ebook untuk catatan pribadi.
+Pertama: Menulis Draft Saya menulis apa yang sedang terlintas dipikiran tanpa memperhatikan typo dan kalimat yang bagus. Tulis saja apa adanya.</description></item><item><title>Belajar Menulis Buku dengan Pandoc</title><link>https://ardianta.github.io/blog/buku-pandoc/</link><pubDate>Tue, 23 Jan 2018 20:01:12 +0800</pubDate><guid>https://ardianta.github.io/blog/buku-pandoc/</guid><description>Salah satu goal saya di tahun 2018 adalah membuat buku. Setidaknya bisa membuat ebook untuk catatan pribadi.
 Syukur-syukur kalau ada yang mau baca 😄.
 Pertama saya coba-coba lihat info di leanpub tentang cara menulis di sana. Namun, sepertinya berbayar $99 untuk bisa menulis di sana.
 Dulu saya juga pernah coba-coba gitbook, tapi sudah lupa.
-Nah sekarang saya menemukan Pandoc yang merupakan sebuah program CLI untuk konversi dokumen ke beberapa format seperti HTML, EPUB, dll.</description>
-    </item>
-    
-    <item>
-      <title>Binding Server Hugo ke IP LAN</title>
-      <link>https://ardianta.github.io/blog/hugo-server/</link>
-      <pubDate>Tue, 23 Jan 2018 02:03:56 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hugo-server/</guid>
-      <description>Jadi ceritanya hari ini saya dapat feedback untuk revisi pekerjaan pembuatan template Hugo.
+Nah sekarang saya menemukan Pandoc yang merupakan sebuah program CLI untuk konversi dokumen ke beberapa format seperti HTML, EPUB, dll.</description></item><item><title>Binding Server Hugo ke IP LAN</title><link>https://ardianta.github.io/blog/hugo-server/</link><pubDate>Tue, 23 Jan 2018 02:03:56 +0800</pubDate><guid>https://ardianta.github.io/blog/hugo-server/</guid><description>Jadi ceritanya hari ini saya dapat feedback untuk revisi pekerjaan pembuatan template Hugo.
 Kebanyakan masalahnya pada tata letak dan responsive.
 Saya ingin mengetes langsung dengan HP. Sebenarnya bisa langsung dilakukan di browser, tapi saya maunya langsung dari HP saja.
 Kondisi topologi jraingan saya:
-Modem Wifi --- Laptop | | HP  Alamat IP laptop saya 192.168.1.104 bisa diakses melalui LAN.
-Ketika mencoba mengakses alamat IP tersebut dari HP, yang muncul adalah server Apache.</description>
-    </item>
-    
-    <item>
-      <title>Migrasi Front-matter Hugo dengan sed</title>
-      <link>https://ardianta.github.io/blog/migrasi-frontmatter/</link>
-      <pubDate>Fri, 19 Jan 2018 20:05:09 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/migrasi-frontmatter/</guid>
-      <description>Saya berencana memperbaiki template dan front-matter Petanikode. Ada 300 lebih artikelnya yang harus dimodifikasi.
+Modem Wifi --- Laptop | | HP Alamat IP laptop saya 192.168.1.104 bisa diakses melalui LAN.
+Ketika mencoba mengakses alamat IP tersebut dari HP, yang muncul adalah server Apache.</description></item><item><title>Migrasi Front-matter Hugo dengan sed</title><link>https://ardianta.github.io/blog/migrasi-frontmatter/</link><pubDate>Fri, 19 Jan 2018 20:05:09 +0800</pubDate><guid>https://ardianta.github.io/blog/migrasi-frontmatter/</guid><description>Saya berencana memperbaiki template dan front-matter Petanikode. Ada 300 lebih artikelnya yang harus dimodifikasi.
 Saya rasa ini cukup merepotkan, mengedit satu-persatu front-matter setiap artikel. Apalagi jumlahnya cukup banyak.
 Akhirnyta saya menemukan sed (Stream Editor).
 Berawal dari coba-coba dari perintah ini, Front-matternya menjadi rusak. Untungnya menggunakan git, jadi masih bisa dikembalikan lagi.
 Lalu biar mudah saya membuat branch baru bernama theme-migration.
-git checkout -b theme-migration  Sekarang saya bebas memodifikasinya dengan sed tanpa harus takut rusak lagi.</description>
-    </item>
-    
-    <item>
-      <title>Cara Deploy Hugo dari Gitlab ke Surge</title>
-      <link>https://ardianta.github.io/blog/hugo-gitlab-surge/</link>
-      <pubDate>Sat, 13 Jan 2018 17:59:45 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hugo-gitlab-surge/</guid>
-      <description>Saya punya project pembuatan template untuk web company profile. Sewaktu ingin memperlihatkan demo, saya menggunakan layanan hosting Surge. Karen sangat mudah sekali.
+git checkout -b theme-migration Sekarang saya bebas memodifikasinya dengan sed tanpa harus takut rusak lagi.</description></item><item><title>Cara Deploy Hugo dari Gitlab ke Surge</title><link>https://ardianta.github.io/blog/hugo-gitlab-surge/</link><pubDate>Sat, 13 Jan 2018 17:59:45 +0800</pubDate><guid>https://ardianta.github.io/blog/hugo-gitlab-surge/</guid><description>Saya punya project pembuatan template untuk web company profile. Sewaktu ingin memperlihatkan demo, saya menggunakan layanan hosting Surge. Karen sangat mudah sekali.
 Cukup dengan mengetik perintah:
-surge ./public  Website suda di-deploy ke Surge.
+surge ./public Website suda di-deploy ke Surge.
 Namun, tiap kali deploy, kita akan upload semua file public ke surge. Ini saya rasa kurang bagus, karena koneksi internet saya sangat terbatas (lambat dan kuota tinggal sedikit hahaha 😄).
-Karena itu, saya memanfaatkan Gitlab CI:</description>
-    </item>
-    
-    <item>
-      <title>Kegagalan yang Saya Lakukan di Tahun 2017</title>
-      <link>https://ardianta.github.io/blog/buku-2017/</link>
-      <pubDate>Tue, 02 Jan 2018 18:39:53 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/buku-2017/</guid>
-      <description>Kegagalan yang SUKSESS saya lakukan di tahun 2017 adalah tidak bisa menyelesaikan tantangan Goodreads 😄.
+Karena itu, saya memanfaatkan Gitlab CI:</description></item><item><title>Kegagalan yang Saya Lakukan di Tahun 2017</title><link>https://ardianta.github.io/blog/buku-2017/</link><pubDate>Tue, 02 Jan 2018 18:39:53 +0800</pubDate><guid>https://ardianta.github.io/blog/buku-2017/</guid><description>Kegagalan yang SUKSESS saya lakukan di tahun 2017 adalah tidak bisa menyelesaikan tantangan Goodreads 😄.
 Padahal hanya membaca 10 buku dalam setahun.
 Sebenarnya saya sudah menyelsaikan beberapa buku, cuma lupa diinputkan ke Goodreads. Akhirnya tidak berhasil menyelesaikan Goodreads Challenge.
 Tidak apa-apa&amp;hellip;
 Kita coba lagi tahun ini.
 Tahun ini saya ingin membaca 10 buku, bahkan lebih.
-Semoga berhasil!</description>
-    </item>
-    
-    <item>
-      <title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title>
-      <link>https://ardianta.github.io/blog/gitlab-github-pages/</link>
-      <pubDate>Mon, 01 Jan 2018 09:39:08 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/gitlab-github-pages/</guid>
-      <description>Di awal tahun baru, sepertinya pegawai Travis CI sedang liburan. Hal ini munkin menyebabkan gangguan build di Travis CI. Akibanya lama menunggu Queue build-nya.
+Semoga berhasil!</description></item><item><title>Experimen Deploy Hugo dari Gitlab CI ke Github Pages</title><link>https://ardianta.github.io/blog/gitlab-github-pages/</link><pubDate>Mon, 01 Jan 2018 09:39:08 +0800</pubDate><guid>https://ardianta.github.io/blog/gitlab-github-pages/</guid><description>Di awal tahun baru, sepertinya pegawai Travis CI sedang liburan. Hal ini munkin menyebabkan gangguan build di Travis CI. Akibanya lama menunggu Queue build-nya.
 Sebagai alternatif, saya menggunakan CI milik Gitlab.
 Ini adalah isi file .gitlab-ci.yml di repo blog saya:
-image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - git config user.email &amp;quot;&amp;lt;your git email&amp;gt;&amp;quot; - git config --global user.</description>
-    </item>
-    
-    <item>
-      <title>Goal yang ingin Saya Capai di Tahun 2018</title>
-      <link>https://ardianta.github.io/blog/goal-2018/</link>
-      <pubDate>Mon, 01 Jan 2018 06:50:11 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/goal-2018/</guid>
-      <description>Waktu sangat cepat berlalu ya&amp;hellip;
+image: andthensome/alpine-hugo-git-bash:0.31.2 before_script: - hugo version github_pages: script: - rm -rf public - git clone --depth 1 https://ardianta:$GITHUB_ACCESS_TOKEN@github.com/ardianta/ardianta.github.io.git public - hugo --config config.production.toml - cd public - git config user.email &amp;quot;&amp;lt;your git email&amp;gt;&amp;quot; - git config --global user.</description></item><item><title>Goal yang ingin Saya Capai di Tahun 2018</title><link>https://ardianta.github.io/blog/goal-2018/</link><pubDate>Mon, 01 Jan 2018 06:50:11 +0800</pubDate><guid>https://ardianta.github.io/blog/goal-2018/</guid><description>Waktu sangat cepat berlalu ya&amp;hellip;
 Sekarang kita sudah sampai di tahun 2018. Artinya bumi sudah melakukan revolusi (mengelilingi matahari) sebanyak 2018x sejak tahun masehi dimulai.
 Ada beberapa goal yang ingin saya capai di tahun 2018:
-Terbiasa menggunakan Vim (15%) Bisa membuat Game dengan Unity atau Godot Membaca 10+ buku (Goodreads Chellange) (30%) Menerbitkan Buku atau Ebook Membuat Aplikasi/Game Android dan Akun Playstore Melengkapi Tutorial di Petanikode Perbanyak latihan komunikasi dan public speaking (sampai jadi PD) Belajar Menggambar Lagi (dimulai 18 Maret 2018) Ngumpulin uang buat beli Wacom agar bisa menyalurkan bakat Fasih berbahasa inggris Belajar Teknologi Bitcoin Morning rituals: Olahraga tiap pagi (minimal push-up 10x) Morning rituals: Rapikan kamar, Nyapu halaman tiap pagi Tidur tepat Waktu sesuai jam alam  Beberapa goal mungkin tidak akan bisa dicapai.</description>
-    </item>
-    
-    <item>
-      <title>9 Ilmu (Teknologi) yang Saya Pelajari selama Tahun 2017</title>
-      <link>https://ardianta.github.io/blog/ilmu-2017/</link>
-      <pubDate>Sun, 31 Dec 2017 04:29:54 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/ilmu-2017/</guid>
-      <description>Saya tidak begitu pandai membuat rencana. Kadang sering mengubah rencana secara tiba-tiba.
+Terbiasa menggunakan Vim (15%) Bisa membuat Game dengan Unity atau Godot Membaca 10+ buku (Goodreads Chellange) (30%) Menerbitkan Buku atau Ebook Membuat Aplikasi/Game Android dan Akun Playstore Melengkapi Tutorial di Petanikode Perbanyak latihan komunikasi dan public speaking (sampai jadi PD) Belajar Menggambar Lagi (dimulai 18 Maret 2018) Ngumpulin uang buat beli Wacom agar bisa menyalurkan bakat Fasih berbahasa inggris Belajar Teknologi Bitcoin Morning rituals: Olahraga tiap pagi (minimal push-up 10x) Morning rituals: Rapikan kamar, Nyapu halaman tiap pagi Tidur tepat Waktu sesuai jam alam Beberapa goal mungkin tidak akan bisa dicapai.</description></item><item><title>9 Ilmu (Teknologi) yang Saya Pelajari selama Tahun 2017</title><link>https://ardianta.github.io/blog/ilmu-2017/</link><pubDate>Sun, 31 Dec 2017 04:29:54 +0800</pubDate><guid>https://ardianta.github.io/blog/ilmu-2017/</guid><description>Saya tidak begitu pandai membuat rencana. Kadang sering mengubah rencana secara tiba-tiba.
 Sebelum masuk tahun 2017 saya membuat rencana ingin belajar berbagai macam teknologi. Tapi malah melenceng, alias tidak sesuai dengan yang direncanakan.
 &amp;hellip;dan sekarang saya ingin me-review apa saja yang sudah dipelajari sepanjang tahun 2017.
-1. Membuat Blog dengan Hugo Akhir tahun lalu, saya mulai mengenal Hugo karena menonton video benchmark-nya di Youtube. Hugo bisa me-render 5000 halaman dalam beberapa detik.</description>
-    </item>
-    
-    <item>
-      <title>Install Docker di Linux Mint 18</title>
-      <link>https://ardianta.github.io/blog/install-docker/</link>
-      <pubDate>Sat, 30 Dec 2017 17:41:27 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/install-docker/</guid>
-      <description>Pertama lakukan update:
-sudo apt-get update  Berikutnya install paket-paket yang dibutuhkan:
-sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ software-properties-common  Tamhakan GPG Key resmi Docker:
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  Versifikasi fingerprint 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88
-sudo apt-key fingerprint 0EBFCD88  outputnya:
-pub 4096R/0EBFCD88 2017-02-22 Key fingerprint = 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88 uid Docker Release (CE deb) &amp;lt;docker@docker.</description>
-    </item>
-    
-    <item>
-      <title>Menggunakan Yarn pada Angular CLI</title>
-      <link>https://ardianta.github.io/blog/angular-yarn/</link>
-      <pubDate>Sat, 30 Dec 2017 12:13:17 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/angular-yarn/</guid>
-      <description>Angular default-nya menggunakan NPM. Apabila ingin mengganti package manager ke Yarn, cukup ketik perintah ini:
-ng set --global packageManager=yarn  Percobaan:
+1. Membuat Blog dengan Hugo Akhir tahun lalu, saya mulai mengenal Hugo karena menonton video benchmark-nya di Youtube. Hugo bisa me-render 5000 halaman dalam beberapa detik.</description></item><item><title>Install Docker di Linux Mint 18</title><link>https://ardianta.github.io/blog/install-docker/</link><pubDate>Sat, 30 Dec 2017 17:41:27 +0800</pubDate><guid>https://ardianta.github.io/blog/install-docker/</guid><description>Pertama lakukan update:
+sudo apt-get update Berikutnya install paket-paket yang dibutuhkan:
+sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ software-properties-common Tamhakan GPG Key resmi Docker:
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - Versifikasi fingerprint 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88
+sudo apt-key fingerprint 0EBFCD88 outputnya:
+pub 4096R/0EBFCD88 2017-02-22 Key fingerprint = 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88 uid Docker Release (CE deb) &amp;lt;docker@docker.</description></item><item><title>Menggunakan Yarn pada Angular CLI</title><link>https://ardianta.github.io/blog/angular-yarn/</link><pubDate>Sat, 30 Dec 2017 12:13:17 +0800</pubDate><guid>https://ardianta.github.io/blog/angular-yarn/</guid><description>Angular default-nya menggunakan NPM. Apabila ingin mengganti package manager ke Yarn, cukup ketik perintah ini:
+ng set --global packageManager=yarn Percobaan:
 Untuk mengembalikan ke NPM:
-ng set --global packageManager=npm  Kenapa Pakai Yarn?
+ng set --global packageManager=npm Kenapa Pakai Yarn?
 Menurut saya Yarn lebih cepat daripada NPM dan Yarn bisa digunakan Offline.
-Sumber: https://medium.com/@beeman/using-yarn-with-angular-cli-db2e318e43c5</description>
-    </item>
-    
-    <item>
-      <title>Langkah Awal: Belajar Reactjs</title>
-      <link>https://ardianta.github.io/blog/belajar-reactjs/</link>
-      <pubDate>Fri, 29 Dec 2017 04:24:49 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/belajar-reactjs/</guid>
-      <description>Saya telat ikut kulgram Reactjs di @lombokjs, karena kehabisan kuota 😢.
+Sumber: https://medium.com/@beeman/using-yarn-with-angular-cli-db2e318e43c5</description></item><item><title>Langkah Awal: Belajar Reactjs</title><link>https://ardianta.github.io/blog/belajar-reactjs/</link><pubDate>Fri, 29 Dec 2017 04:24:49 +0800</pubDate><guid>https://ardianta.github.io/blog/belajar-reactjs/</guid><description>Saya telat ikut kulgram Reactjs di @lombokjs, karena kehabisan kuota 😢.
 Tapi tak masalah, di Telegram masih tersimpan arsipnya.
 Langkah awal belajar React, ya pertama harus kenalan dulu dengan React-nya.
 Bagaimana sejarahnya?
@@ -503,121 +185,49 @@ Bagaimana konsep React?
 Kira-kira itulah isi dari kulgram semalam yang nggak saya ikuti.
 Tapi pagi ini, saya mau coba-coba langsung&amp;hellip;
 Coba nginstall aja, siapa tau mau belajar lebih lanjut.
-Memulai Project React Saya akan menggunakan yarn dan create-react-app untuk memulai.</description>
-    </item>
-    
-    <item>
-      <title>Clone Commit Terakhir dari Repository Git</title>
-      <link>https://ardianta.github.io/blog/git-clone-depth/</link>
-      <pubDate>Tue, 26 Dec 2017 04:13:15 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/git-clone-depth/</guid>
-      <description>Banyangkan ada 12283192311 commit yang sudah dilakukan pada repository. Lalu kita ingin clone ke lokal.
+Memulai Project React Saya akan menggunakan yarn dan create-react-app untuk memulai.</description></item><item><title>Clone Commit Terakhir dari Repository Git</title><link>https://ardianta.github.io/blog/git-clone-depth/</link><pubDate>Tue, 26 Dec 2017 04:13:15 +0800</pubDate><guid>https://ardianta.github.io/blog/git-clone-depth/</guid><description>Banyangkan ada 12283192311 commit yang sudah dilakukan pada repository. Lalu kita ingin clone ke lokal.
 Berapa besar file yang akan di-download?
 Pastinya cukup besar.
 Nah, bagaimana caranya clone hanya commit terakhir saja?
 Cukup dengan perintah ini:
-git clone --depth=1 &amp;lt;remote_repo_url&amp;gt;  Referensi:
- https://git-scm.com/docs/git-clone https://stackoverflow.com/a/1210012/2658551  Contoh:
+git clone --depth=1 &amp;lt;remote_repo_url&amp;gt; Referensi:
+https://git-scm.com/docs/git-clone https://stackoverflow.com/a/1210012/2658551 Contoh:
 Ada 1221 commit yang sudah dibuat pada repository ini:
-Lalu tinggal di-clone aja dengan perintah tadi.</description>
-    </item>
-    
-    <item>
-      <title>Serius Nih! Cloudflare tidak Melakukan Propagasi</title>
-      <link>https://ardianta.github.io/blog/cloudflare-propagasi/</link>
-      <pubDate>Sun, 24 Dec 2017 18:31:41 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/cloudflare-propagasi/</guid>
-      <description>Biasanya kalau kita ganti server hosting, lalu alamat IP domain diganti dengan server yang baru, maka membutuhkan masa propagasi.
+Lalu tinggal di-clone aja dengan perintah tadi.</description></item><item><title>Serius Nih! Cloudflare tidak Melakukan Propagasi</title><link>https://ardianta.github.io/blog/cloudflare-propagasi/</link><pubDate>Sun, 24 Dec 2017 18:31:41 +0800</pubDate><guid>https://ardianta.github.io/blog/cloudflare-propagasi/</guid><description>Biasanya kalau kita ganti server hosting, lalu alamat IP domain diganti dengan server yang baru, maka membutuhkan masa propagasi.
 Propagasi bertujuan untuk mengumumkan alamat IP baru ke semua jaringan internet. Propagasi biasanya membutuhkan waktu 24 jam sampai bahkan 1 minggu.
 Pengalaman kemarin, saya pindah-pindah server hosting dari Blogger ke Gitlab, dari Gitlab ke Github.
-Propagasinya lama dan domain belum bisa diakses sampai masa propagasi selesai. Kira-kira 2&amp;ndash;3 hari baru bisa selesai.</description>
-    </item>
-    
-    <item>
-      <title>Sekarang Blog ini Menggunakan Travis CI</title>
-      <link>https://ardianta.github.io/blog/hugo-travis-ci/</link>
-      <pubDate>Sun, 24 Dec 2017 06:05:11 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hugo-travis-ci/</guid>
-      <description>Blog ini di-hosting di Github pada repositori ini: https://github.com/ardianta/ardianta.github.io.
+Propagasinya lama dan domain belum bisa diakses sampai masa propagasi selesai. Kira-kira 2&amp;ndash;3 hari baru bisa selesai.</description></item><item><title>Sekarang Blog ini Menggunakan Travis CI</title><link>https://ardianta.github.io/blog/hugo-travis-ci/</link><pubDate>Sun, 24 Dec 2017 06:05:11 +0800</pubDate><guid>https://ardianta.github.io/blog/hugo-travis-ci/</guid><description>Blog ini di-hosting di Github pada repositori ini: https://github.com/ardianta/ardianta.github.io.
 Setiap kali saya ingin deploy, saya harus melakukan push ke sana.
 Tapi sekarang sudah tidak lagi, karena sudah dibantu sama Travis CI. yay! 😄
 Travis CI ini bertugas untuk melakuakn build dan deploy.
 Adapun skrip yang saya gunakan adalah sebagai berikut:
 File deploy-ci.sh
-#!/bin/bash set -e DEPLOY_REPO=&amp;quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&amp;quot; function main { clean get_current_site build_site deploy } function clean { echo &amp;quot;cleaning public folder&amp;quot; if [ -d &amp;quot;public&amp;quot; ]; then rm -rf public; fi } function get_current_site { echo &amp;quot;getting latest site&amp;quot; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &amp;quot;building site.</description>
-    </item>
-    
-    <item>
-      <title>Deploy Hugo ke Firebase dengan Gitlab CI</title>
-      <link>https://ardianta.github.io/blog/hugo-gitlab-firebase/</link>
-      <pubDate>Sat, 23 Dec 2017 22:25:46 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hugo-gitlab-firebase/</guid>
-      <description>Biasanya saya melakukan deploy dengan perintah firebase deploy. Akan tetapi perintah ini sama persis seperti FTP.
+#!/bin/bash set -e DEPLOY_REPO=&amp;quot;https://${DEPLOY_BLOG_TOKEN}@github.com/ardianta/ardianta.github.io.git&amp;quot; function main { clean get_current_site build_site deploy } function clean { echo &amp;quot;cleaning public folder&amp;quot; if [ -d &amp;quot;public&amp;quot; ]; then rm -rf public; fi } function get_current_site { echo &amp;quot;getting latest site&amp;quot; git clone --depth 1 $DEPLOY_REPO public } function build_site { echo &amp;quot;building site.</description></item><item><title>Deploy Hugo ke Firebase dengan Gitlab CI</title><link>https://ardianta.github.io/blog/hugo-gitlab-firebase/</link><pubDate>Sat, 23 Dec 2017 22:25:46 +0800</pubDate><guid>https://ardianta.github.io/blog/hugo-gitlab-firebase/</guid><description>Biasanya saya melakukan deploy dengan perintah firebase deploy. Akan tetapi perintah ini sama persis seperti FTP.
 Semua file akan di-upload ke Firebase. Hal ini akan membuat kuota internet saya cepat habis 😄, resiko pakai paket data.
 Lalu sebaiknya bagaimana?
 Saya ingin mencoba workflow pak Ariya. Beliau deploy Hugo ke Firebase melalui Gitlab CI.
 Gambarannya seperti ini:
 Sumber: ariya.io
 Lalu, pada repo Gitlab, saya menggunakan konfigurasi CI seperti ini:
-image: nohitme/hugo-firebase:0.31.1 before_script: - hugo version - firebase --version hugo_firebase: stage: deploy only: - master except: - dev script: - rm -rf public - hugo --config config.</description>
-    </item>
-    
-    <item>
-      <title>Menggunakan Feedburner untuk Hugo</title>
-      <link>https://ardianta.github.io/blog/feedburner-hugo/</link>
-      <pubDate>Fri, 22 Dec 2017 19:21:27 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/feedburner-hugo/</guid>
-      <description>Baru saja saya selesai mendaftarkan blog ini ke Feedburner Google.
+image: nohitme/hugo-firebase:0.31.1 before_script: - hugo version - firebase --version hugo_firebase: stage: deploy only: - master except: - dev script: - rm -rf public - hugo --config config.</description></item><item><title>Menggunakan Feedburner untuk Hugo</title><link>https://ardianta.github.io/blog/feedburner-hugo/</link><pubDate>Fri, 22 Dec 2017 19:21:27 +0800</pubDate><guid>https://ardianta.github.io/blog/feedburner-hugo/</guid><description>Baru saja saya selesai mendaftarkan blog ini ke Feedburner Google.
 Kenapa pakai Feedburner?
 Sebenarnya Hugo sudah mendukung RSS Feed, bisa dilihat di https://ardianta.github.io/post/index.xml.
 Akan tetapi, kalau kita ganti domain, orang-orang yang sudah berlangganan RSS Feed dari blog kita tidak akan dapat update lagi. Karena URL-nya sudah berubah.
 Nah, berbeda dengan menggunakan Feedburner.
-Kalaupun kita ganti domain, kita masih bisa mengganti alamat RSS Feed di Feedburner dan orang yang sudah berlangganan bisa tetap menerima update dari blog kita.</description>
-    </item>
-    
-    <item>
-      <title>Plug-in Komentar Disqus vs Facebook, Pilih yang mana?</title>
-      <link>https://ardianta.github.io/blog/disqus-vs-facebook/</link>
-      <pubDate>Fri, 22 Dec 2017 15:54:38 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/disqus-vs-facebook/</guid>
-      <description>Dalam mengembangkan template Hugo untuk Lombokfoss, saya sedikit bingung mau pilih plugin komentar yang mana.
+Kalaupun kita ganti domain, kita masih bisa mengganti alamat RSS Feed di Feedburner dan orang yang sudah berlangganan bisa tetap menerima update dari blog kita.</description></item><item><title>Plug-in Komentar Disqus vs Facebook, Pilih yang mana?</title><link>https://ardianta.github.io/blog/disqus-vs-facebook/</link><pubDate>Fri, 22 Dec 2017 15:54:38 +0800</pubDate><guid>https://ardianta.github.io/blog/disqus-vs-facebook/</guid><description>Dalam mengembangkan template Hugo untuk Lombokfoss, saya sedikit bingung mau pilih plugin komentar yang mana.
 Antara Disqus dan Facebook?
 Dulu sebenarnya pakai Facebook. Tapi sekarang mau diganti ke Disqus.
 Berikut ini tampilan kalau menggunakan Facebook:
 Terlihat bagus, tapi masih ada kekurangnnya:
- Tidak bisa menulis sintak dengan format HTML Tidak bisa mengubah URL dari komentar (migrasi) Harus dibuatkan aplikasi di facebook  Kelebihannya:
- Komentar langsung masuk ke notifikasi fans page Komentar sinkron dengan postingan di fans page Banyak penggunanya  Sementara kalau menggunakan komentar disqus, tampilannya seperti ini:</description>
-    </item>
-    
-    <item>
-      <title>Template Baru untuk Lombokfoss</title>
-      <link>https://ardianta.github.io/blog/template-lombokfoss/</link>
-      <pubDate>Thu, 21 Dec 2017 16:03:55 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/template-lombokfoss/</guid>
-      <description>Setelah membuat template untuk blog ini. Sekarang giliran blog Lombokfoss yang saya buatkan templatenya.
+Tidak bisa menulis sintak dengan format HTML Tidak bisa mengubah URL dari komentar (migrasi) Harus dibuatkan aplikasi di facebook Kelebihannya:
+Komentar langsung masuk ke notifikasi fans page Komentar sinkron dengan postingan di fans page Banyak penggunanya Sementara kalau menggunakan komentar disqus, tampilannya seperti ini:</description></item><item><title>Template Baru untuk Lombokfoss</title><link>https://ardianta.github.io/blog/template-lombokfoss/</link><pubDate>Thu, 21 Dec 2017 16:03:55 +0800</pubDate><guid>https://ardianta.github.io/blog/template-lombokfoss/</guid><description>Setelah membuat template untuk blog ini. Sekarang giliran blog Lombokfoss yang saya buatkan templatenya.
 Pengerjaannya sangat cepat, cuma 1 hari. Karena saya copas dari template blog ini. Lalu tinggal dimodif dan diatur tata letaknya.
 Maka jadilah seperti ini.
 Halaman home:
 Halaman artikel:
 Seperti biasa, untuk tampilan saya masih mengandalkan Bootstrap 4.
 Template ini masih belum selesai.
-Pekerjaan Selanjutnya Perbaiki tampilan untuk mobile Pasang Komentar Faceook (diganti pakai disqus) Pasang Komentar Disqus Menambahkan Google Analytic (pakai Cloudflare) Menambahkan Open Graph Menambahkan Share Button Mendaftarkan ke Google Webmaster Perbaiki Kualitas Konten Pembuatan halaman 404.</description>
-    </item>
-    
-    <item>
-      <title>Git Push, Lalu Tiba-tiba Matilampu!</title>
-      <link>https://ardianta.github.io/blog/git-push-matilampu/</link>
-      <pubDate>Wed, 20 Dec 2017 00:59:23 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/git-push-matilampu/</guid>
-      <description>Apa yang akan terjadi saat menjalankan perintah git push lalu ditengah-tengah mati lampu?
+Pekerjaan Selanjutnya Perbaiki tampilan untuk mobile Pasang Komentar Faceook (diganti pakai disqus) Pasang Komentar Disqus Menambahkan Google Analytic (pakai Cloudflare) Menambahkan Open Graph Menambahkan Share Button Mendaftarkan ke Google Webmaster Perbaiki Kualitas Konten Pembuatan halaman 404.</description></item><item><title>Git Push, Lalu Tiba-tiba Matilampu!</title><link>https://ardianta.github.io/blog/git-push-matilampu/</link><pubDate>Wed, 20 Dec 2017 00:59:23 +0800</pubDate><guid>https://ardianta.github.io/blog/git-push-matilampu/</guid><description>Apa yang akan terjadi saat menjalankan perintah git push lalu ditengah-tengah mati lampu?
 Jika pakai laptop nggak masalah, karena daya masih bisa ngambil dari baterai.
 Tapi yang pakai komputer?
 atau yang laptopnya nggak bisa nyala tanpa cas?
@@ -626,114 +236,38 @@ Sebenarnya kejadian ini sudah pernah saya alami sebelumnya.
 Repositori jadi rusak dan tidak bisa melakukan apa-apa.
 Solusi &amp;ldquo;bodohnya&amp;rdquo; kita harus membuat repositori baru.
 Hapus dulu database git yang sudah ada:
-rm -rf .</description>
-    </item>
-    
-    <item>
-      <title>Coba-coba Ekstensi Hugofy di VS Code</title>
-      <link>https://ardianta.github.io/blog/ekstensi-hugofy/</link>
-      <pubDate>Tue, 19 Dec 2017 23:20:33 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/ekstensi-hugofy/</guid>
-      <description>Penasaran dengan ekstensi ini. Lansung saja saya coba install.
+rm -rf .</description></item><item><title>Coba-coba Ekstensi Hugofy di VS Code</title><link>https://ardianta.github.io/blog/ekstensi-hugofy/</link><pubDate>Tue, 19 Dec 2017 23:20:33 +0800</pubDate><guid>https://ardianta.github.io/blog/ekstensi-hugofy/</guid><description>Penasaran dengan ekstensi ini. Lansung saja saya coba install.
 Pada deskripsinya menjelaskan&amp;hellip;
 &amp;hellip;dengan ekstensi ini, kita bisa:
- Buat web hugo baru Buat artikel Build site Menajalankan server dan mematikannya Download Tema  Ekstensi Hugofy ini bisa kita gunakan dengan menekan tombol Ctrl+Shift+p lalu mengetik hugofy dan memilih perintah yang ingin dijalankan.
+Buat web hugo baru Buat artikel Build site Menajalankan server dan mematikannya Download Tema Ekstensi Hugofy ini bisa kita gunakan dengan menekan tombol Ctrl+Shift+p lalu mengetik hugofy dan memilih perintah yang ingin dijalankan.
 Tapi begitu saya coba menjalankan server, terjadi error seperti ini:
-Sebagian dari perintah-perintah Hugofy sudah biasa saya ketik lewat terminal.</description>
-    </item>
-    
-    <item>
-      <title>Membuat Tema Hugo Sendiri</title>
-      <link>https://ardianta.github.io/blog/tema-baru-hugo/</link>
-      <pubDate>Mon, 18 Dec 2017 15:49:46 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/tema-baru-hugo/</guid>
-      <description>Menggunakan tema orang lain, rasanya saya kurang bebas. Karena banyak yang tidak dipahami di stuktur tema mereka.
+Sebagian dari perintah-perintah Hugofy sudah biasa saya ketik lewat terminal.</description></item><item><title>Membuat Tema Hugo Sendiri</title><link>https://ardianta.github.io/blog/tema-baru-hugo/</link><pubDate>Mon, 18 Dec 2017 15:49:46 +0800</pubDate><guid>https://ardianta.github.io/blog/tema-baru-hugo/</guid><description>Menggunakan tema orang lain, rasanya saya kurang bebas. Karena banyak yang tidak dipahami di stuktur tema mereka.
 Akhirnya saya membuat tema sendiri untuk blog ini.
 Tema Baru Ardianta ini isi file config.toml:
-baseurl = &amp;quot;https://ardianta.github.io/&amp;quot; title = &amp;quot;Ardianta&amp;quot; theme = &amp;quot;ardianta&amp;quot; googleAnalytics = &amp;quot;UA-54154424-1&amp;quot; disqusShortname = &amp;quot;ardianta&amp;quot; [permalinks] post = &amp;quot;/blog/:slug/&amp;quot; page = &amp;quot;/:slug/&amp;quot; [params] # Site Author author = &amp;quot;Dian&amp;quot; # Description/subtitle for homepage description = &amp;quot;Hello, saya Dian.</description>
-    </item>
-    
-    <item>
-      <title>Works</title>
-      <link>https://ardianta.github.io/works/</link>
-      <pubDate>Sun, 17 Dec 2017 19:51:02 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/works/</guid>
-      <description>Halaman ini berisi project yang pernah saya kerjakan dan yang sedang dikerjakan. Ada yang bersifat side project dan ada juga yang serius. Untuk project private, saya tidak cantumkan di sini. Untuk project yang lainnya bisa ditemukan di Github.
-Petanikode  URL: petanikode.com Status: production  Petanikode adalah sebuah blog dengan niche pemrograman untuk membantu siapa saja yang ingin belajar pemrograman menggunakan Linux.
-Kebanyakan kontennya menggunakan Linux. Namun, tidak menutup kemungkinan ada beberapa yang menggunakan Windows.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://ardianta.github.io/about/</link>
-      <pubDate>Sun, 17 Dec 2017 19:50:57 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/about/</guid>
-      <description>Hello, nama saya Ahmad Muhar Dian Lasmita, disingkat ARDIANTA. Sering dipanggil Dian (di rumah) dan Pargo (di sekolah).
+baseurl = &amp;quot;https://ardianta.github.io/&amp;quot; title = &amp;quot;Ardianta&amp;quot; theme = &amp;quot;ardianta&amp;quot; googleAnalytics = &amp;quot;UA-54154424-1&amp;quot; disqusShortname = &amp;quot;ardianta&amp;quot; [permalinks] post = &amp;quot;/blog/:slug/&amp;quot; page = &amp;quot;/:slug/&amp;quot; [params] # Site Author author = &amp;quot;Dian&amp;quot; # Description/subtitle for homepage description = &amp;quot;Hello, saya Dian.</description></item><item><title>Works</title><link>https://ardianta.github.io/works/</link><pubDate>Sun, 17 Dec 2017 19:51:02 +0800</pubDate><guid>https://ardianta.github.io/works/</guid><description>Halaman ini berisi project yang pernah saya kerjakan dan yang sedang dikerjakan. Ada yang bersifat side project dan ada juga yang serius. Untuk project private, saya tidak cantumkan di sini. Untuk project yang lainnya bisa ditemukan di Github.
+Petanikode URL: petanikode.com Status: production Petanikode adalah sebuah blog dengan niche pemrograman untuk membantu siapa saja yang ingin belajar pemrograman menggunakan Linux.
+Kebanyakan kontennya menggunakan Linux. Namun, tidak menutup kemungkinan ada beberapa yang menggunakan Windows.</description></item><item><title>About Me</title><link>https://ardianta.github.io/about/</link><pubDate>Sun, 17 Dec 2017 19:50:57 +0800</pubDate><guid>https://ardianta.github.io/about/</guid><description>Hello, nama saya Ahmad Muhar Dian Lasmita, disingkat ARDIANTA. Sering dipanggil Dian (di rumah) dan Pargo (di sekolah).
 Saat ini, saya adalah seorang mahasiswa Teknik Informatika di salah satu perguruan tinggi swasta di kota Mataram.
 Pernah bersekolah di SMK Negeri 2 Kuripan dengan jurusan TKJ (Teknik Komputer &amp;amp; Jaringan).
 Kontak yang bisa dihubungi:
- Email: dian@petanikode.com WA/Telegram: +6287866866694  </description>
-    </item>
-    
-    <item>
-      <title>Migrasi Lombokfoss ke Hugo dan Firebase</title>
-      <link>https://ardianta.github.io/blog/lombokfoss-firebase/</link>
-      <pubDate>Mon, 06 Nov 2017 23:44:45 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/lombokfoss-firebase/</guid>
-      <description>Minggu ini saya melakukan migrasi blog saya Lombokfoss, karena nggak pernah diurus.
+Email: dian@petanikode.com WA/Telegram: +6287866866694</description></item><item><title>Migrasi Lombokfoss ke Hugo dan Firebase</title><link>https://ardianta.github.io/blog/lombokfoss-firebase/</link><pubDate>Mon, 06 Nov 2017 23:44:45 +0800</pubDate><guid>https://ardianta.github.io/blog/lombokfoss-firebase/</guid><description>Minggu ini saya melakukan migrasi blog saya Lombokfoss, karena nggak pernah diurus.
 Rencananya saya mau pakai Hugo dan hostingnya di Firebase, lalu untuk DNS saya masih percayakan pada CloudFlare.
 Saya baru pertama kali mencoba hosting di Firebase dan mengkonfigurasi kustom domainnya.
 Di CloudFlare saya set seperti ini:
 Hampir satu minggu saya tunggu, tapi belum juga bisa.
 Ternyata masalahanya cuma di pengaturan SSL Cloudflare saja.
 Harus diset &amp;ldquo;Full&amp;rdquo;:
-Setelah beberapa menit, akhirnya bisa juga dibuka di https://www.</description>
-    </item>
-    
-    <item>
-      <title>Lombokdev Meetup #2</title>
-      <link>https://ardianta.github.io/blog/lombokdev-meetup-2/</link>
-      <pubDate>Tue, 17 Oct 2017 23:43:40 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/lombokdev-meetup-2/</guid>
-      <description>Acara-acara IT di Lombok tidak seramai di Jawa. Tapi kali ini ada Lombokdev Meetup ke-2 yang diselengarakan oleh komunitas Lombokdev.
+Setelah beberapa menit, akhirnya bisa juga dibuka di https://www.</description></item><item><title>Lombokdev Meetup #2</title><link>https://ardianta.github.io/blog/lombokdev-meetup-2/</link><pubDate>Tue, 17 Oct 2017 23:43:40 +0800</pubDate><guid>https://ardianta.github.io/blog/lombokdev-meetup-2/</guid><description>Acara-acara IT di Lombok tidak seramai di Jawa. Tapi kali ini ada Lombokdev Meetup ke-2 yang diselengarakan oleh komunitas Lombokdev.
 Beberapa teman yang sudah bekerja di Jawa bahkan rela pulang beberapa hari ke Lombok untuk menghadiri acara ini.
 #lombokdev #lombokdevmeetup pic.twitter.com/cUlA61gSEa
-&amp;mdash; Ardianta (@ArdiantaPargo) October 15, 2017  Materi yang disampaikan di acara ini cukup menarik dan beragam. Bisa di lihat di sini: Lombokdev/Meetup002.
-Acara ini berlokasi di Cafe Soecjipto, Ampenan.</description>
-    </item>
-    
-    <item>
-      <title>Hello World! Tulisan Pertama di Blog Hugo</title>
-      <link>https://ardianta.github.io/blog/hello-world/</link>
-      <pubDate>Tue, 24 Jan 2017 14:35:02 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hello-world/</guid>
-      <description>Hello World!
+&amp;mdash; Ardianta (@ArdiantaPargo) October 15, 2017 Materi yang disampaikan di acara ini cukup menarik dan beragam. Bisa di lihat di sini: Lombokdev/Meetup002.
+Acara ini berlokasi di Cafe Soecjipto, Ampenan.</description></item><item><title>Hello World! Tulisan Pertama di Blog Hugo</title><link>https://ardianta.github.io/blog/hello-world/</link><pubDate>Tue, 24 Jan 2017 14:35:02 +0800</pubDate><guid>https://ardianta.github.io/blog/hello-world/</guid><description>Hello World!
 ini adalah tulisan pertama di blog ini. Baru saja saya membuat blog dengan Hugo. Sekarang lagi dikembangkan dengan tema Hugo Bootstrap v4 Blog.
 Saya memilih Hugo, karena rasanya lebih mudah dari pada Jekyll dan Octopress. Meskipun saya belum mengerti bahasa pemrograman Go.
-Deploy saya lakukan ke Github Pages dengan dua repositori terpisah. Pertama, repositori ardianta-pargo untuk menyimpan konten, kemudian repositori ardianta.github.io untuk menyimpan halaman publik hasil render dari Hugo.</description>
-    </item>
-    
-    <item>
-      <title>Memperbaiki Laptop HP: COOLING FAN (902) ERROR</title>
-      <link>https://ardianta.github.io/blog/hp-cooling-fan/</link>
-      <pubDate>Sat, 06 Jun 2015 23:44:45 +0800</pubDate>
-      
-      <guid>https://ardianta.github.io/blog/hp-cooling-fan/</guid>
-      <description>(ini adalah tulisan impor dari blog lama)
+Deploy saya lakukan ke Github Pages dengan dua repositori terpisah. Pertama, repositori ardianta-pargo untuk menyimpan konten, kemudian repositori ardianta.github.io untuk menyimpan halaman publik hasil render dari Hugo.</description></item><item><title>Memperbaiki Laptop HP: COOLING FAN (902) ERROR</title><link>https://ardianta.github.io/blog/hp-cooling-fan/</link><pubDate>Sat, 06 Jun 2015 23:44:45 +0800</pubDate><guid>https://ardianta.github.io/blog/hp-cooling-fan/</guid><description>(ini adalah tulisan impor dari blog lama)
 Ceritanya ada sebuah laptop (HP Mini) milik rekan bapak saya, setiap kali dihidupkan muncul pesan &amp;ldquo;COOLING FAN (902) ERROR&amp;rdquo;.
 Saya coba masuk ke BIOS, tidak bisa.
 Akhirnya saya membongkarnya.
 Menurut pendapat saya, mungkin baterai CMOS-nya perlu di cabut supaya konfigurasi BIOS-nya di-reset.
 Setelah membongkar dan mencabut baterai CMOS, mesih saja belum bisa.
-Belum mau menyerah, selanjutnya saya cari solusi di Google dan menemukan viedo ini:</description>
-    </item>
-    
-  </channel>
-</rss>
+Belum mau menyerah, selanjutnya saya cari solusi di Google dan menemukan viedo ini:</description></item></channel></rss>
